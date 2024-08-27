@@ -3,10 +3,20 @@ import pandas as pd
 
 
 # Start with a wide page
-def wide_space_default():
-    st.set_page_config(layout="wide")
+
+st.set_page_config(
+    page_title="Proper-ty Search",
+    layout="wide",
+    page_icon = ":material/house:",
+    menu_items={
+        'Get Help': 'https://www.extremelycoolapp.com/help',
+        'Report a bug': "https://www.extremelycoolapp.com/bug",
+        'About': "# This is a header. This is an *extremely* cool app!"
+    }   
+)
    
-wide_space_default()
+
+
 
 
 # Configure the dictionary for features ordering
@@ -31,6 +41,10 @@ df = pd.read_csv('data/properties.csv',  dtype={'property_id': 'str'})
 # Load the preferences menu on the sidebar
 with st.sidebar:
 
+    st.write("")
+    st.subheader("Search Preferences")
+    st.write("")
+
     column_a1, column_a2 = st.columns(2)
     with column_a1:
         number_of_bedrooms = st.number_input("Bedrooms", min_value=1, max_value=3, value="min", step=1, help="Number of bedrooms (for Room Rental and Studios select 1)")
@@ -52,7 +66,16 @@ with st.sidebar:
     exclude_enough_bedroom_photos = st.toggle("Hide properties with limited bedroom photos", value=True, help="Choose this option to exclude properties that lack sufficient photos of the bedrooms")
     exclude_room_to_rent = st.toggle("Hide rental rooms", value=True, help="Choose this option to exclude rental rooms")
 
+    # This is an extra space above the button
+    st.write("")
+
     update_results = st.button("Find Your Perfect Match", type="primary")
+
+    st.divider()
+
+    st.page_link('main.py', label='Property Search', icon=':material/search:')
+    st.page_link('pages/about.py', label='The Story', icon=':material/library_books:')
+    st.page_link('pages/help.py', label='Help Me', icon=':material/help:')
 
 
 
@@ -60,6 +83,16 @@ with st.sidebar:
 ###
 # MAIN PAGE CONFIGURATION
 ###
+
+column_b1, column_b3 = st.columns([1,20])
+with column_b1:
+    st.image("images/logo.svg", width=60)
+with column_b3:
+    #st.subheader("PROPERty SEARCH")
+    st.markdown("## :blue[Proper]:grey[ty] :blue[Search]")
+
+st.divider()
+
 
 if update_results:
 
@@ -80,10 +113,17 @@ if update_results:
     ###
 
     if min_monthly_rent > max_monthly_rent:
-        st.error(f"The minimum monthly rent (£ {min_monthly_rent}) cannot be higher that the maximum monthly rent (£ {max_monthly_rent})")
+        st.error(f":material/error: The minimum monthly rent (£ {min_monthly_rent}) cannot be higher that the maximum monthly rent (£ {max_monthly_rent})")
         search_preferences_ok = False
 
+
+
+    ###
+    # IF THE PREFERENCES ARE OK, LOAD THE RESULTS
+    ###
+
     if search_preferences_ok:
+
         # Filter the properties based on the preferences
         filtered_df = df[(df['monthly_int'] >= min_monthly_rent) & (df['monthly_int'] <= max_monthly_rent)]
         filtered_df = filtered_df[filtered_df['address'].str.contains(str(postcode))]
@@ -117,117 +157,122 @@ if update_results:
         data_df = pd.DataFrame(filtered_df)
 
 
-        # Configure the order of the columms based on the selection of preferences
-        column_order_config = ("title","address","monthly_int","link","agent_name")
-
-        if order_feature_options:
-            for ordering in order_feature_options:
-                column_order_config = column_order_config + (features_dict[ordering][0],)
+        # Check if there are any resutls returned after filtering
+        if len(data_df) == 0:
+            st.error(":material/sentiment_dissatisfied: Sorry, no results were found. Please try again with different preferences.")
+        
         else:
-            #column_order_config = ("title","address","monthly_int","link","agent_name")
-            pass
+
+            # Configure the order of the columms based on the selection of preferences
+            column_order_config = ("title","address","monthly_int","link","agent_name")
+
+            if order_feature_options:
+                for ordering in order_feature_options:
+                    column_order_config = column_order_config + (features_dict[ordering][0],)
+            else:
+                #column_order_config = ("title","address","monthly_int","link","agent_name")
+                pass
+
+            # Configure the height of the table so that we do not have a scrollbar inside the table
+            height_config = 35 * len(data_df) + 38
+            #st.write(height_config)
 
 
-        # Configure the height of the table so that we do not have a scrollbar inside the table
-        height_config = 35 * len(data_df) + 38
-        #st.write(height_config)
+            # Load the data in a table
+            st.data_editor(
+                data_df,
+                #column_order=("title","address","monthly_int","link","agent_name","wide_lenses_score","overprocessed_score","natural_light_score","no_carpet_score"),
+                column_order=column_order_config,
+                column_config={
+                    "property_id": st.column_config.TextColumn(
+                        "Property ID",
+                        help="The Property ID from Zoopla",
+                        disabled=True
+                    ),
 
+                    "title": st.column_config.TextColumn(
+                        "Description",
+                        disabled=True
+                    ),
+                    
+                    "address": st.column_config.TextColumn(
+                        "Address",
+                        disabled=True
+                    ),
 
-        # Load the data in a table
-        st.data_editor(
-            data_df,
-            #column_order=("title","address","monthly_int","link","agent_name","wide_lenses_score","overprocessed_score","natural_light_score","no_carpet_score"),
-            column_order=column_order_config,
-            column_config={
-                "property_id": st.column_config.TextColumn(
-                    "Property ID",
-                    help="The Property ID from Zoopla",
-                    disabled=True
-                ),
+                    "monthly_int": st.column_config.NumberColumn(
+                        "Monthly Rent",
+                        format="£ %d",
+                        disabled=True
+                    ),
 
-                "title": st.column_config.TextColumn(
-                    "Description",
-                    disabled=True
-                ),
-                
-                "address": st.column_config.TextColumn(
-                    "Address",
-                    disabled=True
-                ),
+                    "link": st.column_config.LinkColumn(
+                        "Link",
+                        display_text="Open Link",
+                        disabled=True
+                    ),
 
-                "monthly_int": st.column_config.NumberColumn(
-                    "Monthly Rent",
-                    format="£ %d",
-                    disabled=True
-                ),
+                    "agent_name": st.column_config.TextColumn(
+                        "Agency",
+                        disabled=True
+                    ),
 
-                "link": st.column_config.LinkColumn(
-                    "Link",
-                    display_text="Open Link",
-                    disabled=True
-                ),
+                    "wide_lenses_score": st.column_config.ProgressColumn(
+                        "Wide Lenses",
+                        width="small",
+                        format="%f",
+                        min_value=0,
+                        max_value=1,
+                    ),
 
-                "agent_name": st.column_config.TextColumn(
-                    "Agency",
-                    disabled=True
-                ),
+                    "overprocessed_score": st.column_config.ProgressColumn(
+                        "Overprocessed",
+                        width="small",
+                        format="%f",
+                        min_value=0,
+                        max_value=1,
+                    ),
 
-                "wide_lenses_score": st.column_config.ProgressColumn(
-                    "Wide Lenses",
-                    width="small",
-                    format="%f",
-                    min_value=0,
-                    max_value=1,
-                ),
+                    "natural_light_score": st.column_config.ProgressColumn(
+                        "Natural Light",
+                        width="small",
+                        format="%f",
+                        min_value=0,
+                        max_value=1,
+                    ),
 
-                "overprocessed_score": st.column_config.ProgressColumn(
-                    "Overprocessed",
-                    width="small",
-                    format="%f",
-                    min_value=0,
-                    max_value=1,
-                ),
+                    "no_carpet_score": st.column_config.ProgressColumn(
+                        "No Carpet",
+                        width="small",
+                        format="%f",
+                        min_value=0,
+                        max_value=1,
+                    ),
 
-                "natural_light_score": st.column_config.ProgressColumn(
-                    "Natural Light",
-                    width="small",
-                    format="%f",
-                    min_value=0,
-                    max_value=1,
-                ),
+                    "number_of_photos_overall_score": st.column_config.NumberColumn(
+                        "Photos",
+                        width="small",
+                        disabled=True
+                    ),
 
-                "no_carpet_score": st.column_config.ProgressColumn(
-                    "No Carpet",
-                    width="small",
-                    format="%f",
-                    min_value=0,
-                    max_value=1,
-                ),
+                    "number_of_bedroom_photos_score": st.column_config.NumberColumn(
+                        "Bedroom Photos",
+                        width="small",
+                        disabled=True
+                    ),
 
-                "number_of_photos_overall_score": st.column_config.NumberColumn(
-                    "Photos",
-                    width="small",
-                    disabled=True
-                ),
+                },
+                hide_index=True,
+                height=height_config,
+            )
 
-                "number_of_bedroom_photos_score": st.column_config.NumberColumn(
-                    "Bedroom Photos",
-                    width="small",
-                    disabled=True
-                ),
+            # Set update_results to false
+            update_results = False
 
-            },
-            hide_index=True,
-            height=height_config,
-        )
+            st.write("Rate the results:")
+            st.feedback(options="thumbs")
 
-        # Set update_results to false
-        update_results = False
-
-        st.write("Rate the results:")
-        st.feedback(options="thumbs")
-
-        st.toast(f'{len(data_df)} results found.')
+            st.toast(f'{len(data_df)} results found.')
 else:
     st.write("Search to see the results.")
 

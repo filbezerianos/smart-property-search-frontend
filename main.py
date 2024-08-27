@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from datetime import datetime
 
 
 # Start with a wide page
@@ -14,9 +15,6 @@ st.set_page_config(
         'About': "# This is a header. This is an *extremely* cool app!"
     }   
 )
-   
-
-
 
 
 # Configure the dictionary for features ordering
@@ -45,6 +43,15 @@ with st.sidebar:
     st.subheader("Search Preferences")
     st.write("")
 
+
+    # The selection box to order the preferences
+    order_feature_options = st.multiselect(
+            "Which features are most important to you?",
+            ["Prefer natural light", "Dislike carpets", "Avoid wide-lenses photos", "No over-processed photos"],
+            placeholder="Select your top preferences..."
+        )
+
+
     column_a1, column_a2 = st.columns(2)
     with column_a1:
         number_of_bedrooms = st.number_input("Bedrooms", min_value=1, max_value=3, value="min", step=1, help="Number of bedrooms (for Room Rental and Studios select 1)")
@@ -54,13 +61,6 @@ with st.sidebar:
         max_monthly_rent = st.number_input("Max Rent", min_value=200, value=1200, step=200, help="Maximum monthly rent in £")
 
     
-    # The selection box to order the preferences
-    order_feature_options = st.multiselect(
-            "Which features are most important to you?",
-            ["Prefer natural light", "Dislike carpets", "Avoid wide-lenses photos", "No over-processed photos"],
-            placeholder="Select your top preferences..."
-        )
-    
     # The radio buttons
     exclude_enough_photos_overall = st.toggle("Hide properties with insufficient photos", value=True, help="Choose this option to exclude properties with an insufficient number of photos")  
     exclude_enough_bedroom_photos = st.toggle("Hide properties with limited bedroom photos", value=True, help="Choose this option to exclude properties that lack sufficient photos of the bedrooms")
@@ -69,7 +69,7 @@ with st.sidebar:
     # This is an extra space above the button
     st.write("")
 
-    update_results = st.button("Find Your Perfect Match", type="primary")
+    update_results = st.button("Find Your Perfect Match", type="primary", key="button")
 
     st.divider()
 
@@ -84,14 +84,17 @@ with st.sidebar:
 # MAIN PAGE CONFIGURATION
 ###
 
-column_b1, column_b3 = st.columns([1,20])
-with column_b1:
-    st.image("images/logo.svg", width=60)
-with column_b3:
-    #st.subheader("PROPERty SEARCH")
-    st.markdown("## :blue[Proper]:grey[ty] :blue[Search]")
+#st.session_state
 
+column_b1, column_b2 = st.columns([1,30])
+with column_b1:
+    st.image("images/logo.svg", width=40)
+with column_b2:
+    #st.subheader("PROPERty SEARCH")
+    st.markdown("### :blue[Proper]:grey[ty] :blue[Search]")
+    #st.write("A better way to find your perfect property")
 st.divider()
+
 
 
 if update_results:
@@ -153,9 +156,17 @@ if update_results:
 
             filtered_df = filtered_df.sort_values(by=[features_dict[ordering][0]], ascending=[bool(features_dict[ordering][1])])
 
+        # Create a new column based on existing columns
+        if order_feature_options:
+            selected_columns = [features_dict[feature][0] for feature in order_feature_options]
+            #st.write(selected_columns)
+            filtered_df['preferences_alignment'] = filtered_df[selected_columns].mean(axis=1).round(1)
+            #filtered_df = filtered_df.sort_values(by=['preferences_alignment'], ascending=[False])
+
+        else:
+            pass
 
         data_df = pd.DataFrame(filtered_df)
-
 
         # Check if there are any resutls returned after filtering
         if len(data_df) == 0:
@@ -163,14 +174,21 @@ if update_results:
         
         else:
 
-            # Configure the order of the columms based on the selection of preferences
-            column_order_config = ("title","address","monthly_int","link","agent_name")
+            # Set the session state of guide shown so that we do not show it again
+            st.session_state.guide_shown = True
 
+            # Check if postcode has been provided
+            if not postcode:
+                st.info("Choose a postcode to narrow down your results even more!", icon=":material/info:")
+
+            # Configure the order of the columms based on the selection of preferences
             if order_feature_options:
+                #column_order_config = ("preferences_alignment","title","address","monthly_int","link","agent_name")
+                column_order_config = ("title","address","monthly_int","link","agent_name")
                 for ordering in order_feature_options:
                     column_order_config = column_order_config + (features_dict[ordering][0],)
             else:
-                #column_order_config = ("title","address","monthly_int","link","agent_name")
+                column_order_config = ("title","address","monthly_int","link","agent_name")
                 pass
 
             # Configure the height of the table so that we do not have a scrollbar inside the table
@@ -184,6 +202,14 @@ if update_results:
                 #column_order=("title","address","monthly_int","link","agent_name","wide_lenses_score","overprocessed_score","natural_light_score","no_carpet_score"),
                 column_order=column_order_config,
                 column_config={
+                    "preferences_alignment": st.column_config.ProgressColumn(
+                        "Alignment",
+                        help="Shows the average alignment score across the selected preferences",
+                        width="small",
+                        format="%f",
+                        min_value=0,
+                        max_value=1,
+                    ),
                     "property_id": st.column_config.TextColumn(
                         "Property ID",
                         help="The Property ID from Zoopla",
@@ -220,7 +246,7 @@ if update_results:
                     "wide_lenses_score": st.column_config.ProgressColumn(
                         "Wide Lenses",
                         width="small",
-                        format="%f",
+                        format="%.1f",
                         min_value=0,
                         max_value=1,
                     ),
@@ -228,7 +254,7 @@ if update_results:
                     "overprocessed_score": st.column_config.ProgressColumn(
                         "Overprocessed",
                         width="small",
-                        format="%f",
+                        format="%.1f",
                         min_value=0,
                         max_value=1,
                     ),
@@ -236,7 +262,7 @@ if update_results:
                     "natural_light_score": st.column_config.ProgressColumn(
                         "Natural Light",
                         width="small",
-                        format="%f",
+                        format="%.1f",
                         min_value=0,
                         max_value=1,
                     ),
@@ -244,7 +270,7 @@ if update_results:
                     "no_carpet_score": st.column_config.ProgressColumn(
                         "No Carpet",
                         width="small",
-                        format="%f",
+                        format="%.1f",
                         min_value=0,
                         max_value=1,
                     ),
@@ -264,18 +290,24 @@ if update_results:
                 },
                 hide_index=True,
                 height=height_config,
+                key="table",
             )
 
             # Set update_results to false
             update_results = False
 
-            st.write("Rate the results:")
-            st.feedback(options="thumbs")
+            #st.write("Rate the results:")
+            #st.feedback(options="thumbs")
 
             st.toast(f'{len(data_df)} results found.')
 else:
-    st.write("Search to see the results.")
+    
+    if 'guide_shown' not in st.session_state:
+        st.write("This is the guide")
+    else: 
+        #st.write("Search to see the results.")
+        st.info("Configure your search preferences on the left and start searching!", icon=":material/info:")
 
  
 st.divider()
-st.write("This is an awesome app")
+st.write(f"© {datetime.now().year} Orbiont")

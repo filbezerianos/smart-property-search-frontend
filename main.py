@@ -1,5 +1,7 @@
+import os
 import streamlit as st
 import pandas as pd
+import time
 from datetime import datetime
 
 
@@ -30,6 +32,10 @@ features_dict = {
 df = pd.read_csv('data/properties.csv',  dtype={'property_id': 'str'})
 #print(df.head())
 
+# Get the creation date of the data file
+data_file_creation_date = os.path.getctime('data/properties.csv')
+creation_date_formatted = datetime.fromtimestamp(data_file_creation_date).strftime('%d %B %Y')
+#st.write(f"Creation time: {creation_date_formatted}")
 
 
 ###
@@ -310,4 +316,8 @@ else:
 
  
 st.divider()
-st.write(f"© {datetime.now().year} Orbiont")
+column_c1, column_c2, column_c3 = st.columns([2,4,2])
+with column_c1:
+    st.write(f"© {datetime.now().year} Orbiont")
+with column_c3:
+    st.write(f"Data update: {creation_date_formatted}")

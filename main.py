@@ -54,7 +54,7 @@ with st.sidebar:
     order_feature_options = st.multiselect(
             "Which features are most important to you?",
             ["Prefer natural light", "Dislike carpets", "Avoid wide-lenses photos", "No over-processed photos"],
-            placeholder="Select your top preferences..."
+            placeholder="Select your top preferences in order..."
         )
 
 
@@ -80,8 +80,10 @@ with st.sidebar:
     st.divider()
 
     st.page_link('main.py', label='Property Search', icon=':material/search:')
-    st.page_link('pages/about.py', label='The Story', icon=':material/library_books:')
+    #st.page_link('pages/about.py', label='The Story', icon=':material/library_books:')
     st.page_link('pages/help.py', label='Help Me', icon=':material/help:')
+    st.page_link('pages/feedback.py', label='Leave Feedback', icon=':material/feedback:')
+    
 
 
 
@@ -92,12 +94,12 @@ with st.sidebar:
 
 #st.session_state
 
-column_b1, column_b2 = st.columns([1,30])
+column_b1, column_b2 = st.columns([1,20])
 with column_b1:
-    st.image("images/logo.svg", width=40)
+    st.image("images/logo.svg", width=60)
 with column_b2:
     #st.subheader("PROPERty SEARCH")
-    st.markdown("### :blue[Proper]:grey[ty] :blue[Search]")
+    st.markdown("## :blue[Proper]:grey[ty] :blue[Search]")
     #st.write("A better way to find your perfect property")
 st.divider()
 
@@ -155,19 +157,50 @@ if update_results:
 
 
         # Order the final results based on the preferences order
-        for ordering in reversed(order_feature_options):
+        #for ordering in reversed(order_feature_options):
             #st.write(ordering)
             #st.write(features_dict[ordering][0])
             #st.write(features_dict[ordering][1])
 
-            filtered_df = filtered_df.sort_values(by=[features_dict[ordering][0]], ascending=[bool(features_dict[ordering][1])])
+            #filtered_df = filtered_df.sort_values(by=[features_dict[ordering][0]], ascending=[bool(features_dict[ordering][1])])
 
         # Create a new column based on existing columns
         if order_feature_options:
-            selected_columns = [features_dict[feature][0] for feature in order_feature_options]
+            #selected_columns = [features_dict[feature][0] for feature in order_feature_options]
             #st.write(selected_columns)
-            filtered_df['preferences_alignment'] = filtered_df[selected_columns].mean(axis=1).round(1)
+
+            #filtered_df['preferences_alignment'] = filtered_df[selected_columns].mean(axis=1).round(1)
+            #st.write(len(filtered_df['preferences_alignment']))
+
             #filtered_df = filtered_df.sort_values(by=['preferences_alignment'], ascending=[False])
+
+
+            weight = len(order_feature_options)
+
+            for ordering in order_feature_options:
+                #st.write(features_dict[ordering][0])
+                #st.write(len(order_feature_options))
+
+                if 'preferences_alignment' in filtered_df:
+                    filtered_df['preferences_alignment'] = filtered_df['preferences_alignment'] + (filtered_df[features_dict[ordering][0]] * weight)
+                    #st.write(st.write(weight))
+                    weight -= 1
+                else:
+                    filtered_df['preferences_alignment'] = filtered_df[features_dict[ordering][0]] * weight
+                    #st.write(weight)
+                    weight -= 1
+            
+            # Normalise the values to 1
+            max_value = filtered_df['preferences_alignment'].max()
+            if max_value > 1:
+                filtered_df['preferences_alignment'] = filtered_df['preferences_alignment'] / max_value                  
+
+            # Order the list based on the new column for preferences alignment
+            filtered_df = filtered_df.sort_values(by='preferences_alignment', ascending=False)
+            filtered_df['preferences_alignment'] = (filtered_df['preferences_alignment']*5).round(2)
+
+            filtered_df['asterisk_column'] = (filtered_df['preferences_alignment']).round().astype(int).apply(lambda x: '★' * x)
+            #st.write(filtered_df['asterisk_column'])                  
 
         else:
             pass
@@ -183,19 +216,21 @@ if update_results:
             # Set the session state of guide shown so that we do not show it again
             st.session_state.guide_shown = True
 
-            # Check if postcode has been provided
-            if not postcode:
-                st.info("Choose a postcode to narrow down your results even more!", icon=":material/info:")
-
             # Configure the order of the columms based on the selection of preferences
             if order_feature_options:
-                #column_order_config = ("preferences_alignment","title","address","monthly_int","link","agent_name")
-                column_order_config = ("title","address","monthly_int","link","agent_name")
+                column_order_config = ("asterisk_column","title","address","monthly_int","link","agent_name")
+                #column_order_config = ("asterisk_column","preferences_alignment","title","address","monthly_int","link","agent_name")
+                #column_order_config = ("title","address","monthly_int","link","agent_name")
                 for ordering in order_feature_options:
                     column_order_config = column_order_config + (features_dict[ordering][0],)
             else:
+                st.info("Select your top preferences to narrow down your results even more!", icon=":material/info:")
                 column_order_config = ("title","address","monthly_int","link","agent_name")
                 pass
+
+            # Check if postcode has been provided
+            if not postcode:
+                st.info("Choose a postcode to narrow down your results even more!", icon=":material/info:")
 
             # Configure the height of the table so that we do not have a scrollbar inside the table
             height_config = 35 * len(data_df) + 38
@@ -208,13 +243,18 @@ if update_results:
                 #column_order=("title","address","monthly_int","link","agent_name","wide_lenses_score","overprocessed_score","natural_light_score","no_carpet_score"),
                 column_order=column_order_config,
                 column_config={
+                    "asterisk_column": st.column_config.TextColumn(
+                        "Stars",
+                        help="Shows the alignment score across the selected preferences",
+                        disabled=True
+                    ),
                     "preferences_alignment": st.column_config.ProgressColumn(
                         "Alignment",
                         help="Shows the average alignment score across the selected preferences",
                         width="small",
                         format="%f",
                         min_value=0,
-                        max_value=1,
+                        max_value=5,
                     ),
                     "property_id": st.column_config.TextColumn(
                         "Property ID",
@@ -309,7 +349,20 @@ if update_results:
 else:
     
     if 'guide_shown' not in st.session_state:
-        st.write("This is the guide")
+        #st.write("This is the guide")
+        st.markdown("### Easily discover properties with the exact features you desire in 2 simple steps.")
+        column_d1, column_d2 = st.columns([1,2])
+        with column_d1:
+            st.image("images/step_1.svg", width=75)
+            st.image("images/step_1_full.png", width=350, caption="Select the rental property features")
+        with column_d2:
+            st.image("images/step_2.svg", width=75)
+            st.image("images/step_2_full.png", width=825, caption="Chech the properties based on your preferences order")
+
+
+        st.divider()
+        st.markdown("### How it works")
+        st.image("images/how_it_works.png", width=700)
     else: 
         #st.write("Search to see the results.")
         st.info("Configure your search preferences on the left and start searching!", icon=":material/info:")

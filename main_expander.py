@@ -19,6 +19,15 @@ st.set_page_config(
      initial_sidebar_state = 'collapsed'   
 )
 
+def main_button_click():
+    st.session_state.first_search_done = True
+    #st.session_state.expand_state = False
+    if "expand_state" in st.session_state:
+        del st.session_state["expand_state"]
+
+
+def show_no_results_error():
+    st.error(":material/sentiment_dissatisfied: Sorry, no results were found. Please try again with different preferences.")
 
 
 # Load the csv with the data
@@ -30,12 +39,13 @@ data_file_creation_date = os.path.getctime('data/properties.csv')
 creation_date_formatted = datetime.fromtimestamp(data_file_creation_date).strftime('%d %B %Y')
 #st.write(f"Creation time: {creation_date_formatted}")
 
-if "guide_shown" not in st.session_state:
+if "first_search_done" not in st.session_state:
         st.write("This is the guide")
 
 
-my_expander = st.expander("Search preferences", expanded = False, icon=":material/search:")
-with my_expander:
+
+with st.expander("MY SEARCH PREFERENCES", expanded = False, icon=":material/search:"):
+#with st.popover(":material/search: MY SEARCH PREFERENCES", help=None, disabled=False, use_container_width=True):
     
     # The selection box to order the preferences
     order_feature_options = st.multiselect(
@@ -62,7 +72,9 @@ with my_expander:
     exclude_room_to_rent = st.toggle("Hide rental rooms", value=True, help="Choose this option to exclude rental rooms")
 
     st.divider()
-    update_results = st.button("Find Your Perfect Match", type="primary", key="button")    
+    update_results = st.button("Find Your Perfect Match", type="primary", on_click=main_button_click, key="button")    
+
+
     
     
 with st.sidebar:
@@ -98,7 +110,7 @@ features_dict = {
 # MAIN PAGE CONFIGURATION
 ###
 
-#st.session_state
+st.session_state
 
 st.logo("images/logo_small.svg")
 
@@ -115,7 +127,13 @@ st.logo("images/logo_small.svg")
 
 
 
+
+
+
+
 if update_results:
+
+    
 
     # Set the search preferences to ok
     search_preferences_ok = True
@@ -223,12 +241,13 @@ if update_results:
 
         # Check if there are any resutls returned after filtering
         if len(data_df) == 0:
-            st.error(":material/sentiment_dissatisfied: Sorry, no results were found. Please try again with different preferences.")
+            #st.error(":material/sentiment_dissatisfied: Sorry, no results were found. Please try again with different preferences.")
+            show_no_results_error()
         
         else:
 
             # Set the session state of guide shown so that we do not show it again
-            st.session_state.guide_shown = True
+            #st.session_state.guide_shown = True
 
             # Configure the order of the columms based on the selection of preferences
             if order_feature_options:
@@ -374,6 +393,25 @@ else:
     if 'guide_shown' not in st.session_state:
         #st.write("This is the guide")
         #st.write_stream("Easily discover properties with the exact features you desire in 2 simple steps.")
+        #st.divider()
+        #st.markdown("### Why?")
+        #st.markdown("Text here...")
+
+        #st.divider()
+        #st.markdown("### How it works")
+
+        #st.session_state.guide_shown  = True
+        pass
+    else: 
+        #st.write("Search to see the results.")
+        #st.info("Preferences changed. Click to refresh data!", icon=":material/info:")
+        pass
+        #st.session_state.guide_shown  = True
+
+
+if "first_search_done" not in st.session_state:
+        #st.write("This is the guide")
+        #st.write_stream("Easily discover properties with the exact features you desire in 2 simple steps.")
         st.divider()
         st.markdown("### Why?")
         st.markdown("Text here...")
@@ -381,11 +419,6 @@ else:
         st.divider()
         st.markdown("### How it works")
 
-        st.session_state.guide_shown  = True
-    else: 
-        #st.write("Search to see the results.")
-        st.info("Configure your search preferences on the left and start searching!", icon=":material/info:")
-        st.session_state.guide_shown  = True
 
 st.divider()
 st.write(f"Data updated: {creation_date_formatted}")

@@ -12,20 +12,13 @@ st.set_page_config(
     layout="wide",
     page_icon = ":material/house:",
     menu_items={
-        'Get Help': 'https://www.extremelycoolapp.com/help',
-        'Report a bug': "https://www.extremelycoolapp.com/bug",
-        'About': "# This is a header. This is an *extremely* cool app!"
-    }   
+        'Get Help': "https://www.google.com",
+        'Report a Bug': "https://www.google.com",
+        'About': "Created by Orbiont Ltd."
+    },
+     initial_sidebar_state = 'collapsed'   
 )
 
-
-# Configure the dictionary for features ordering
-features_dict = {
-    "Prefer natural light": ["natural_light_score", False],
-    "Dislike carpets": ["no_carpet_score", False],
-    "Avoid wide-lenses photos": ["wide_lenses_score", True],
-    "No over-processed photos": ["overprocessed_score", True],
-}
 
 
 # Load the csv with the data
@@ -37,53 +30,66 @@ data_file_creation_date = os.path.getctime('data/properties.csv')
 creation_date_formatted = datetime.fromtimestamp(data_file_creation_date).strftime('%d %B %Y')
 #st.write(f"Creation time: {creation_date_formatted}")
 
-
-###
-# PREFERENCES MENU ON THE SIDEBAR
-###
-
-# Load the preferences menu on the sidebar
-with st.sidebar:
-
-    st.write("")
-    st.subheader("Search Preferences")
-    st.write("")
+if "guide_shown" not in st.session_state:
+        st.write("This is the guide")
 
 
+my_expander = st.expander("Search preferences", expanded = False, icon=":material/search:")
+with my_expander:
+    
     # The selection box to order the preferences
     order_feature_options = st.multiselect(
             "Which features are most important to you?",
             ["Prefer natural light", "Dislike carpets", "Avoid wide-lenses photos", "No over-processed photos"],
             placeholder="Select your top preferences in order..."
         )
-
-
-    column_a1, column_a2 = st.columns(2)
-    with column_a1:
-        number_of_bedrooms = st.number_input("Bedrooms", min_value=1, max_value=3, value="min", step=1, help="Number of bedrooms (for Room Rental and Studios select 1)")
-        min_monthly_rent = st.number_input("Min Rent", min_value=100, value=800, step=200, help="Minimum monthly rent in £")  
-    with column_a2:
-        postcode = st.text_input("Postcode", value="", max_chars=4, help="Write the first letters of the postcode")
-        max_monthly_rent = st.number_input("Max Rent", min_value=200, value=1200, step=200, help="Maximum monthly rent in £")
-
     
-    # The radio buttons
-    exclude_enough_photos_overall = st.toggle("Hide properties with insufficient photos", value=True, help="Choose this option to exclude properties with an insufficient number of photos")  
-    exclude_enough_bedroom_photos = st.toggle("Hide properties with limited bedroom photos", value=True, help="Choose this option to exclude properties that lack sufficient photos of the bedrooms")
-    exclude_room_to_rent = st.toggle("Hide rental rooms", value=True, help="Choose this option to exclude rental rooms")
-
-    # This is an extra space above the button
-    st.write("")
-
-    update_results = st.button("Find Your Perfect Match", type="primary", key="button")
+    column_a1, column_a2, column_a3, column_a4 = st.columns(4)
+    with column_a1:
+        number_of_bedrooms = st.number_input("Bedrooms", min_value=1, max_value=3, value="min", step=1, help="Number of bedrooms (for Room Rental and Studios select 1)")         
+    with column_a2:
+        postcode = st.text_input("Postcode", value="", max_chars=4, help="Write the first letters of the postcode")      
+    with column_a3:
+        min_monthly_rent = st.number_input("Min Rent", min_value=100, value=800, step=200, help="Minimum monthly rent in £")
+    with column_a4:
+        max_monthly_rent = st.number_input("Max Rent", min_value=200, value=1200, step=200, help="Maximum monthly rent in £")
 
     st.divider()
 
-    st.page_link('main.py', label='Property Search', icon=':material/search:')
-    #st.page_link('pages/about.py', label='The Story', icon=':material/library_books:')
+    # The radio buttons
+    exclude_enough_photos_overall = st.toggle("Hide properties with insufficient photos", value=True, help="Choose this option to exclude properties with an insufficient number of photos")         
+    exclude_enough_bedroom_photos = st.toggle("Hide properties with limited bedroom photos", value=True, help="Choose this option to exclude properties that lack sufficient photos of the bedrooms")   
+    exclude_room_to_rent = st.toggle("Hide rental rooms", value=True, help="Choose this option to exclude rental rooms")
+
+    st.divider()
+    update_results = st.button("Find Your Perfect Match", type="primary", key="button")    
+    
+    
+with st.sidebar:
+    st.page_link('main_expander.py', label='Property Search', icon=':material/search:')
     st.page_link('pages/help.py', label='Help Me', icon=':material/help:')
     st.page_link('pages/feedback.py', label='Leave Feedback', icon=':material/feedback:')
-    
+
+    st.divider()
+    st.write(f"© {datetime.now().year} Orbiont")
+
+
+
+
+
+
+
+# Configure the dictionary for features ordering
+features_dict = {
+    "Prefer natural light": ["natural_light_score", False],
+    "Dislike carpets": ["no_carpet_score", False],
+    "Avoid wide-lenses photos": ["wide_lenses_score", True],
+    "No over-processed photos": ["overprocessed_score", True],
+}
+
+
+
+
 
 
 
@@ -94,14 +100,18 @@ with st.sidebar:
 
 #st.session_state
 
-column_b1, column_b2 = st.columns([1,20])
-with column_b1:
-    st.image("images/logo.svg", width=60)
-with column_b2:
+st.logo("images/logo_small.svg")
+
+#column_b1, column_b2 = st.columns([1,20])
+#with column_b1:
+    #st.image("images/logo.svg", width=60) 
+#with column_b2:
     #st.subheader("PROPERty SEARCH")
-    st.markdown("## :blue[Proper]:grey[ty] :blue[Search]")
+    #st.markdown("## :blue[Proper]:grey[ty] :blue[Search]")
     #st.write("A better way to find your perfect property")
-st.divider()
+
+#st.markdown("## :blue[Proper]:grey[ty] :blue[Search]")
+#st.divider()
 
 
 
@@ -363,30 +373,19 @@ else:
     
     if 'guide_shown' not in st.session_state:
         #st.write("This is the guide")
-        st.markdown("### Easily discover properties with the exact features you desire in 2 simple steps.")
-        column_d1, column_d2 = st.columns([1,2])
-        with column_d1:
-            st.image("images/step_1.svg", width=75)
-            st.image("images/step_1_full.png", width=350, caption="Select the rental property features")
-        with column_d2:
-            st.image("images/step_2.svg", width=75)
-            st.image("images/step_2_full.png", width=825, caption="Chech the properties based on your preferences order")
-
+        #st.write_stream("Easily discover properties with the exact features you desire in 2 simple steps.")
         st.divider()
         st.markdown("### Why?")
         st.markdown("Text here...")
 
         st.divider()
         st.markdown("### How it works")
-        st.image("images/how_it_works.png", width=700)
+
+        st.session_state.guide_shown  = True
     else: 
         #st.write("Search to see the results.")
         st.info("Configure your search preferences on the left and start searching!", icon=":material/info:")
+        st.session_state.guide_shown  = True
 
- 
 st.divider()
-column_c1, column_c2, column_c3 = st.columns([2,4,2])
-with column_c1:
-    st.write(f"© {datetime.now().year} Orbiont")
-with column_c3:
-    st.write(f"Data update: {creation_date_formatted}")
+st.write(f"Data updated: {creation_date_formatted}")

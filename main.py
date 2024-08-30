@@ -164,6 +164,10 @@ if update_results:
 
             #filtered_df = filtered_df.sort_values(by=[features_dict[ordering][0]], ascending=[bool(features_dict[ordering][1])])
 
+        # If there are any NULL values replace with 0
+        # Replace NULL values with 0
+        filtered_df = filtered_df.fillna(0)
+
         # Create a new column based on existing columns
         if order_feature_options:
             #selected_columns = [features_dict[feature][0] for feature in order_feature_options]
@@ -223,6 +227,10 @@ if update_results:
                 #column_order_config = ("title","address","monthly_int","link","agent_name")
                 for ordering in order_feature_options:
                     column_order_config = column_order_config + (features_dict[ordering][0],)
+                
+                # Add the column for the number of photos
+                #column_order_config = column_order_config + ("number_of_photos_overall_count",)
+                
             else:
                 st.info("Select your top preferences to narrow down your results even more!", icon=":material/info:")
                 column_order_config = ("title","address","monthly_int","link","agent_name")
@@ -332,6 +340,11 @@ if update_results:
                         width="small",
                         disabled=True
                     ),
+                    "number_of_photos_overall_count": st.column_config.NumberColumn(
+                        "Number of Photos",
+                        width="small",
+                        disabled=True
+                    ),
 
                 },
                 hide_index=True,
@@ -359,6 +372,9 @@ else:
             st.image("images/step_2.svg", width=75)
             st.image("images/step_2_full.png", width=825, caption="Chech the properties based on your preferences order")
 
+        st.divider()
+        st.markdown("### Why?")
+        st.markdown("Text here...")
 
         st.divider()
         st.markdown("### How it works")

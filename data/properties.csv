@@ -43,10 +43,10 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 42107417,3 bed maisonette to rent,3500,https://www.zoopla.co.uk/to-rent/details/42107417/,"Downs Road, Hackney Downs, London E5",Dimension Estates London Ltd,3,1,9,1,5,0.47,10,0.42,10,0.8,10,0.56,10,1
 42297428,1 bed flat to rent,1300,https://www.zoopla.co.uk/to-rent/details/42297428/,"Normanton Road, South Croydon CR2",Barnard Marcus - South Croydon,1,0,4,1,1,0.426,5,0.288,5,0.755,10,0.514,5,1
 42346594,1 bed flat to rent,1600,https://www.zoopla.co.uk/to-rent/details/42346594/,"Cranborne Avenue, Surbiton KT6",Barnard Marcus - Surbiton,1,1,6,1,2,0.56,6,0.61,6,0.69,6,0.54,6,1
-42449241,1 bed flat to rent,2925,https://www.zoopla.co.uk/to-rent/details/42449241/,"Warren Court, Euston Road NW1",M2 Property Ltd,1,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+42449241,1 bed flat to rent,2925,https://www.zoopla.co.uk/to-rent/details/42449241/,"Warren Court, Euston Road NW1",M2 Property Ltd,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 42522576,3 bed flat to rent,3142,https://www.zoopla.co.uk/to-rent/details/42522576/,"Laker House, Royal Wharf, London E16",JOHNS&CO - Royal Wharf,3,1,11,1,3,0.5390909090909091,11,0.3845454545454545,11,0.556,22,0.65,11,1
 42576346,2 bed flat to rent,2500,https://www.zoopla.co.uk/to-rent/details/42576346/,"Highbury Corner, London N5",NowProperty,2,1,8,1,4,0.47,9,0.25,9,0.68,9,0.62,9,1
-42658889,3 bed terraced house to rent,2300,https://www.zoopla.co.uk/to-rent/details/42658889/,"Station Road, Hayes, Middlesex UB3",Hamlet Homes,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+42658889,3 bed terraced house to rent,2300,https://www.zoopla.co.uk/to-rent/details/42658889/,"Station Road, Hayes, Middlesex UB3",Hamlet Homes,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 42926286,1 bed mews to rent,1500,https://www.zoopla.co.uk/to-rent/details/42926286/,"Pilgrim, West Norwood SE27",Willow Residential Letting,1,1,5,1,2,0.48,5,0.22,5,0.7,5,0.45,5,1
 43015727,2 bed flat to rent,2149,https://www.zoopla.co.uk/to-rent/details/43015727/,"Lavender Hill, London SW11",Noble Estates,2,1,7,1,2,0.47,7,0.2,7,0.75,7,0.56,7,1
 43098132,3 bed terraced house to rent,2300,https://www.zoopla.co.uk/to-rent/details/43098132/,"Stevens Road, Dagenham RM8",Stoneshaw Estates,3,1,15,1,4,0.4166666666666667,15,0.294,15,0.665,30,0.426,15,1
@@ -156,16 +156,16 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 50050044,2 bed flat to rent,2400,https://www.zoopla.co.uk/to-rent/details/50050044/,"Eastern House, 2 Wolverley Street, London E2",Ellis & Co - Bethnal Green,2,1,8,1,2,0.51,8,0.3,8,0.74,8,0.47,8,1
 50100165,3 bed flat to rent,3400,https://www.zoopla.co.uk/to-rent/details/50100165/,"Hanley Road, Finsbury Park N4",Alex Marks,3,1,7,0,0,0.42,7,0.32,7,0.74,7,0.87,7,1
 50129488,2 bed flat to rent,1703,https://www.zoopla.co.uk/to-rent/details/50129488/,"Spinnaker Close, Barking IG11",Quest London,2,1,10,1,5,0.49,10,0.24,10,0.54,10,0.4,10,1
-50130581,Room to rent,500,https://www.zoopla.co.uk/to-rent/details/50130581/,"Grosvenor Road, Hounslow TW3",CityWest Estate Agents,1,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+50130581,Room to rent,500,https://www.zoopla.co.uk/to-rent/details/50130581/,"Grosvenor Road, Hounslow TW3",CityWest Estate Agents,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 50131793,2 bed terraced house to rent,12133,https://www.zoopla.co.uk/to-rent/details/50131793/,"Duke Street, London W1K",Westgate Utama Ltd,2,1,17,1,5,0.53,19,0.27,19,0.73,19,0.52,19,1
 50137655,2 bed terraced house to rent,9100,https://www.zoopla.co.uk/to-rent/details/50137655/,"Duke Street, London W1K",Westgate Utama Ltd,2,0,4,1,2,0.52,4,0.39,4,0.79,4,0.41,4,1
 50157259,2 bed detached house to rent,2200,https://www.zoopla.co.uk/to-rent/details/50157259/,"Hutton Grove, London N12",Niche Estates,2,1,6,0,1,0.49,6,0.19,6,0.76,6,0.67,6,1
 50331518,1 bed flat to rent,1950,https://www.zoopla.co.uk/to-rent/details/50331518/,"Cityview Point, Leven Wharf, London E14",JOHNS&CO - New Providence Wharf,1,1,9,1,2,0.5,9,0.19,9,0.61,9,0.68,9,1
 50345677,2 bed terraced house to rent,3500,https://www.zoopla.co.uk/to-rent/details/50345677/,"Beechcroft Road, London SW17",Carter Jonas - Wandsworth,2,1,10,0,0,0.45,10,0.31,10,0.66,10,0.73,10,1
 50381303,1 bed flat to rent,2817,https://www.zoopla.co.uk/to-rent/details/50381303/,"Chesterfield House, Chesterfield Gardens, Mayfair, London W1J",Carter Jonas - Mayfair & St James's,1,0,4,1,1,0.499,4,0.221,4,0.875,8,0.552,4,1
-50383216,3 bed town house to rent,2990,https://www.zoopla.co.uk/to-rent/details/50383216/,"Tufnell Park Road, London N7",Black Katz - Camden,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+50383216,3 bed town house to rent,2990,https://www.zoopla.co.uk/to-rent/details/50383216/,"Tufnell Park Road, London N7",Black Katz - Camden,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 50383394,2 bed flat to rent,1798,https://www.zoopla.co.uk/to-rent/details/50383394/,"Inderwick Road, London N8",Black Katz - Islington,2,1,5,0,1,0.46,5,0.34,5,0.84,5,0.41,5,1
-50383423,2 bed flat to rent,2058,https://www.zoopla.co.uk/to-rent/details/50383423/,"Barker Drive, London NW1",Black Katz - Camden,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+50383423,2 bed flat to rent,2058,https://www.zoopla.co.uk/to-rent/details/50383423/,"Barker Drive, London NW1",Black Katz - Camden,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 50460744,3 bed flat to rent,5633,https://www.zoopla.co.uk/to-rent/details/50460744/,"Boydell Court, St Johns Wood Park, St John's Wood NW8",Liv International,3,1,11,1,4,0.52,11,0.28,11,0.61,11,0.48,11,1
 50465469,2 bed flat to rent,2700,https://www.zoopla.co.uk/to-rent/details/50465469/,"Decima Street, London SE1",Black Katz - London Bridge & Clapham,2,0,4,1,2,0.57,4,0.4,4,0.86,4,0.51,4,1
 50523743,1 bed flat to rent,1700,https://www.zoopla.co.uk/to-rent/details/50523743/,"Blackstock Road, London N5",Ariston Property,1,1,6,1,2,0.42,6,0.36,6,0.67,6,0.55,6,1
@@ -237,7 +237,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 52345331,3 bed terraced house to rent,3500,https://www.zoopla.co.uk/to-rent/details/52345331/,"Morton Road, Islington, Canonbury, London N1",Ellis & Co - Islington,3,1,8,1,3,0.4666666666666667,9,0.22777777777777775,9,0.775,18,0.6488888888888888,9,1
 52347041,2 bed flat to rent,2297,https://www.zoopla.co.uk/to-rent/details/52347041/,"Winchester Close, London SE17",1 Ability Estate Agents,2,0,2,0,1,0.54,2,0.58,2,0.71,2,0.65,2,1
 52348562,3 bed terraced house to rent,2100,https://www.zoopla.co.uk/to-rent/details/52348562/,"Canonsleigh Road, Dagenham, Essex RM9",Smart Move,3,1,6,0,2,0.42,7,0.16,7,0.82,7,0.51,7,1
-52349010,3 bed maisonette to rent,3012,https://www.zoopla.co.uk/to-rent/details/52349010/,"Camden Road, London N7",Black Katz - Islington,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+52349010,3 bed maisonette to rent,3012,https://www.zoopla.co.uk/to-rent/details/52349010/,"Camden Road, London N7",Black Katz - Islington,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 52378774,3 bed flat to rent,3683,https://www.zoopla.co.uk/to-rent/details/52378774/,"Marsham Street, London SW1P",Marsh & Parsons - Pimlico & Westminster,3,1,5,0,2,0.516,5,0.258,5,0.792,10,0.732,5,1
 52432770,3 bed flat to rent,3150,https://www.zoopla.co.uk/to-rent/details/52432770/,"St Pauls, Highbury &amp; Islington N1",Wiseman Property,3,1,10,1,4,0.45899999999999996,10,0.22999999999999998,10,0.671,20,0.6990000000000001,10,1
 52469881,2 bed flat to rent,5800,https://www.zoopla.co.uk/to-rent/details/52469881/,"Wetherby Gardens, London SW5",John D Wood & Co. - South Kensington Lettings,2,1,9,1,2,0.47,9,0.24,9,0.72,9,0.61,9,1
@@ -367,7 +367,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 55957337,3 bed terraced house to rent,7150,https://www.zoopla.co.uk/to-rent/details/55957337/,"Kensington High Street, London W8",Marsh & Parsons - Kensington,3,1,6,0,2,0.5016666666666667,6,0.26666666666666666,6,0.713,12,0.41333333333333333,6,1
 55959422,3 bed flat to rent,3400,https://www.zoopla.co.uk/to-rent/details/55959422/,"Hanley Road, Finsbury Park N4",Charles Henry Peppiatt Ltd,3,1,12,1,4,0.46,13,0.33,13,0.72,13,0.79,13,1
 55981010,Room to rent,932,https://www.zoopla.co.uk/to-rent/details/55981010/,"Taylors Green, London W3",Mind the Flat,1,1,6,1,2,0.473,6,0.191,6,0.765,12,0.785,6,1
-55981226,1 bed flat to rent,2102,https://www.zoopla.co.uk/to-rent/details/55981226/,"1 Forge Square, South Quay, Canary Wharf, London E14",Jack Barclay Estates,1,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+55981226,1 bed flat to rent,2102,https://www.zoopla.co.uk/to-rent/details/55981226/,"1 Forge Square, South Quay, Canary Wharf, London E14",Jack Barclay Estates,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 55981796,2 bed flat to rent,2200,https://www.zoopla.co.uk/to-rent/details/55981796/,"Lakeside Drive, London NW10",Home Full Stop Ltd,2,1,7,0,0,0.47,7,0.23,7,0.37,7,0.51,7,1
 55984779,1 bed flat to rent,1950,https://www.zoopla.co.uk/to-rent/details/55984779/,"Amelia Street, Elephant And Castle SE17",Next Door Properties,1,1,19,1,4,0.551,19,0.527,19,0.711,38,0.522,19,1
 56041696,3 bed flat to rent,2300,https://www.zoopla.co.uk/to-rent/details/56041696/,"Hervey Close, Finchley Central N3",Finchleys,3,1,7,0,0,0.48,7,0.31,7,0.67,7,0.76,7,1
@@ -659,7 +659,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 61073020,2 bed end terrace house to rent,2650,https://www.zoopla.co.uk/to-rent/details/61073020/,"College Road, Kensal Rise, London NW10",Winkworth - Kensal Rise & Queen's Park,2,1,11,1,4,0.5,11,0.28,11,0.8,11,0.46,11,1
 61073232,2 bed flat to rent,2750,https://www.zoopla.co.uk/to-rent/details/61073232/,"James House, Appleford Road, London W10",Winkworth - North Kensington,2,1,13,1,6,0.51,14,0.24,14,0.72,14,0.72,14,1
 61073533,2 bed flat to rent,3000,https://www.zoopla.co.uk/to-rent/details/61073533/,"Wigmore Court, Wigmore Street, London W1U",Winkworth - Paddington & Bayswater,2,1,7,1,2,0.42,7,0.28,7,0.54,7,0.79,7,1
-61073610,2 bed flat to rent,4500,https://www.zoopla.co.uk/to-rent/details/61073610/,"Portland Place, London W1B",Winkworth - Paddington & Bayswater,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+61073610,2 bed flat to rent,4500,https://www.zoopla.co.uk/to-rent/details/61073610/,"Portland Place, London W1B",Winkworth - Paddington & Bayswater,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 61074063,3 bed end terrace house to rent,3400,https://www.zoopla.co.uk/to-rent/details/61074063/,"Malpas Road, London SE4",Winkworth - New Cross,3,1,8,1,3,0.4725,8,0.45,8,0.745,16,0.47625,8,1
 61076878,3 bed terraced house to rent,6000,https://www.zoopla.co.uk/to-rent/details/61076878/,"Hesper Mews, South Kensington, London SW5",Winkworth - South Kensington,3,1,10,0,2,0.52,10,0.24,10,0.79,10,0.65,10,1
 61077243,2 bed flat to rent,2000,https://www.zoopla.co.uk/to-rent/details/61077243/,"Heath Royal, 30 Kersfield Road, London SW15",Winkworth - Southfields,2,0,4,1,2,0.46,4,0.39,4,0.76,4,0.4,4,1
@@ -729,7 +729,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 61749464,3 bed terraced house to rent,2300,https://www.zoopla.co.uk/to-rent/details/61749464/,"Landridge Road, Abbeywood SE2",Good Neighbours Estates,3,1,18,1,4,0.45,18,0.19,18,0.68,18,0.59,18,1
 61764040,2 bed terraced house to rent,6478,https://www.zoopla.co.uk/to-rent/details/61764040/,"Mossop Street, London SW3",Marsh & Parsons - Chelsea,2,1,7,1,2,0.5,7,0.23,7,0.77,7,0.56,7,1
 61764271,1 bed flat to rent,1700,https://www.zoopla.co.uk/to-rent/details/61764271/,"West Gate, London W5",LiFE Residential - West London,1,1,11,1,1,0.49,11,0.47,11,0.41,11,0.62,11,1
-61765779,1 bed flat to rent,1993,https://www.zoopla.co.uk/to-rent/details/61765779/,"Gainsborough House, Cassilis Road, Canary Wharf, London E14",Jack Barclay Estates,1,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+61765779,1 bed flat to rent,1993,https://www.zoopla.co.uk/to-rent/details/61765779/,"Gainsborough House, Cassilis Road, Canary Wharf, London E14",Jack Barclay Estates,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 61771515,3 bed flat to rent,2899,https://www.zoopla.co.uk/to-rent/details/61771515/,"Cross Harbour, Isle Of Dogs, London E14",Global House Estates,3,1,9,1,4,0.5,9,0.28,9,0.79,9,0.26,9,1
 61773768,3 bed maisonette to rent,2995,https://www.zoopla.co.uk/to-rent/details/61773768/,"Oakmead Road, London SW12",Stirling Ackroyd - Brixton,3,1,6,1,4,0.47,6,0.32,6,0.85,6,0.24,6,1
 61777991,3 bed flat to rent,6750,https://www.zoopla.co.uk/to-rent/details/61777991/,"Ransomes Dock, 35-37 Parkgate Road, London SW11",Savills - Waterfront Lettings,3,1,15,0,2,0.4953333333333333,15,0.24866666666666667,15,0.618,30,0.7006666666666667,15,1
@@ -915,7 +915,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 62852147,1 bed terraced house to rent,5200,https://www.zoopla.co.uk/to-rent/details/62852147/,"Fortune Green Road, London NW6",Heathgate,1,1,12,1,1,0.53,12,0.24,12,0.65,12,0.56,12,1
 62859081,2 bed flat to rent,2500,https://www.zoopla.co.uk/to-rent/details/62859081/,"41 Millharbour, South Quay, London E14",Stirling Ackroyd - Canary Wharf,2,1,12,1,3,0.5,12,0.32,12,0.5,12,0.6,12,1
 62866191,1 bed flat to rent,3550,https://www.zoopla.co.uk/to-rent/details/62866191/,"1 Segrave Walk, London W2",Lionsgate Property,1,1,18,1,2,0.56,18,0.5,18,0.54,18,0.5,18,1
-62869463,3 bed semi-detached house to rent,2700,https://www.zoopla.co.uk/to-rent/details/62869463/,"Dollis Hill Lane, London NW2",Milestone Estate Agents,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+62869463,3 bed semi-detached house to rent,2700,https://www.zoopla.co.uk/to-rent/details/62869463/,"Dollis Hill Lane, London NW2",Milestone Estate Agents,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 62874116,1 bed flat to rent,1650,https://www.zoopla.co.uk/to-rent/details/62874116/,"Weymouth Terrace, London E2",Easthaus,1,1,7,1,2,0.494,8,0.233,8,0.734,16,0.549,8,1
 62883716,Room to rent,1200,https://www.zoopla.co.uk/to-rent/details/62883716/,"Camberwell Road, Camberwell SE5",CKB Estate Agents,1,0,4,0,0,0.38,4,0.23,4,0.66,4,0.94,4,1
 62884265,2 bed flat to rent,1500,https://www.zoopla.co.uk/to-rent/details/62884265/,"Gawton Crescent, Netherne On The Hill, Surrey CR5",Choices - Coulsdon,2,1,7,1,2,0.48,7,0.2,7,0.53,7,0.77,7,1
@@ -977,7 +977,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 63905940,3 bed flat to rent,6067,https://www.zoopla.co.uk/to-rent/details/63905940/,"Carnation Way, Thames City SW8",CBRE,3,1,12,1,5,0.5558333333333333,12,0.4141666666666666,12,0.673,24,0.32666666666666666,12,1
 63945178,1 bed flat to rent,2968,https://www.zoopla.co.uk/to-rent/details/63945178/,"Sopwith Way, London SW11",E C Residential,1,1,14,1,1,0.54,14,0.43,14,0.72,14,0.52,14,1
 63964639,1 bed flat to rent,2100,https://www.zoopla.co.uk/to-rent/details/63964639/,"Sylvester Path, Hackney, London E8",Savills - Hackney Lettings,1,1,10,1,2,0.532,10,0.281,10,0.742,20,0.523,10,1
-63972022,1 bed flat to rent,1800,https://www.zoopla.co.uk/to-rent/details/63972022/,"The Mall, London W5",Barnard Marcus - Ealing,1,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+63972022,1 bed flat to rent,1800,https://www.zoopla.co.uk/to-rent/details/63972022/,"The Mall, London W5",Barnard Marcus - Ealing,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 63975807,2 bed flat to rent,2275,https://www.zoopla.co.uk/to-rent/details/63975807/,"St Davids Square, London E14",Savills - Canary Wharf Lettings,2,1,5,1,2,0.5,5,0.3,5,0.72,5,0.52,5,1
 63981305,1 bed property to rent,6500,https://www.zoopla.co.uk/to-rent/details/63981305/,"Regents Crescent, Marylebone, London W1B",Aston Chase,1,1,10,1,1,0.56,10,0.37,10,0.71,10,0.52,10,1
 64002812,2 bed flat to rent,6250,https://www.zoopla.co.uk/to-rent/details/64002812/,"Cross Street, London N1",Neilson & Bauer,2,1,21,1,5,0.48,21,0.45,21,0.6,21,0.4,21,1
@@ -1097,7 +1097,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 64968489,1 bed flat to rent,2100,https://www.zoopla.co.uk/to-rent/details/64968489/,"Stratford Villas, London NW1",Stelfort,1,1,5,1,1,0.474,5,0.311,5,0.697,10,0.137,5,1
 64969764,3 bed town house to rent,3202,https://www.zoopla.co.uk/to-rent/details/64969764/,"Avenue Road, London N15",Black Katz - Camden,3,1,8,1,4,0.48,8,0.27125,8,0.757,16,0.445,8,1
 64990966,3 bed flat to rent,2200,https://www.zoopla.co.uk/to-rent/details/64990966/,"Vincent Square, London N22",Bairstow Eves - Enfield Lettings,3,1,6,0,2,0.3628571428571429,7,0.3628571428571429,7,0.736,14,0.4628571428571429,7,1
-65005595,3 bed flat to rent,2850,https://www.zoopla.co.uk/to-rent/details/65005595/,"28 Camden High Street, London NW1",Quintons,3,-1,0,-1,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+65005595,3 bed flat to rent,2850,https://www.zoopla.co.uk/to-rent/details/65005595/,"28 Camden High Street, London NW1",Quintons,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 65006130,2 bed flat to rent,2643,https://www.zoopla.co.uk/to-rent/details/65006130/,"1st Floor, Holland Road, London W14",London Space,2,1,13,1,4,0.45,13,0.18,13,0.81,13,0.69,13,1
 65008046,3 bed flat to rent,3150,https://www.zoopla.co.uk/to-rent/details/65008046/,"Blackwall Way, London E14",Choices - Central London,3,1,6,0,2,0.5,7,0.25,7,0.73,7,0.8,7,1
 65011149,1 bed flat to rent,1350,https://www.zoopla.co.uk/to-rent/details/65011149/,"Vicarage Park, Plumstead, London SE18",Beaumont Gibbs,1,1,6,1,1,0.46,6,0.32,6,0.65,6,0.7,6,1
@@ -1128,7 +1128,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 65111795,3 bed terraced house to rent,2058,https://www.zoopla.co.uk/to-rent/details/65111795/,"Eastfield Road, Dagenham RM10",Hunter & Bloomfield,3,1,16,0,0,0.453125,16,0.43125,16,0.732,32,0.7375,16,1
 65116797,2 bed end terrace house to rent,2150,https://www.zoopla.co.uk/to-rent/details/65116797/,"Ridgeview Close, Barnet EN5",Spencer & Sener,2,1,9,0,0,0.43,9,0.27,9,0.77,9,0.68,9,1
 65116888,2 bed flat to rent,2708,https://www.zoopla.co.uk/to-rent/details/65116888/,"York Way, London N7",Black Katz - Camden,2,1,7,1,2,0.52,7,0.25,7,0.64,7,0.63,7,1
-65121797,3 bed flat to rent,2200,https://www.zoopla.co.uk/to-rent/details/65121797/,"Bath Road, Hounslow TW4",Blue Estate Agents,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+65121797,3 bed flat to rent,2200,https://www.zoopla.co.uk/to-rent/details/65121797/,"Bath Road, Hounslow TW4",Blue Estate Agents,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 65123753,1 bed maisonette to rent,1300,https://www.zoopla.co.uk/to-rent/details/65123753/,"Dorville Road, Lee SE12",CKB Estate Agents,1,1,5,1,1,0.438,5,0.307,5,0.547,10,0.739,5,1
 65125663,3 bed flat to rent,4750,https://www.zoopla.co.uk/to-rent/details/65125663/,"Porteus Place, London SW4",Marsh & Parsons - Clapham,3,1,8,1,3,0.58125,8,0.26125,8,0.836,16,0.45,8,1
 65125777,3 bed town house to rent,2999,https://www.zoopla.co.uk/to-rent/details/65125777/,"Fairbridge Road, London N19",Black Katz - Camden,3,1,5,0,2,0.42,5,0.29,5,0.71,5,0.79,5,1
@@ -1360,7 +1360,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 65617070,2 bed flat to rent,2817,https://www.zoopla.co.uk/to-rent/details/65617070/,"Orsman Road, London N1",Fraser & Co - City & Shoreditch Estate Agents,2,1,13,1,5,0.49,13,0.38,13,0.6,13,0.62,13,1
 65618818,1 bed flat to rent,1800,https://www.zoopla.co.uk/to-rent/details/65618818/,"Fortess Road, London NW5",Elderton & Co,1,1,6,1,2,0.5,6,0.58,6,0.68,6,0.35,6,1
 65620418,3 bed semi-detached house to rent,2500,https://www.zoopla.co.uk/to-rent/details/65620418/,"Daryngton Drive, Greenford, Middlesex UB6",Right Home Estate Agents,3,1,6,0,2,0.4642857142857143,7,0.26857142857142857,7,0.869,14,0.5557142857142857,7,1
-65627294,Room to rent,1000,https://www.zoopla.co.uk/to-rent/details/65627294/,"Sutton Way, Hounslow TW5",GOLDEN TO LETS PROPERTIES LTD,1,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+65627294,Room to rent,1000,https://www.zoopla.co.uk/to-rent/details/65627294/,"Sutton Way, Hounslow TW5",GOLDEN TO LETS PROPERTIES LTD,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 65629871,2 bed semi-detached house to rent,1749,https://www.zoopla.co.uk/to-rent/details/65629871/,"St Annes Terrace, Hainault IG6",Edward Chase,2,1,9,0,1,0.44,9,0.31,9,0.67,9,0.72,9,1
 65629967,3 bed flat to rent,9000,https://www.zoopla.co.uk/to-rent/details/65629967/,"Upper Grosvenor Street, Mayfair W1K",Chestertons - Mayfair,3,1,9,0,1,0.51,9,0.25,9,0.66,9,0.38,9,1
 65635756,1 bed flat to rent,2600,https://www.zoopla.co.uk/to-rent/details/65635756/,"80 Back Church Lane, Twyne House Apartments, London E1",Foundation Estates,1,1,8,1,1,0.54,8,0.23,8,0.67,8,0.72,8,1
@@ -1387,7 +1387,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 65854104,3 bed flat to rent,3350,https://www.zoopla.co.uk/to-rent/details/65854104/,"The Brentford Project, Brentford, London TW8",JOHNS&CO - Brentford,3,1,10,0,0,0.4818181818181818,11,0.4709090909090909,11,0.567,22,0.6309090909090909,11,1
 65855879,1 bed flat to rent,2500,https://www.zoopla.co.uk/to-rent/details/65855879/,"Porchester Gate, Bayswater Road W2",Chancellors - Notting Hill,1,1,9,1,5,0.54,9,0.47,9,0.71,9,0.72,9,1
 65889010,2 bed flat to rent,6000,https://www.zoopla.co.uk/to-rent/details/65889010/,"Avonmore Road, London W14",ARE Management Limited,2,1,6,1,2,0.49,6,0.5,6,0.69,6,0.63,6,1
-65897024,2 bed terraced house to rent,3680,https://www.zoopla.co.uk/to-rent/details/65897024/,"Bouverie Place, London W2",Japan Letting Agency,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+65897024,2 bed terraced house to rent,3680,https://www.zoopla.co.uk/to-rent/details/65897024/,"Bouverie Place, London W2",Japan Letting Agency,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 65902283,1 bed terraced house to rent,3850,https://www.zoopla.co.uk/to-rent/details/65902283/,"Mall Studios, Tasker Road, London NW3",Hadleigh Residential,1,1,8,1,1,0.48,8,0.21,8,0.76,8,0.51,8,1
 65905834,3 bed terraced house to rent,1950,https://www.zoopla.co.uk/to-rent/details/65905834/,"Kimberley Place, Purley, Croydon CR8",Chase Evans Greenwich,3,1,14,0,0,0.52,14,0.47,14,0.7,14,0.4,14,1
 65914995,2 bed mews to rent,5500,https://www.zoopla.co.uk/to-rent/details/65914995/,"Devonport Mews, Shepherd's Bush, London W12",Foxtons - Shepherds Bush,2,1,18,1,4,0.52,18,0.35,18,0.67,18,0.71,18,1
@@ -1448,12 +1448,12 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 66269597,3 bed semi-detached house to rent,2250,https://www.zoopla.co.uk/to-rent/details/66269597/,"Farm Close, Southall UB1",Move Inn Estates,3,1,7,0,2,0.41,7,0.25,7,0.74,7,0.57,7,1
 66272458,1 bed flat to rent,2500,https://www.zoopla.co.uk/to-rent/details/66272458/,"Kensington West, Blythe Road, Hammersmith W14",Latymers,1,1,12,1,2,0.46,12,0.26,12,0.53,12,0.57,12,1
 66278203,1 bed terraced house to rent,2383,https://www.zoopla.co.uk/to-rent/details/66278203/,"Clarendon Road, Holland Park W11",Chestertons - Notting Hill,1,1,7,1,2,0.44,7,0.38,7,0.64,7,0.57,7,1
-66318443,2 bed flat to rent,1800,https://www.zoopla.co.uk/to-rent/details/66318443/,"Kensington Gardens, Cranbrook, Ilford IG1",iHOMES Lettings & Management,2,0,0,,,,,,,,,,,1
+66318443,2 bed flat to rent,1800,https://www.zoopla.co.uk/to-rent/details/66318443/,"Kensington Gardens, Cranbrook, Ilford IG1",iHOMES Lettings & Management,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 66322894,2 bed semi-detached house to rent,2145,https://www.zoopla.co.uk/to-rent/details/66322894/,"Sapphire Road, London SE8",Nestify,2,1,9,1,4,0.52,9,0.26,9,0.8,9,0.44,9,1
 66325079,1 bed town house to rent,3950,https://www.zoopla.co.uk/to-rent/details/66325079/,"Camden Mews, London NW1",Livestay,1,1,11,1,1,0.5,11,0.31,11,0.7,11,0.57,11,1
 66332529,3 bed terraced house to rent,7000,https://www.zoopla.co.uk/to-rent/details/66332529/,"Cassland Road, Hackney E9",Chestertons - Islington,3,1,12,1,3,0.47,12,0.31,12,0.71,12,0.41,12,1
 66335893,1 bed flat to rent,2350,https://www.zoopla.co.uk/to-rent/details/66335893/,"City North, Finsbury Park, London N4",David Astburys,1,1,5,1,1,0.54,5,0.18,5,0.51,5,0.51,5,1
-66347216,1 bed flat to rent,1950,https://www.zoopla.co.uk/to-rent/details/66347216/,"Aegon House, 13 Lanark Square, Millharbour, Limeharbour, Island Garden, Crossharbour, South Quay, London E14",Jack Barclay Estates,1,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+66347216,1 bed flat to rent,1950,https://www.zoopla.co.uk/to-rent/details/66347216/,"Aegon House, 13 Lanark Square, Millharbour, Limeharbour, Island Garden, Crossharbour, South Quay, London E14",Jack Barclay Estates,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 66347712,Room to rent,900,https://www.zoopla.co.uk/to-rent/details/66347712/,"Very Near Brunswick Road Area, Ealing Broadway North W5",Alexanders Lettings and Alexander Lets,1,1,6,1,2,0.52,7,0.33,7,0.91,7,0.55,7,1
 66347834,3 bed flat to rent,4312,https://www.zoopla.co.uk/to-rent/details/66347834/,"Clive Court, Maida Vale W9",Find My Home,3,1,21,1,7,0.47714285714285715,21,0.28523809523809524,21,0.632,42,0.48,21,1
 66362463,2 bed flat to rent,3813,https://www.zoopla.co.uk/to-rent/details/66362463/,"Bloom East, Nine Elms Lane SW11",CBRE,2,1,13,1,4,0.53,14,0.24,14,0.69,14,0.38,14,1
@@ -1464,7 +1464,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 66395271,3 bed flat to rent,4950,https://www.zoopla.co.uk/to-rent/details/66395271/,"Belsize Park, London NW3",Hadleigh Residential,3,1,11,0,0,0.47818181818181815,11,0.28,11,0.713,22,0.8663636363636364,11,1
 66397832,Room to rent,750,https://www.zoopla.co.uk/to-rent/details/66397832/,"Very Near Elmwood Avenue Area, Harrow Kenton HA3",Alexanders Lettings and Alexander Lets,1,1,10,1,4,0.51,11,0.25,11,0.79,11,0.62,11,1
 66403015,1 bed flat to rent,1993,https://www.zoopla.co.uk/to-rent/details/66403015/,"College Road, London NW10",Property Lab London,1,1,6,1,2,0.49,6,0.17,6,0.74,6,0.83,6,1
-66411822,Room to rent,850,https://www.zoopla.co.uk/to-rent/details/66411822/,"Campbell Road, East Ham E6",Swayam Lets,1,0,0,,,,,,,,,,,1
+66411822,Room to rent,850,https://www.zoopla.co.uk/to-rent/details/66411822/,"Campbell Road, East Ham E6",Swayam Lets,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 66419623,2 bed flat to rent,5300,https://www.zoopla.co.uk/to-rent/details/66419623/,"Thames City, Nine Elms, London SW8",JOHNS&CO - Nine Elms,2,1,9,1,3,0.52,9,0.41,9,0.55,9,0.58,9,1
 66421697,3 bed flat to rent,2750,https://www.zoopla.co.uk/to-rent/details/66421697/,"The Downs, London SW20",eXp World UK,3,1,16,1,7,0.51,16,0.27,16,0.69,16,0.59,16,1
 66430382,3 bed detached house to rent,17333,https://www.zoopla.co.uk/to-rent/details/66430382/,"Addison Avenue, Notting Hill, London W11",Oliver Bernard Private,3,1,9,0,2,0.52,9,0.38,9,0.73,9,0.37,9,1
@@ -1563,7 +1563,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 66595768,2 bed flat to rent,4182,https://www.zoopla.co.uk/to-rent/details/66595768/,"Park Road, St Johns Wood NW8",Find My Home,2,1,12,1,7,0.47,12,0.33,12,0.73,12,0.23,12,1
 66600611,3 bed flat to rent,18200,https://www.zoopla.co.uk/to-rent/details/66600611/,"The Manor, 8-10 Davies Street W1K",Chestertons - Mayfair,3,1,10,1,3,0.47000000000000003,10,0.262,10,0.658,20,0.437,10,1
 66609375,1 bed flat to rent,1600,https://www.zoopla.co.uk/to-rent/details/66609375/,"Williams Grove, London N22",Coultons Estate Agents,1,1,6,0,0,0.38,6,0.368,6,0.666,12,0.858,6,1
-66619055,Room to rent,800,https://www.zoopla.co.uk/to-rent/details/66619055/,"New Close, Feltham TW13",iHomes Estate Agents Ltd,1,0,0,,,,,,,,,,,1
+66619055,Room to rent,800,https://www.zoopla.co.uk/to-rent/details/66619055/,"New Close, Feltham TW13",iHomes Estate Agents Ltd,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 66619499,2 bed terraced house to rent,1900,https://www.zoopla.co.uk/to-rent/details/66619499/,"Green Lane, Dagenham RM8",Property Masterz UK Ltd,2,1,6,0,0,0.48,6,0.21,6,0.81,6,0.86,6,1
 66630179,3 bed terraced house to rent,16900,https://www.zoopla.co.uk/to-rent/details/66630179/,"Nutley Terrace, Hampstead NW3.",Knight Frank - Belsize Park Lettings,3,1,14,1,4,0.54,14,0.24,14,0.6,14,0.54,14,1
 66638518,2 bed end terrace house to rent,3250,https://www.zoopla.co.uk/to-rent/details/66638518/,"Aysgarth Road, Dulwich, London SE21",Pedder - Dulwich Village,2,1,7,0,1,0.43,7,0.46,7,0.54,7,0.56,7,1
@@ -1646,7 +1646,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67023688,2 bed detached house to rent,4000,https://www.zoopla.co.uk/to-rent/details/67023688/,"St. Georges Road, Twickenham TW1",John D Wood & Co. - Short Lets,2,1,6,1,2,0.48,6,0.22,6,0.74,6,0.4,6,1
 67027691,3 bed flat to rent,3098,https://www.zoopla.co.uk/to-rent/details/67027691/,"Mentor House, Oberman Road, Dollis Hill NW10",Mapesbury Sales & Lettings,3,1,10,0,0,0.525,10,0.35,10,0.526,20,0.52,10,1
 67031156,2 bed terraced house to rent,1850,https://www.zoopla.co.uk/to-rent/details/67031156/,"Martham Close, London SE28",Arii Property Group,2,1,6,0,1,0.44,7,0.31,7,0.74,7,0.83,7,1
-67039839,Room to rent,725,https://www.zoopla.co.uk/to-rent/details/67039839/,"Jeremys Green, London N18",Palmer Estates,1,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67039839,Room to rent,725,https://www.zoopla.co.uk/to-rent/details/67039839/,"Jeremys Green, London N18",Palmer Estates,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67039943,2 bed terraced house to rent,2895,https://www.zoopla.co.uk/to-rent/details/67039943/,"St. Georges Road, Richmond TW9","Chase Buchanan, Richmond",2,1,6,0,1,0.52,6,0.36,6,0.83,6,0.49,6,1
 67042845,Room to rent,800,https://www.zoopla.co.uk/to-rent/details/67042845/,"Argyle Road, Harrow HA2",Regions Estates,1,0,1,1,1,0.48,1,0.2,1,0.95,1,0.9,1,1
 67045323,1 bed flat to rent,3354,https://www.zoopla.co.uk/to-rent/details/67045323/,"Kensington Garden Square, Bayswater, London W2",SN Estates London,1,0,4,0,0,0.48,4,0.3,4,0.86,4,0.54,4,1
@@ -1683,7 +1683,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67189182,1 bed flat to rent,3000,https://www.zoopla.co.uk/to-rent/details/67189182/,"Conquest Tower, Blackfriars Circus SE1",Crown Home Buying and Letting,1,1,12,1,2,0.51,12,0.42,12,0.54,12,0.54,12,1
 67192833,2 bed flat to rent,3500,https://www.zoopla.co.uk/to-rent/details/67192833/,"Nottingham Place, London W1U",Hamptons - Paddington Lettings,2,1,11,1,3,0.51,11,0.27,11,0.73,11,0.45,11,1
 67199687,1 bed semi-detached house to rent,3500,https://www.zoopla.co.uk/to-rent/details/67199687/,"Renters Avenue, London NW4",Chase Residential,1,1,12,0,0,0.43,12,0.29,12,0.75,12,0.64,12,1
-67205927,3 bed semi-detached house to rent,2300,https://www.zoopla.co.uk/to-rent/details/67205927/,"Berkeley Avenue, Cranford, Hounslow TW4",Hiltons Estates,3,0,0,,,,,,,,,,,1
+67205927,3 bed semi-detached house to rent,2300,https://www.zoopla.co.uk/to-rent/details/67205927/,"Berkeley Avenue, Cranford, Hounslow TW4",Hiltons Estates,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67214228,3 bed town house to rent,23833,https://www.zoopla.co.uk/to-rent/details/67214228/,"Dorset Mews, London SW1X",Hamptons - Sloane Square Lettings,3,1,28,1,7,0.46321428571428575,28,0.355,28,0.602,56,0.45035714285714284,28,1
 67215129,Room to rent,730,https://www.zoopla.co.uk/to-rent/details/67215129/,"Cherry Crescent, Brentford, UK TW8",Room Club,1,0,4,1,1,0.46,4,0.25,4,0.84,4,0.4,4,1
 67229341,3 bed end terrace house to rent,2100,https://www.zoopla.co.uk/to-rent/details/67229341/,"Keedonwood Road, Bromley BR1",Capital Bromley,3,1,9,1,5,0.492,10,0.45099999999999996,10,0.657,20,0.399,10,1
@@ -1716,7 +1716,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67372289,1 bed flat to rent,3250,https://www.zoopla.co.uk/to-rent/details/67372289/,"Neroli House, 14 Piazza Walk, Goodman Fields, London E1",Property Inside London,1,1,9,1,2,0.501,10,0.296,10,0.537,20,0.488,10,1
 67374506,1 bed flat to rent,1300,https://www.zoopla.co.uk/to-rent/details/67374506/,"Franklin Way, Croydon CR0",Choices - Croydon,1,1,6,1,2,0.45,7,0.376,7,0.69,14,0.305,7,1
 67374517,3 bed terraced house to rent,25783,https://www.zoopla.co.uk/to-rent/details/67374517/,"Donne Place, Chelsea, London SW3",Knight Frank - Knightsbridge Lettings,3,1,24,1,7,0.5195833333333334,24,0.29583333333333334,24,0.584,48,0.45708333333333334,24,1
-67386744,2 bed town house to rent,1850,https://www.zoopla.co.uk/to-rent/details/67386744/,"Green Lane, Ilford IG3",Raddaf Homes,2,0,0,,,,,,,,,,,1
+67386744,2 bed town house to rent,1850,https://www.zoopla.co.uk/to-rent/details/67386744/,"Green Lane, Ilford IG3",Raddaf Homes,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67389884,2 bed terraced house to rent,1800,https://www.zoopla.co.uk/to-rent/details/67389884/,"Derinton Road, London SW17",Savills - Clapham Lettings,2,1,6,1,2,0.5,6,0.29,6,0.74,6,0.29,6,1
 67396483,1 bed terraced house to rent,1900,https://www.zoopla.co.uk/to-rent/details/67396483/,"Agar Grove, Camden NW1",Chestertons - Camden & Primrose Hill,1,1,10,1,2,0.43,11,0.34,11,0.66,11,0.34,11,1
 67396779,Room to rent,1030,https://www.zoopla.co.uk/to-rent/details/67396779/,"Granville Park, London SE13",Room Club,1,0,3,1,1,0.48,3,0.13,3,0.86,3,0.84,3,1
@@ -1775,7 +1775,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67552889,2 bed flat to rent,2650,https://www.zoopla.co.uk/to-rent/details/67552889/,"Bethnal Green Road, City View House E2",Properly,2,1,10,1,3,0.48,11,0.23,11,0.65,11,0.73,11,1
 67555714,2 bed detached house to rent,3250,https://www.zoopla.co.uk/to-rent/details/67555714/,"Arterberry Road, Wimbledon SW20",Robert Holmes,2,1,12,1,3,0.52,12,0.24,12,0.71,12,0.55,12,1
 67556419,Room to rent,750,https://www.zoopla.co.uk/to-rent/details/67556419/,"Waddon Park Avenue, Croydon CR0",RS Estate Agents,1,1,5,1,3,0.47,5,0.25,5,0.55,5,0.34,5,1
-67558405,2 bed flat to rent,3293,https://www.zoopla.co.uk/to-rent/details/67558405/,"Quaker Street, London E1",Black Katz - Islington,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67558405,2 bed flat to rent,3293,https://www.zoopla.co.uk/to-rent/details/67558405/,"Quaker Street, London E1",Black Katz - Islington,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67558456,2 bed detached house to rent,6500,https://www.zoopla.co.uk/to-rent/details/67558456/,"Capella, Kings Cross N1C",Ernest-Brooks International,2,1,26,1,3,0.49,28,0.29,28,0.6,28,0.59,28,1
 67560340,3 bed semi-detached house to rent,2200,https://www.zoopla.co.uk/to-rent/details/67560340/,"Brodie Road, London E4",Churchill Estates - North Chingford,3,1,15,0,1,0.45,15,0.28,15,0.67,15,0.8,15,1
 67561625,2 bed town house to rent,3450,https://www.zoopla.co.uk/to-rent/details/67561625/,"Heath Road, Twickenham TW1",Livestay,2,1,29,1,6,0.5,30,0.28,30,0.71,30,0.59,30,1
@@ -1785,7 +1785,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67562432,Room to rent,800,https://www.zoopla.co.uk/to-rent/details/67562432/,"Fanshawe Crescent, Dagenham RM9",Paramount Estates,1,1,6,1,3,0.49,7,0.34,7,0.77,7,0.83,7,1
 67565068,2 bed mews to rent,3684,https://www.zoopla.co.uk/to-rent/details/67565068/,"Stanhope Mews South, South Kensington, London SW7",Foxtons - South Kensington,2,1,9,1,3,0.53,9,0.23,9,0.83,9,0.83,9,1
 67565903,1 bed flat to rent,2145,https://www.zoopla.co.uk/to-rent/details/67565903/,"Bootmakers Court, Watermark, Limehouse E1",Chase Evans Canary Wharf,1,1,6,1,2,0.49,6,0.2,6,0.67,6,0.52,6,1
-67566190,Room to rent,650,https://www.zoopla.co.uk/to-rent/details/67566190/,"Church Road, Mitcham CR4",RS Estate Agents,1,0,0,,,,,,,,,,,1
+67566190,Room to rent,650,https://www.zoopla.co.uk/to-rent/details/67566190/,"Church Road, Mitcham CR4",RS Estate Agents,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67568569,1 bed flat to rent,2600,https://www.zoopla.co.uk/to-rent/details/67568569/,"Maine Tower, Cassilis Road E14",Regent Letting & Property Management Ltd,1,1,7,1,2,0.524,7,0.256,7,0.715,14,0.619,7,1
 67570108,2 bed flat to rent,3800,https://www.zoopla.co.uk/to-rent/details/67570108/,"Carrara Tower, 1 Bollinder Place, London, Greater London EC1V",Swift Real Estate Agents Ltd,2,1,25,1,4,0.54,26,0.35,26,0.6,26,0.66,26,1
 67571022,Room to rent,1100,https://www.zoopla.co.uk/to-rent/details/67571022/,"Old Oak Road, London W3",Room Club,1,0,3,1,1,0.48,3,0.36,3,0.82,3,0.38,3,1
@@ -1841,7 +1841,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67677796,2 bed mews to rent,4500,https://www.zoopla.co.uk/to-rent/details/67677796/,"Bathurst Mews, Bayswater W2",Chestertons - Hyde Park,2,1,10,1,4,0.47,10,0.21,10,0.67,10,0.49,10,1
 67684994,Room to rent,1000,https://www.zoopla.co.uk/to-rent/details/67684994/,"Roman Road, London E2",Clarke and Lloyds Property Consultants Ltd,1,0,3,1,3,0.59,3,0.62,3,0.77,3,0.85,3,1
 67686419,2 bed shared accommodation to rent,810,https://www.zoopla.co.uk/to-rent/details/67686419/,"Gladstone Park Gardens, London NW2",Room Club,2,0,4,0,1,0.49,4,0.41,4,0.82,4,0.78,4,1
-67687226,1 bed detached house to rent,5000,https://www.zoopla.co.uk/to-rent/details/67687226/,"Edgware Way, Edgware HA8",Varosi Lettings & Estates Ltd,1,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67687226,1 bed detached house to rent,5000,https://www.zoopla.co.uk/to-rent/details/67687226/,"Edgware Way, Edgware HA8",Varosi Lettings & Estates Ltd,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67689265,1 bed flat to rent,1500,https://www.zoopla.co.uk/to-rent/details/67689265/,"Belgrade Road, Hampton TW12",Hamptons - Teddington Lettings,1,1,5,1,1,0.51,5,0.18,5,0.69,5,0.65,5,1
 67689329,2 bed semi-detached house to rent,1900,https://www.zoopla.co.uk/to-rent/details/67689329/,"Russell Road, London E4",Churchill Estates - North Chingford,2,1,13,0,1,0.45,14,0.21,14,0.62,14,0.51,14,1
 67689776,3 bed terraced house to rent,6500,https://www.zoopla.co.uk/to-rent/details/67689776/,"Ripplevale Grove, Islington N1",Chestertons - Islington,3,1,10,0,1,0.46,10,0.4,10,0.77,10,0.71,10,1
@@ -1893,7 +1893,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67721842,1 bed detached house to rent,7501,https://www.zoopla.co.uk/to-rent/details/67721842/,"Elliot Road, London NW4",Eden Madison,1,1,12,1,4,0.52,12,0.27,12,0.77,12,0.54,12,1
 67723289,2 bed semi-detached house to rent,2100,https://www.zoopla.co.uk/to-rent/details/67723289/,"Harefield Road, Uxbridge UB8",Hiltons Estates,2,0,3,0,0,0.45,3,0.55,3,0.73,3,0.86,3,1
 67723505,3 bed detached house to rent,3500,https://www.zoopla.co.uk/to-rent/details/67723505/,"Ridgway, Wimbledon SW19",Fuller Gilbert,3,1,12,0,0,0.41,12,0.25,12,0.75,12,0.68,12,1
-67723837,3 bed end terrace house to rent,2200,https://www.zoopla.co.uk/to-rent/details/67723837/,"Lancing Road, Croydon CR0",Mujifat Ltd,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67723837,3 bed end terrace house to rent,2200,https://www.zoopla.co.uk/to-rent/details/67723837/,"Lancing Road, Croydon CR0",Mujifat Ltd,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67725009,2 bed end terrace house to rent,2150,https://www.zoopla.co.uk/to-rent/details/67725009/,"King Street, East Finchley N2",Jeremy Leaf & Co,2,1,9,0,0,0.5,9,0.35,9,0.61,9,0.65,9,1
 67726026,3 bed detached house to rent,2300,https://www.zoopla.co.uk/to-rent/details/67726026/,"Weymouth Road, Hayes, Greater London UB4",Christopher Nevill,3,1,6,1,3,0.5,7,0.41,7,0.84,7,0.21,7,1
 67727056,3 bed terraced house to rent,5900,https://www.zoopla.co.uk/to-rent/details/67727056/,"Merton Road, Southfields, London SW18",Foxtons - Putney,3,1,7,1,3,0.49,7,0.21,7,0.86,7,0.76,7,1
@@ -1905,7 +1905,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67728251,3 bed terraced house to rent,3600,https://www.zoopla.co.uk/to-rent/details/67728251/,"Galloway Road, London W12",Winkworth - Shepherd's Bush,3,1,11,1,4,0.48,11,0.29,11,0.77,11,0.44,11,1
 67728298,2 bed terraced house to rent,2000,https://www.zoopla.co.uk/to-rent/details/67728298/,"Colindale Avenue, London NW9",Camloc Property,2,0,3,0,0,0.46,3,0.22,3,0.7,3,0.68,3,1
 67728413,3 bed terraced house to rent,2300,https://www.zoopla.co.uk/to-rent/details/67728413/,"Tanners Lane, Barkingside, Ilford IG6",Oakland Estates,3,1,7,0,1,0.45,8,0.2,8,0.76,8,0.42,8,1
-67728443,Room to rent,700,https://www.zoopla.co.uk/to-rent/details/67728443/,"Sibley Grove, London E12",Pure Estates,1,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67728443,Room to rent,700,https://www.zoopla.co.uk/to-rent/details/67728443/,"Sibley Grove, London E12",Pure Estates,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67729965,3 bed terraced house to rent,2395,https://www.zoopla.co.uk/to-rent/details/67729965/,"Station Road, Hampton TW12",Dexters - Hampton,3,1,5,0,2,0.49,5,0.27,5,0.86,5,0.48,5,1
 67730549,2 bed flat to rent,4117,https://www.zoopla.co.uk/to-rent/details/67730549/,"Pier Head, London E1W",Cluttons - Wapping,2,1,8,1,2,0.52,8,0.22,8,0.77,8,0.43,8,1
 67731545,3 bed semi-detached house to rent,2800,https://www.zoopla.co.uk/to-rent/details/67731545/,"Larkshall Road, North Chingford E4",Coultons Estate Agents,3,1,20,1,7,0.5,20,0.29,20,0.79,20,0.6,20,1
@@ -1926,14 +1926,14 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67737369,3 bed semi-detached house to rent,2250,https://www.zoopla.co.uk/to-rent/details/67737369/,"The Fairway, Ruislip HA4",Robert Cooper & Co,3,1,8,1,3,0.47,8,0.52,8,0.77,8,0.43,8,1
 67737616,3 bed terraced house to rent,2100,https://www.zoopla.co.uk/to-rent/details/67737616/,"Tunstall Road, Addiscombe, Croydon CR0",James Alexander,3,1,6,0,1,0.41,7,0.35,7,0.76,7,0.64,7,1
 67737625,3 bed flat to rent,6500,https://www.zoopla.co.uk/to-rent/details/67737625/,"Camlet Way, Barnet EN4",Hawksgrove Estates,3,1,13,0,2,0.5284615384615384,13,0.42,13,0.545,26,0.5784615384615385,13,1
-67737644,3 bed semi-detached house to rent,2075,https://www.zoopla.co.uk/to-rent/details/67737644/,"Bracondale Road, London SE2",The Property Manager,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67737644,3 bed semi-detached house to rent,2075,https://www.zoopla.co.uk/to-rent/details/67737644/,"Bracondale Road, London SE2",The Property Manager,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67737921,3 bed end terrace house to rent,2400,https://www.zoopla.co.uk/to-rent/details/67737921/,"Winchester Road, Edmonton N9",Filey Properties - Edmonton,3,1,14,1,4,0.45,14,0.36,14,0.63,14,0.61,14,1
 67739069,Room to rent,740,https://www.zoopla.co.uk/to-rent/details/67739069/,"Hendale Avenue, London NW4",Room Club,1,0,3,1,2,0.47,4,0.29,4,0.65,4,0.53,4,1
 67739298,2 bed mews to rent,6500,https://www.zoopla.co.uk/to-rent/details/67739298/,"Eccleston Mews, Belgravia, London, London Borough Of Westminster SW1X",Sandersons London,2,1,15,1,5,0.49,15,0.29,15,0.78,15,0.49,15,1
 67739517,3 bed flat to rent,4767,https://www.zoopla.co.uk/to-rent/details/67739517/,"Fitzjohns Avenue, London NW3",Plaza Estates,3,1,16,1,4,0.51,16,0.2,16,0.68,16,0.5,16,1
 67739521,3 bed terraced house to rent,2250,https://www.zoopla.co.uk/to-rent/details/67739521/,"Currey Road, Greenford UB6",Westbrook Estate Agents,3,1,11,0,1,0.42,11,0.27,11,0.83,11,0.8,11,1
 67739724,3 bed terraced house to rent,2850,https://www.zoopla.co.uk/to-rent/details/67739724/,"Telegraph Avenue, London SE10",Home-Made,3,1,8,0,2,0.49,9,0.28,9,0.61,9,0.53,9,1
-67739930,3 bed terraced house to rent,2500,https://www.zoopla.co.uk/to-rent/details/67739930/,"Hurstbourne Gardens, Barking IG11",Frestons,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67739930,3 bed terraced house to rent,2500,https://www.zoopla.co.uk/to-rent/details/67739930/,"Hurstbourne Gardens, Barking IG11",Frestons,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67740680,3 bed terraced house to rent,3200,https://www.zoopla.co.uk/to-rent/details/67740680/,"Teddington Park, Teddington TW11",Jackson-Stops - Teddington,3,1,5,0,2,0.53,5,0.28,5,0.88,5,0.54,5,1
 67740707,1 bed flat to rent,3445,https://www.zoopla.co.uk/to-rent/details/67740707/,"North Wharf Road, London W2",Hamptons - Paddington Lettings,1,1,7,1,1,0.51,7,0.3,7,0.71,7,0.63,7,1
 67741637,2 bed terraced house to rent,6250,https://www.zoopla.co.uk/to-rent/details/67741637/,"Ledbury Road, Westbourne Park W11",Chestertons - Notting Hill,2,1,14,1,5,0.45,14,0.24,14,0.63,14,0.51,14,1
@@ -1949,10 +1949,10 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67748009,2 bed terraced house to rent,1700,https://www.zoopla.co.uk/to-rent/details/67748009/,"Avondale Avenue, London NW2",Daniels - Dollis Hill & Neasden,2,0,4,1,2,0.44,4,0.37,4,0.69,4,0.58,4,1
 67750003,3 bed terraced house to rent,2500,https://www.zoopla.co.uk/to-rent/details/67750003/,"Davidson Road, South Norwood CR0",The Estate Agency,3,1,9,0,2,0.5,9,0.21,9,0.8,9,0.59,9,1
 67750140,Room to rent,850,https://www.zoopla.co.uk/to-rent/details/67750140/,"Bounds Green Road, London N11",Discover Residential,1,1,7,1,4,0.45,7,0.29,7,0.69,7,0.3,7,1
-67750188,3 bed semi-detached house to rent,2275,https://www.zoopla.co.uk/to-rent/details/67750188/,"Harley Road, Harrow HA1",Hinton Residential,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67750188,3 bed semi-detached house to rent,2275,https://www.zoopla.co.uk/to-rent/details/67750188/,"Harley Road, Harrow HA1",Hinton Residential,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67750333,3 bed terraced house to rent,13000,https://www.zoopla.co.uk/to-rent/details/67750333/,"Kensington Park Mews, London W11",Knight Frank - Notting Hill Lettings,3,1,9,0,2,0.51,9,0.23,9,0.66,9,0.66,9,1
 67750782,3 bed terraced house to rent,2400,https://www.zoopla.co.uk/to-rent/details/67750782/,"Birch Close, Brentford TW8",Quilliam Property,3,1,14,0,0,0.42,14,0.27,14,0.69,14,0.87,14,1
-67751013,3 bed semi-detached house to rent,2700,https://www.zoopla.co.uk/to-rent/details/67751013/,"Linkside, London N12",Kyo Service Company,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67751013,3 bed semi-detached house to rent,2700,https://www.zoopla.co.uk/to-rent/details/67751013/,"Linkside, London N12",Kyo Service Company,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67751015,3 bed detached house to rent,2300,https://www.zoopla.co.uk/to-rent/details/67751015/,"Simmons Lane, London E4",Easy Properties London Ltd,3,1,8,1,3,0.47,8,0.33,8,0.74,8,0.67,8,1
 67751095,3 bed terraced house to rent,1900,https://www.zoopla.co.uk/to-rent/details/67751095/,"Robinson Road, Dagenham RM10",Real Move Estates,3,1,7,1,4,0.42,8,0.28,8,0.8,8,0.68,8,1
 67752213,1 bed flat to rent,6067,https://www.zoopla.co.uk/to-rent/details/67752213/,"West Eaton Place, London SW1X",Kinleigh Folkard & Hayward - South Kensington Lettings,1,1,8,1,2,0.49,8,0.42,8,0.71,8,0.45,8,1
@@ -1995,7 +1995,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67772521,1 bed flat to rent,3120,https://www.zoopla.co.uk/to-rent/details/67772521/,"Merchant Square, Paddington W2",Find My Home,1,1,7,1,2,0.54,7,0.26,7,0.48,7,0.51,7,1
 67772608,3 bed semi-detached house to rent,3750,https://www.zoopla.co.uk/to-rent/details/67772608/,"Cambridge Road South, Chiswick Village W4",Chestertons - Chiswick,3,1,11,0,0,0.49,11,0.29,11,0.76,11,0.57,11,1
 67772942,1 bed flat to rent,2000,https://www.zoopla.co.uk/to-rent/details/67772942/,"Cassilis Road, London E14",Hamptons - Canary Wharf Lettings,1,1,8,1,3,0.46,9,0.24,9,0.6,9,0.38,9,1
-67773497,3 bed semi-detached house to rent,2600,https://www.zoopla.co.uk/to-rent/details/67773497/,"Kynance Gardens, Stanmore HA7",Chase Macmillan,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67773497,3 bed semi-detached house to rent,2600,https://www.zoopla.co.uk/to-rent/details/67773497/,"Kynance Gardens, Stanmore HA7",Chase Macmillan,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67774005,3 bed terraced house to rent,4850,https://www.zoopla.co.uk/to-rent/details/67774005/,"Princes Gate Mews, London SW7",London Executive,3,1,8,1,3,0.52,9,0.33,9,0.78,9,0.61,9,1
 67774246,3 bed semi-detached house to rent,5900,https://www.zoopla.co.uk/to-rent/details/67774246/,"Elsley Road, London SW11",John D Wood & Co. - Short Lets,3,1,8,1,3,0.45,8,0.17,8,0.8,8,0.44,8,1
 67774670,2 bed semi-detached house to rent,2000,https://www.zoopla.co.uk/to-rent/details/67774670/,"St. James Road, Carshalton SM5",Butlerâs,2,1,5,0,1,0.48,6,0.5,6,0.79,6,0.36,6,1
@@ -2003,7 +2003,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67774765,3 bed terraced house to rent,2500,https://www.zoopla.co.uk/to-rent/details/67774765/,"Hamilton Way, Finchley N3",Simon Clarke Letting Agents,3,1,8,0,2,0.52,8,0.37,8,0.85,8,0.18,8,1
 67775099,3 bed terraced house to rent,2200,https://www.zoopla.co.uk/to-rent/details/67775099/,"Brompton Close, Hounslow TW4",Open House Estate Agents Brentford,3,1,8,1,3,0.44,9,0.55,9,0.71,9,0.22,9,1
 67775143,1 bed flat to rent,2968,https://www.zoopla.co.uk/to-rent/details/67775143/,"Hawksbury Heights, Park &amp; Sayer, Elephant And Castle SE17",Chase Evans Elephant & Castle,1,1,8,1,2,0.53,8,0.39,8,0.57,8,0.47,8,1
-67775300,2 bed end terrace house to rent,1900,https://www.zoopla.co.uk/to-rent/details/67775300/,"Hughan Road, London E15",Hawks,2,0,0,,,,,,,,,,,1
+67775300,2 bed end terrace house to rent,1900,https://www.zoopla.co.uk/to-rent/details/67775300/,"Hughan Road, London E15",Hawks,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67775512,3 bed shared accommodation to rent,2800,https://www.zoopla.co.uk/to-rent/details/67775512/,"Cissbury Ring North, London N12",Kyo Service Company,3,1,6,0,1,0.44,6,0.24,6,0.56,6,0.79,6,1
 67775795,3 bed semi-detached house to rent,2400,https://www.zoopla.co.uk/to-rent/details/67775795/,"Hall Road, Isleworth TW7",Woodland,3,1,7,0,2,0.42,7,0.26,7,0.82,7,0.44,7,1
 67776031,3 bed semi-detached house to rent,2750,https://www.zoopla.co.uk/to-rent/details/67776031/,"Arundel Close, London SW11",OpenRent,3,0,4,0,0,0.45,4,0.43,4,0.56,4,0.48,4,1
@@ -2027,7 +2027,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67780841,3 bed terraced house to rent,2300,https://www.zoopla.co.uk/to-rent/details/67780841/,"Peacock Close, Dagenham RM8",Shan Properties (UK) Ltd,3,1,14,1,5,0.48,15,0.35,15,0.64,15,0.57,15,1
 67780914,3 bed terraced house to rent,2800,https://www.zoopla.co.uk/to-rent/details/67780914/,"Ainslie Wood Gardens, London E4",Ideal Letting Homes Ltd,3,1,7,1,3,0.5,7,0.44,7,0.8,7,0.65,7,1
 67781044,3 bed terraced house to rent,3796,https://www.zoopla.co.uk/to-rent/details/67781044/,"Catherine Grove, London SE10",Dexters Greenwich,3,1,7,0,2,0.5,7,0.2,7,0.83,7,0.78,7,1
-67781072,3 bed detached house to rent,2400,https://www.zoopla.co.uk/to-rent/details/67781072/,"Greenway, Dagenham RM8",Skylord estates,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67781072,3 bed detached house to rent,2400,https://www.zoopla.co.uk/to-rent/details/67781072/,"Greenway, Dagenham RM8",Skylord estates,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67781109,3 bed detached house to rent,2400,https://www.zoopla.co.uk/to-rent/details/67781109/,"Fieldway, Becontree, Dagenham RM8",Skylord estates,3,1,8,1,3,0.45,8,0.33,8,0.78,8,0.5,8,1
 67781459,Room to rent,1000,https://www.zoopla.co.uk/to-rent/details/67781459/,"Island Gardens, London E14",99Home Ltd,1,1,10,1,3,0.53,10,0.55,10,0.65,10,0.61,10,1
 67781497,3 bed terraced house to rent,2700,https://www.zoopla.co.uk/to-rent/details/67781497/,"Ashville Road, Leytonstone E11",Stonebridge,3,1,7,0,2,0.38,8,0.31,8,0.72,8,0.48,8,1
@@ -2082,8 +2082,8 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67800388,1 bed flat to rent,1450,https://www.zoopla.co.uk/to-rent/details/67800388/,"Rabournmead Drive, Northolt UB5",Sanders and Co,1,1,5,0,0,0.48,5,0.4,5,0.51,5,0.8,5,1
 67800676,3 bed terraced house to rent,2750,https://www.zoopla.co.uk/to-rent/details/67800676/,"Offa's Mead, Lindisfarne Way, London E9",Keatons - Hackney (Mare Street),3,1,7,0,2,0.41,7,0.36,7,0.77,7,0.83,7,1
 67801119,Room to rent,849,https://www.zoopla.co.uk/to-rent/details/67801119/,"Seventh Avenue, London E12",City View Properties,1,1,9,1,4,0.47,9,0.31,9,0.74,9,0.73,9,1
-67801754,3 bed terraced house to rent,3300,https://www.zoopla.co.uk/to-rent/details/67801754/,"Greville Road, London E17",Trotters Estates,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
-67802196,3 bed semi-detached house to rent,2650,https://www.zoopla.co.uk/to-rent/details/67802196/,"Carlyle Avenue, Southall UB1",Wynn Estates,3,0,0,,,,,,,,,,,1
+67801754,3 bed terraced house to rent,3300,https://www.zoopla.co.uk/to-rent/details/67801754/,"Greville Road, London E17",Trotters Estates,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+67802196,3 bed semi-detached house to rent,2650,https://www.zoopla.co.uk/to-rent/details/67802196/,"Carlyle Avenue, Southall UB1",Wynn Estates,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67802891,3 bed shared accommodation to rent,3300,https://www.zoopla.co.uk/to-rent/details/67802891/,"Laurie Grove, London SE14",OpenRent,3,1,12,1,3,0.49,12,0.46,12,0.74,12,0.41,12,1
 67803048,2 bed detached house to rent,2495,https://www.zoopla.co.uk/to-rent/details/67803048/,"Gloucester Road, Hampton TW12",Tiffin Estate Agents Ltd,2,1,5,1,2,0.4,5,0.14,5,0.84,5,0.28,5,1
 67803853,3 bed end terrace house to rent,1750,https://www.zoopla.co.uk/to-rent/details/67803853/,"Basildene Road, Hounslow TW4",Stamfords Ltd,3,1,6,0,0,0.48,7,0.26,7,0.66,7,0.63,7,1
@@ -2120,7 +2120,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67815137,3 bed terraced house to rent,2350,https://www.zoopla.co.uk/to-rent/details/67815137/,"Bouverie Road, Harrow HA1",Brian Cox - North Harrow,3,1,10,0,0,0.46,10,0.26,10,0.76,10,0.62,10,1
 67815413,3 bed semi-detached house to rent,8667,https://www.zoopla.co.uk/to-rent/details/67815413/,"Park Village East, Regent's Park NW1",Maskells,3,1,12,0,2,0.5,12,0.29,12,0.77,12,0.54,12,1
 67815423,3 bed town house to rent,6067,https://www.zoopla.co.uk/to-rent/details/67815423/,"Orchard Place, London E14",Knight Frank - Canary Wharf Lettings,3,1,14,1,4,0.49,14,0.4,14,0.59,14,0.6,14,1
-67815545,3 bed semi-detached house to rent,2500,https://www.zoopla.co.uk/to-rent/details/67815545/,"Worton Gardens, Isleworth TW7",OpenRent,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67815545,3 bed semi-detached house to rent,2500,https://www.zoopla.co.uk/to-rent/details/67815545/,"Worton Gardens, Isleworth TW7",OpenRent,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67815773,Room to rent,850,https://www.zoopla.co.uk/to-rent/details/67815773/,"Lewisham High Street, London SE13",RS Estate Agents,1,0,4,0,0,0.65,4,0.34,4,0.33,4,0.45,4,1
 67816792,Room to rent,600,https://www.zoopla.co.uk/to-rent/details/67816792/,"Church Road, London E10",Pure Estates,1,0,2,1,1,0.43,2,0.2,2,0.37,2,0.84,2,1
 67816951,3 bed semi-detached house to rent,2350,https://www.zoopla.co.uk/to-rent/details/67816951/,"Courtenay Avenue, Harrow HA3",Oyster Properties,3,1,12,1,6,0.54,12,0.57,12,0.74,12,0.81,12,1
@@ -2162,31 +2162,31 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67828092,3 bed terraced house to rent,2250,https://www.zoopla.co.uk/to-rent/details/67828092/,"Bignell Road, Woolwich, London SE18",OpenRent,3,1,14,1,5,0.44,14,0.41,14,0.44,14,0.33,14,1
 67828236,3 bed terraced house to rent,2100,https://www.zoopla.co.uk/to-rent/details/67828236/,"Lakedale Rd, London SE18",OpenRent,3,1,13,0,2,0.46,13,0.39,13,0.73,13,0.34,13,1
 67828383,1 bed terraced house to rent,1550,https://www.zoopla.co.uk/to-rent/details/67828383/,"Haldane Road, London SE28",OpenRent,1,1,17,1,8,0.51,18,0.28,18,0.56,18,0.64,18,1
-67828384,3 bed end terrace house to rent,2175,https://www.zoopla.co.uk/to-rent/details/67828384/,"Delisle Road, London SE28",OpenRent,3,0,0,,,,,,,,,,,1
+67828384,3 bed end terrace house to rent,2175,https://www.zoopla.co.uk/to-rent/details/67828384/,"Delisle Road, London SE28",OpenRent,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67828434,3 bed semi-detached house to rent,2500,https://www.zoopla.co.uk/to-rent/details/67828434/,"Mottingham Gardens, London SE9",OpenRent,3,1,11,0,2,0.47,13,0.38,13,0.79,13,0.6,13,1
-67828948,3 bed end terrace house to rent,3100,https://www.zoopla.co.uk/to-rent/details/67828948/,"Dupont Road, London SW20",OpenRent,3,0,0,,,,,,,,,,,1
+67828948,3 bed end terrace house to rent,3100,https://www.zoopla.co.uk/to-rent/details/67828948/,"Dupont Road, London SW20",OpenRent,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67829010,3 bed terraced house to rent,3750,https://www.zoopla.co.uk/to-rent/details/67829010/,"Takhar Mews, London SW11",OpenRent,3,1,15,1,5,0.52,15,0.54,15,0.67,15,0.49,15,1
-67829046,3 bed terraced house to rent,3850,https://www.zoopla.co.uk/to-rent/details/67829046/,"East Sheen, London SW14",OpenRent,3,0,0,,,,,,,,,,,1
-67829269,1 bed terraced house to rent,1900,https://www.zoopla.co.uk/to-rent/details/67829269/,"Amber Grove, London NW2",OpenRent,1,0,0,,,,,,,,,,,1
+67829046,3 bed terraced house to rent,3850,https://www.zoopla.co.uk/to-rent/details/67829046/,"East Sheen, London SW14",OpenRent,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+67829269,1 bed terraced house to rent,1900,https://www.zoopla.co.uk/to-rent/details/67829269/,"Amber Grove, London NW2",OpenRent,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67829459,3 bed semi-detached house to rent,4500,https://www.zoopla.co.uk/to-rent/details/67829459/,"Forest Hill Road, London SE22",OpenRent,3,1,8,0,2,0.47,8,0.42,8,0.84,8,0.49,8,1
-67829728,2 bed semi-detached house to rent,4300,https://www.zoopla.co.uk/to-rent/details/67829728/,"Hampton Tower, London E14",OpenRent,2,0,0,,,,,,,,,,,1
+67829728,2 bed semi-detached house to rent,4300,https://www.zoopla.co.uk/to-rent/details/67829728/,"Hampton Tower, London E14",OpenRent,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67830315,3 bed terraced house to rent,3400,https://www.zoopla.co.uk/to-rent/details/67830315/,"Walworth, Walworth SE17",OpenRent,3,1,10,1,4,0.46,10,0.32,10,0.81,10,0.47,10,1
-67830328,3 bed terraced house to rent,2300,https://www.zoopla.co.uk/to-rent/details/67830328/,"Nightingale Way, London E6",OpenRent,3,0,0,,,,,,,,,,,1
-67830572,1 bed semi-detached house to rent,1250,https://www.zoopla.co.uk/to-rent/details/67830572/,"London, London HA3",OpenRent,1,0,0,,,,,,,,,,,1
+67830328,3 bed terraced house to rent,2300,https://www.zoopla.co.uk/to-rent/details/67830328/,"Nightingale Way, London E6",OpenRent,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+67830572,1 bed semi-detached house to rent,1250,https://www.zoopla.co.uk/to-rent/details/67830572/,"London, London HA3",OpenRent,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67830624,3 bed terraced house to rent,3000,https://www.zoopla.co.uk/to-rent/details/67830624/,"Brendon Road, Dagenham RM8",OpenRent,3,1,17,1,6,0.5,21,0.62,21,0.79,21,0.38,21,1
 67830742,3 bed terraced house to rent,2000,https://www.zoopla.co.uk/to-rent/details/67830742/,"Brock Road, London E13",OpenRent,3,1,14,1,8,0.47,15,0.47,15,0.65,15,0.53,15,1
 67830816,3 bed detached house to rent,2690,https://www.zoopla.co.uk/to-rent/details/67830816/,"Talman Grove, Stanmore HA7",OpenRent,3,1,21,1,4,0.4576190476190476,21,0.4176190476190476,21,0.743,42,0.5933333333333333,21,1
-67830824,3 bed semi-detached house to rent,3000,https://www.zoopla.co.uk/to-rent/details/67830824/,"Colne Road, Twickenham TW2",OpenRent,3,0,0,,,,,,,,,,,1
-67831620,3 bed terraced house to rent,2600,https://www.zoopla.co.uk/to-rent/details/67831620/,"Oakwood Avenue, Mitcham CR4",OpenRent,3,0,0,,,,,,,,,,,1
+67830824,3 bed semi-detached house to rent,3000,https://www.zoopla.co.uk/to-rent/details/67830824/,"Colne Road, Twickenham TW2",OpenRent,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+67831620,3 bed terraced house to rent,2600,https://www.zoopla.co.uk/to-rent/details/67831620/,"Oakwood Avenue, Mitcham CR4",OpenRent,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67831933,3 bed semi-detached house to rent,2575,https://www.zoopla.co.uk/to-rent/details/67831933/,"Balaclava Road, Surbiton KT6",OpenRent,3,1,11,0,2,0.49,11,0.39,11,0.78,11,0.65,11,1
 67832156,3 bed semi-detached house to rent,3100,https://www.zoopla.co.uk/to-rent/details/67832156/,"Abbey Road, Abbeywood DA17",OpenRent,3,1,12,1,3,0.51,12,0.42,12,0.81,12,0.63,12,1
 67832217,3 bed semi-detached house to rent,2200,https://www.zoopla.co.uk/to-rent/details/67832217/,"Holburne Road, London SE3",OpenRent,3,1,11,1,4,0.49,11,0.54,11,0.7,11,0.31,11,1
 67832241,3 bed terraced house to rent,5500,https://www.zoopla.co.uk/to-rent/details/67832241/,"Batchelor Street, London N1",OpenRent,3,0,1,0,0,0.48,1,0.26,1,0.88,1,0.41,1,1
-67832254,2 bed detached house to rent,2250,https://www.zoopla.co.uk/to-rent/details/67832254/,"Mutton Lane, Potters Bar EN6",OpenRent,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67832254,2 bed detached house to rent,2250,https://www.zoopla.co.uk/to-rent/details/67832254/,"Mutton Lane, Potters Bar EN6",OpenRent,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67832313,3 bed terraced house to rent,3163,https://www.zoopla.co.uk/to-rent/details/67832313/,"Townsend Road, Kidbrooke Village, Kidbrooke SE3",Chase Evans Greenwich,3,1,8,1,3,0.53,8,0.27,8,0.61,8,0.43,8,1
 67832334,2 bed terraced house to rent,2500,https://www.zoopla.co.uk/to-rent/details/67832334/,"Sycamore Close, Barnet EN4",OpenRent,2,1,13,1,2,0.48,13,0.29,13,0.62,13,0.48,13,1
 67832569,3 bed detached house to rent,2600,https://www.zoopla.co.uk/to-rent/details/67832569/,"Princes Road, London W13",OpenRent,3,1,8,1,4,0.48,8,0.3,8,0.72,8,0.43,8,1
-67833072,3 bed semi-detached house to rent,6650,https://www.zoopla.co.uk/to-rent/details/67833072/,"Waterloo Place, Richmond TW9",OpenRent,3,0,0,,,,,,,,,,,1
+67833072,3 bed semi-detached house to rent,6650,https://www.zoopla.co.uk/to-rent/details/67833072/,"Waterloo Place, Richmond TW9",OpenRent,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67833074,3 bed terraced house to rent,6000,https://www.zoopla.co.uk/to-rent/details/67833074/,"Havelock Road, London SW19",OpenRent,3,1,25,0,0,0.48,25,0.43,25,0.73,25,0.53,25,1
 67833100,3 bed semi-detached house to rent,2600,https://www.zoopla.co.uk/to-rent/details/67833100/,"Lansdowne Road, Croydon CR0",OpenRent,3,1,9,0,1,0.47,10,0.44,10,0.54,10,0.42,10,1
 67833472,3 bed end terrace house to rent,2310,https://www.zoopla.co.uk/to-rent/details/67833472/,"Harrier Mews, London SE28",OpenRent,3,1,13,0,1,0.42,13,0.42,13,0.43,13,0.47,13,1
@@ -2198,7 +2198,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67834939,3 bed semi-detached house to rent,2400,https://www.zoopla.co.uk/to-rent/details/67834939/,"Balmoral Drive, Hayes UB4",Wynn Estates,3,1,7,1,3,0.43,8,0.56,8,0.74,8,0.39,8,1
 67835141,3 bed flat to rent,4350,https://www.zoopla.co.uk/to-rent/details/67835141/,"Primrose Gardens, London NW3",Kinleigh Folkard & Hayward - Belsize Park Lettings,3,1,10,0,0,0.44,10,0.39,10,0.72,10,0.81,10,1
 67835715,3 bed semi-detached house to rent,2250,https://www.zoopla.co.uk/to-rent/details/67835715/,"Sweets Way, Whetstone N20",Simon Clarke Letting Agents,3,1,9,1,3,0.51,9,0.34,9,0.86,9,0.4,9,1
-67835876,2 bed terraced house to rent,1800,https://www.zoopla.co.uk/to-rent/details/67835876/,"Halefield Road, Tottenham, London N17",Knights Residential,2,0,0,,,,,,,,,,,1
+67835876,2 bed terraced house to rent,1800,https://www.zoopla.co.uk/to-rent/details/67835876/,"Halefield Road, Tottenham, London N17",Knights Residential,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67835921,2 bed semi-detached house to rent,1700,https://www.zoopla.co.uk/to-rent/details/67835921/,"Jarvis Road, South Croydon CR2",John Dallas,2,1,7,1,2,0.45,7,0.19,7,0.87,7,0.61,7,1
 67836219,3 bed end terrace house to rent,1950,https://www.zoopla.co.uk/to-rent/details/67836219/,"Tavistock Grove, Croydon, Surrey CR0",Martin & Co Croydon,3,1,9,0,2,0.48,9,0.25,9,0.67,9,0.76,9,1
 67836302,3 bed end terrace house to rent,2650,https://www.zoopla.co.uk/to-rent/details/67836302/,"Millmark Grove, London SE14",Winkworth - New Cross,3,1,7,0,2,0.45,8,0.34,8,0.81,8,0.62,8,1
@@ -2241,7 +2241,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67848989,1 bed flat to rent,1900,https://www.zoopla.co.uk/to-rent/details/67848989/,"Telcon Way, Greenwich SE10",Res Estates,1,1,7,1,2,0.5,7,0.35,7,0.66,7,0.61,7,1
 67849109,2 bed terraced house to rent,2600,https://www.zoopla.co.uk/to-rent/details/67849109/,"Wycliffe Road, London SW11",Urban Lettings,2,1,9,1,2,0.46,9,0.21,9,0.7,9,0.38,9,1
 67849345,3 bed semi-detached house to rent,2300,https://www.zoopla.co.uk/to-rent/details/67849345/,"Byron Gardens, Sutton SM1",Hunters - Carshalton,3,1,12,0,2,0.49,12,0.24,12,0.87,12,0.46,12,1
-67849443,3 bed semi-detached house to rent,2200,https://www.zoopla.co.uk/to-rent/details/67849443/,"Fontayne Avenue, Romford RM1",Your Move - Romford,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67849443,3 bed semi-detached house to rent,2200,https://www.zoopla.co.uk/to-rent/details/67849443/,"Fontayne Avenue, Romford RM1",Your Move - Romford,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67849595,Room to rent,1125,https://www.zoopla.co.uk/to-rent/details/67849595/,"Western Avenue, London W3",Rentd,1,1,6,1,2,0.44,6,0.19,6,0.83,6,0.61,6,1
 67849829,3 bed terraced house to rent,2250,https://www.zoopla.co.uk/to-rent/details/67849829/,"Bromhedge, Mottingham SE9",Cockburn Estate Agents,3,1,14,1,3,0.47,14,0.38,14,0.75,14,0.58,14,1
 67850565,2 bed terraced house to rent,3000,https://www.zoopla.co.uk/to-rent/details/67850565/,"Atalanta Street, Bishops Park SW6",Chestertons - Fulham Road,2,1,7,1,2,0.5,7,0.33,7,0.86,7,0.43,7,1
@@ -2249,7 +2249,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67850908,3 bed terraced house to rent,2500,https://www.zoopla.co.uk/to-rent/details/67850908/,"Meadow Close, Ryans Park, London SW20",Crown Lets 4U,3,1,12,0,1,0.46,12,0.51,12,0.8,12,0.77,12,1
 67851334,3 bed terraced house to rent,1950,https://www.zoopla.co.uk/to-rent/details/67851334/,"Heritage Close, Uxbridge, Greater London UB8",Christopher Nevill,3,1,5,1,3,0.48,5,0.23,5,0.41,5,0.39,5,1
 67851382,2 bed terraced house to rent,1875,https://www.zoopla.co.uk/to-rent/details/67851382/,"Umfreville Road, Harringay Ladder N4",Capital Homes,2,1,8,1,4,0.47,8,0.28,8,0.66,8,0.8,8,1
-67851600,3 bed terraced house to rent,4450,https://www.zoopla.co.uk/to-rent/details/67851600/,"Russell Road, London W14",Broadway & West,3,0,0,,,,,,,,,,,1
+67851600,3 bed terraced house to rent,4450,https://www.zoopla.co.uk/to-rent/details/67851600/,"Russell Road, London W14",Broadway & West,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67851644,3 bed terraced house to rent,2950,https://www.zoopla.co.uk/to-rent/details/67851644/,"Southey Mews, Royal Docks, London E16",Foxtons - Canary Wharf,3,1,11,1,5,0.44,11,0.28,11,0.76,11,0.59,11,1
 67851647,3 bed terraced house to rent,3600,https://www.zoopla.co.uk/to-rent/details/67851647/,"Southey Mews, Royal Docks, London E16",Foxtons - Canary Wharf,3,1,11,1,5,0.44,11,0.28,11,0.76,11,0.59,11,1
 67851827,3 bed semi-detached house to rent,2350,https://www.zoopla.co.uk/to-rent/details/67851827/,"Phelps Way, Hayes UB3",Shaws of London,3,0,4,1,3,0.45,5,0.22,5,0.84,5,0.26,5,1
@@ -2303,7 +2303,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67863994,3 bed semi-detached house to rent,2200,https://www.zoopla.co.uk/to-rent/details/67863994/,"Chessington Road, Epsom, Surrey. KT19",Nicholls Residential,3,1,9,1,5,0.55,11,0.56,11,0.82,11,0.42,11,1
 67864991,2 bed terraced house to rent,2200,https://www.zoopla.co.uk/to-rent/details/67864991/,"Woburn Close, London SW19",Brinkley's Estate Agents,2,1,8,1,2,0.5,8,0.57,8,0.47,8,0.42,8,1
 67865010,1 bed terraced house to rent,2250,https://www.zoopla.co.uk/to-rent/details/67865010/,"Worfield Street, Battersea SW11",Chestertons - Battersea Park,1,0,4,1,1,0.49,5,0.27,5,0.87,5,0.28,5,1
-67866047,2 bed terraced house to rent,1850,https://www.zoopla.co.uk/to-rent/details/67866047/,"Hoe Lane, Enfield EN1",OS Homes,2,0,0,,,,,,,,,,,1
+67866047,2 bed terraced house to rent,1850,https://www.zoopla.co.uk/to-rent/details/67866047/,"Hoe Lane, Enfield EN1",OS Homes,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67867146,3 bed terraced house to rent,2200,https://www.zoopla.co.uk/to-rent/details/67867146/,"Brookside, Uxbridge UB10",Blue Estate Agents,3,1,8,1,4,0.35,9,0.39,9,0.66,9,0.44,9,1
 67867183,2 bed flat to rent,1650,https://www.zoopla.co.uk/to-rent/details/67867183/,"Ennersdale Road, London SE13",1st Avenue,2,1,8,0,1,0.51,8,0.3,8,0.71,8,0.32,8,1
 67867408,3 bed semi-detached house to rent,2450,https://www.zoopla.co.uk/to-rent/details/67867408/,"Britannia Road, Surbiton KT5",OpenRent,3,1,15,1,6,0.51,15,0.37,15,0.75,15,0.51,15,1
@@ -2340,7 +2340,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67871544,3 bed end terrace house to rent,12913,https://www.zoopla.co.uk/to-rent/details/67871544/,"Princes Gate Mews, London SW7",JLL - Knightsbridge,3,1,13,0,2,0.53,14,0.29,14,0.63,14,0.49,14,1
 67871736,3 bed flat to rent,8995,https://www.zoopla.co.uk/to-rent/details/67871736/,"Cascade Way, London W12",JLL - Kensington,3,1,20,1,8,0.59,20,0.41,20,0.69,20,0.47,20,1
 67871949,3 bed semi-detached house to rent,2400,https://www.zoopla.co.uk/to-rent/details/67871949/,"Hayes Wood Avenue, Hayes, Bromley, Kent BR2",EweMove Sales & Lettings - Hayes & West Wickham,3,1,9,1,3,0.47,9,0.23,9,0.85,9,0.56,9,1
-67871980,3 bed flat to rent,2500,https://www.zoopla.co.uk/to-rent/details/67871980/,"Sunnydene Gardens, Wembley HA0",Dream Homes,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67871980,3 bed flat to rent,2500,https://www.zoopla.co.uk/to-rent/details/67871980/,"Sunnydene Gardens, Wembley HA0",Dream Homes,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67872031,3 bed terraced house to rent,2950,https://www.zoopla.co.uk/to-rent/details/67872031/,"Brailsford Road, London SW2",S Stone Management,3,1,9,1,3,0.52,9,0.39,9,0.78,9,0.36,9,1
 67872147,3 bed terraced house to rent,2200,https://www.zoopla.co.uk/to-rent/details/67872147/,"Reidhaven Road, London SE18",Your Move - Abbey Wood,3,1,11,0,0,0.45,11,0.67,11,0.7,11,0.68,11,1
 67872237,3 bed flat to rent,3000,https://www.zoopla.co.uk/to-rent/details/67872237/,"Caldon Boulevard, Wembley HA0",Benham and Reeves - Wembley,3,1,15,1,7,0.57,15,0.48,15,0.61,15,0.57,15,1
@@ -2380,7 +2380,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67875300,3 bed flat to rent,2990,https://www.zoopla.co.uk/to-rent/details/67875300/,"St. David's Square, Isle Of Dogs, Docklands E14",Chase Evans Docklands,3,1,7,1,4,0.49,8,0.23,8,0.62,8,0.75,8,1
 67875344,3 bed flat to rent,3300,https://www.zoopla.co.uk/to-rent/details/67875344/,"Western Gateway, Royal Victoria E16",Cosmopolitan Homes,3,0,4,0,1,0.47,4,0.36,4,0.41,4,0.38,4,1
 67875374,3 bed flat to rent,5100,https://www.zoopla.co.uk/to-rent/details/67875374/,"Flat, Cunningham Court, Maida Vale, London W9",City Relay,3,1,23,1,6,0.54,23,0.44,23,0.7,23,0.55,23,1
-67875431,2 bed terraced house to rent,1700,https://www.zoopla.co.uk/to-rent/details/67875431/,"Harcourt Avenue, Sidcup, Kent DA15",Capital Sidcup,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67875431,2 bed terraced house to rent,1700,https://www.zoopla.co.uk/to-rent/details/67875431/,"Harcourt Avenue, Sidcup, Kent DA15",Capital Sidcup,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67875493,3 bed semi-detached house to rent,2300,https://www.zoopla.co.uk/to-rent/details/67875493/,"Stradbroke Grove, Barkingside, Clayhall IG5, Ig6, Ig4, Ig3, Ig2, Ig1,",Vibrant Estates,3,1,9,0,1,0.45,10,0.27,10,0.75,10,0.3,10,1
 67875539,3 bed shared accommodation to rent,2950,https://www.zoopla.co.uk/to-rent/details/67875539/,"Umfreville Road, London N4",OpenRent,3,1,7,0,2,0.49000000000000005,7,0.5028571428571429,7,0.786,14,0.5285714285714286,7,1
 67875627,3 bed flat to rent,2400,https://www.zoopla.co.uk/to-rent/details/67875627/,"Burmester House, London SW17",OpenRent,3,1,16,1,5,0.42,16,0.45,16,0.64,16,0.59,16,1
@@ -2395,7 +2395,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67876481,3 bed terraced house to rent,2500,https://www.zoopla.co.uk/to-rent/details/67876481/,"Ashburton Avenue, Ilford IG3",Home Connect Estates,3,1,10,0,0,0.44,10,0.34,10,0.79,10,0.83,10,1
 67876651,3 bed terraced house to rent,3750,https://www.zoopla.co.uk/to-rent/details/67876651/,"Prospect Road, London NW2",OpenRent,3,1,6,0,0,0.49,6,0.51,6,0.54,6,0.44,6,1
 67877033,3 bed semi-detached house to rent,2300,https://www.zoopla.co.uk/to-rent/details/67877033/,"London, London SW19",OpenRent,3,0,1,0,0,0.45,2,0.27,2,0.45,2,0.47,2,1
-67877035,3 bed flat to rent,2700,https://www.zoopla.co.uk/to-rent/details/67877035/,"The Granary, London SE8",OpenRent,3,0,0,,,,,,,,,,,1
+67877035,3 bed flat to rent,2700,https://www.zoopla.co.uk/to-rent/details/67877035/,"The Granary, London SE8",OpenRent,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67877366,3 bed semi-detached house to rent,2200,https://www.zoopla.co.uk/to-rent/details/67877366/,"Palmerston Road, London E17",Victor Michael,3,1,9,0,2,0.38,9,0.25,9,0.61,9,0.51,9,1
 67877406,2 bed terraced house to rent,2250,https://www.zoopla.co.uk/to-rent/details/67877406/,"Connaught Avenue, Enfield EN1",C&N Estate Agents Ltd,2,1,13,1,3,0.47,13,0.35,13,0.66,13,0.72,13,1
 67877941,3 bed semi-detached house to rent,2500,https://www.zoopla.co.uk/to-rent/details/67877941/,"Pelton Avenue, Sutton, Surrey SM2",Goodfellows - Carshalton Beeches,3,1,8,1,3,0.51,9,0.32,9,0.84,9,0.35,9,1
@@ -2424,7 +2424,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67879722,3 bed semi-detached house to rent,2295,https://www.zoopla.co.uk/to-rent/details/67879722/,"Waite Davies Road, London SE12",Trevlyn Properties Ltd,3,1,6,0,1,0.45,6,0.29,6,0.63,6,0.67,6,1
 67881933,3 bed maisonette to rent,2300,https://www.zoopla.co.uk/to-rent/details/67881933/,"Maybank Road, London E18",Bairstow Eves - Woodford Green Lettings,3,1,7,0,2,0.36,7,0.27,7,0.78,7,0.53,7,1
 67882035,3 bed terraced house to rent,2800,https://www.zoopla.co.uk/to-rent/details/67882035/,"Jersey Road, Hanwell, London W7",Tuffin & Wren,3,1,12,0,1,0.44,13,0.44,13,0.69,13,0.59,13,1
-67882068,3 bed flat to rent,4600,https://www.zoopla.co.uk/to-rent/details/67882068/,"London, London NW1",OpenRent,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67882068,3 bed flat to rent,4600,https://www.zoopla.co.uk/to-rent/details/67882068/,"London, London NW1",OpenRent,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67882332,3 bed terraced house to rent,2600,https://www.zoopla.co.uk/to-rent/details/67882332/,"Lewis Gardens, East Finchley N2",Jeremy Leaf & Co,3,1,8,0,2,0.48,8,0.26,8,0.87,8,0.56,8,1
 67882397,3 bed terraced house to rent,1800,https://www.zoopla.co.uk/to-rent/details/67882397/,"Heynes Road, Becontree, Dagenham RM8",Keys & Lee,3,1,11,1,3,0.54,11,0.52,11,0.75,11,0.51,11,1
 67882662,3 bed flat to rent,6980,https://www.zoopla.co.uk/to-rent/details/67882662/,"Marquis House, 45 Beadon Road, London W6",Swift Real Estate Agents Ltd,3,1,21,1,4,0.52,21,0.27,21,0.65,21,0.57,21,1
@@ -2437,10 +2437,10 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67883288,3 bed end terrace house to rent,2950,https://www.zoopla.co.uk/to-rent/details/67883288/,"Blenheim Gardens, Kingston Upon Thames KT2",OpenRent,3,1,9,1,3,0.503,10,0.369,10,0.664,20,0.39699999999999996,10,1
 67883300,3 bed flat to rent,3100,https://www.zoopla.co.uk/to-rent/details/67883300/,"Endymion Road, Brixton SW2",Alvares Estates,3,1,9,1,5,0.52,10,0.2,10,0.79,10,0.41,10,1
 67883379,3 bed terraced house to rent,8333,https://www.zoopla.co.uk/to-rent/details/67883379/,"Smith Terrace, London SW3",OpenRent,3,1,13,1,5,0.49,13,0.44,13,0.58,13,0.45,13,1
-67885378,2 bed end terrace house to rent,3900,https://www.zoopla.co.uk/to-rent/details/67885378/,"Dalyell Road, London SW9",Urban Sales and Lettings,2,0,0,,,,,,,,,,,1
+67885378,2 bed end terrace house to rent,3900,https://www.zoopla.co.uk/to-rent/details/67885378/,"Dalyell Road, London SW9",Urban Sales and Lettings,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67885540,3 bed flat to rent,4767,https://www.zoopla.co.uk/to-rent/details/67885540/,"Finborough Road, Chelsea SW10",Chestertons - Chelsea,3,1,11,0,2,0.48,11,0.36,11,0.68,11,0.48,11,1
 67885548,Room to rent,1100,https://www.zoopla.co.uk/to-rent/details/67885548/,"Elephant Lane, London SE16",KPIG,1,1,8,1,4,0.55,9,0.4,9,0.76,9,0.48,9,1
-67885555,2 bed flat to rent,2232,https://www.zoopla.co.uk/to-rent/details/67885555/,"Otter Close, London E15",City Property Consultants,2,0,0,,,,,,,,,,,1
+67885555,2 bed flat to rent,2232,https://www.zoopla.co.uk/to-rent/details/67885555/,"Otter Close, London E15",City Property Consultants,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67885692,2 bed terraced house to rent,1800,https://www.zoopla.co.uk/to-rent/details/67885692/,"Broomfield Road, Romford RM6",Empire Lets,2,1,6,1,4,0.49,6,0.32,6,0.64,6,0.67,6,1
 67885730,3 bed maisonette to rent,2200,https://www.zoopla.co.uk/to-rent/details/67885730/,"Oldfield Lane North, Greenford UB6",Real London Estates,3,1,8,0,1,0.49,8,0.27,8,0.85,8,0.71,8,1
 67885905,3 bed flat to rent,8450,https://www.zoopla.co.uk/to-rent/details/67885905/,"Lowndes Square, Knightsbridge SW1X",Chestertons - Knightsbridge & Belgravia,3,1,5,0,0,0.46,6,0.25,6,0.72,6,0.84,6,1
@@ -2597,7 +2597,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67899023,2 bed terraced house to rent,1700,https://www.zoopla.co.uk/to-rent/details/67899023/,"Washington Road, Worcester Park KT4",Connor Prince,2,1,6,1,2,0.46,7,0.24,7,0.77,7,0.57,7,1
 67899029,3 bed terraced house to rent,2300,https://www.zoopla.co.uk/to-rent/details/67899029/,"Cranmore Road, Bromley BR1",Daniels Property Services,3,1,13,1,3,0.42,13,0.3,13,0.71,13,0.49,13,1
 67899077,3 bed flat to rent,6283,https://www.zoopla.co.uk/to-rent/details/67899077/,"Bryanston Mansions, York Street, Marlyeobne W1H",Jeremy James,3,1,7,0,0,0.45,7,0.3,7,0.61,7,0.42,7,1
-67899089,3 bed flat to rent,5500,https://www.zoopla.co.uk/to-rent/details/67899089/,"Gloucester Terrace, London W2",Smart Move,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67899089,3 bed flat to rent,5500,https://www.zoopla.co.uk/to-rent/details/67899089/,"Gloucester Terrace, London W2",Smart Move,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67899281,3 bed flat to rent,1850,https://www.zoopla.co.uk/to-rent/details/67899281/,"Lady Hamilton Court, Hendon NW4",OpenRent,3,0,4,0,0,0.43,4,0.39,4,0.6,4,0.54,4,1
 67899294,3 bed flat to rent,2800,https://www.zoopla.co.uk/to-rent/details/67899294/,"Palliser House, London E1",OpenRent,3,1,8,0,2,0.45,8,0.53,8,0.8,8,0.66,8,1
 67899345,3 bed flat to rent,2500,https://www.zoopla.co.uk/to-rent/details/67899345/,"Kingston Upon Thames, Kingston Upon Thames KT2",OpenRent,3,1,7,1,3,0.46,7,0.35,7,0.62,7,0.51,7,1
@@ -2628,7 +2628,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67901383,3 bed flat to rent,5633,https://www.zoopla.co.uk/to-rent/details/67901383/,"St. Johns Wood Park, London NW8",We Haus,3,1,12,1,5,0.51,12,0.28,12,0.59,12,0.41,12,1
 67901407,3 bed terraced house to rent,4300,https://www.zoopla.co.uk/to-rent/details/67901407/,"Killowen Road, London E9",OpenRent,3,1,7,0,2,0.48,7,0.2842857142857143,7,0.786,14,0.29714285714285715,7,1
 67901500,3 bed flat to rent,3499,https://www.zoopla.co.uk/to-rent/details/67901500/,"Fulham Road, Chelsea SW10",OpenRent,3,1,7,1,3,0.48,7,0.51,7,0.81,7,0.64,7,1
-67901944,3 bed flat to rent,3987,https://www.zoopla.co.uk/to-rent/details/67901944/,"Fulham Road, London SW10",Farrar & Co,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67901944,3 bed flat to rent,3987,https://www.zoopla.co.uk/to-rent/details/67901944/,"Fulham Road, London SW10",Farrar & Co,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67902285,2 bed end terrace house to rent,2500,https://www.zoopla.co.uk/to-rent/details/67902285/,"Lion Road, Croydon CR0",OpenRent,2,1,26,1,7,0.52,27,0.45,27,0.67,27,0.57,27,1
 67902286,3 bed semi-detached house to rent,2600,https://www.zoopla.co.uk/to-rent/details/67902286/,"Marion Crescent, Orpington BR5",OpenRent,3,1,13,1,3,0.4761538461538462,13,0.5415384615384615,13,0.785,26,0.5415384615384615,13,1
 67902302,3 bed flat to rent,4200,https://www.zoopla.co.uk/to-rent/details/67902302/,"Graphite Point, London E2",OpenRent,3,1,14,1,5,0.51,14,0.43,14,0.55,14,0.44,14,1
@@ -2682,7 +2682,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67907059,2 bed flat to rent,3500,https://www.zoopla.co.uk/to-rent/details/67907059/,"Prowse Place, London NW1",Kinleigh Folkard & Hayward - Belsize Park Lettings,2,0,4,0,1,0.39,4,0.47,4,0.66,4,0.51,4,1
 67907067,3 bed flat to rent,3250,https://www.zoopla.co.uk/to-rent/details/67907067/,"Lawrence Road, London N15",LiFE Residential - North & City,3,1,12,1,3,0.48,12,0.27,12,0.56,12,0.63,12,1
 67907115,3 bed end terrace house to rent,2150,https://www.zoopla.co.uk/to-rent/details/67907115/,"Studland Road, London W7",Go View London,3,1,6,0,2,0.37166666666666665,6,0.27666666666666667,6,0.7,12,0.2383333333333333,6,1
-67907126,3 bed flat to rent,2600,https://www.zoopla.co.uk/to-rent/details/67907126/,"Polworth Road, London SW16",Nelsons,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67907126,3 bed flat to rent,2600,https://www.zoopla.co.uk/to-rent/details/67907126/,"Polworth Road, London SW16",Nelsons,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67907177,3 bed flat to rent,2299,https://www.zoopla.co.uk/to-rent/details/67907177/,"The Grove, London NW11",Edward Chase,3,1,15,1,4,0.53,16,0.42,16,0.84,16,0.74,16,1
 67907327,3 bed terraced house to rent,2450,https://www.zoopla.co.uk/to-rent/details/67907327/,"Soham Road, Enfield, Greater London EN3",White House Estates & Finance,3,1,11,1,4,0.49416666666666664,12,0.28583333333333333,12,0.795,24,0.6933333333333334,12,1
 67907391,3 bed flat to rent,4767,https://www.zoopla.co.uk/to-rent/details/67907391/,"Mcgill House, London SE10",OpenRent,3,1,12,0,1,0.54,12,0.42,12,0.68,12,0.49,12,1
@@ -2691,12 +2691,12 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67907446,3 bed flat to rent,3000,https://www.zoopla.co.uk/to-rent/details/67907446/,"Truman Walk, London E3",OpenRent,3,1,17,1,7,0.47,17,0.43,17,0.56,17,0.57,17,1
 67907463,3 bed flat to rent,2800,https://www.zoopla.co.uk/to-rent/details/67907463/,"Fairfield Road, London E3",Elms Estate Agents,3,1,12,1,5,0.42,13,0.29,13,0.79,13,0.7,13,1
 67907607,3 bed flat to rent,2000,https://www.zoopla.co.uk/to-rent/details/67907607/,"Edgware Court, Edgware HA8",Petermans,3,1,6,0,2,0.45,6,0.38,6,0.84,6,0.28,6,1
-67907658,3 bed flat to rent,1800,https://www.zoopla.co.uk/to-rent/details/67907658/,"Elgin Road, Ilford IG3",Property Spot Services,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67907658,3 bed flat to rent,1800,https://www.zoopla.co.uk/to-rent/details/67907658/,"Elgin Road, Ilford IG3",Property Spot Services,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67907660,3 bed terraced house to rent,2500,https://www.zoopla.co.uk/to-rent/details/67907660/,"Upton Park, London E6",JBrown Property UK,3,1,13,0,1,0.533076923076923,13,0.5384615384615384,13,0.661,26,0.48384615384615387,13,1
 67907768,3 bed flat to rent,6933,https://www.zoopla.co.uk/to-rent/details/67907768/,"Cleland House, John Islip Street, London SW1P",Hunters - Tower Bridge,3,1,36,1,3,0.54,37,0.31,37,0.58,37,0.52,37,1
 67907789,3 bed flat to rent,3000,https://www.zoopla.co.uk/to-rent/details/67907789/,"Beacon Point, 12 Dowell Street, Greenwich SE10",Arlington Rouse,3,1,11,1,4,0.57,11,0.41,11,0.69,11,0.57,11,1
 67907792,3 bed flat to rent,5800,https://www.zoopla.co.uk/to-rent/details/67907792/,"Truro House, Mount Pleasant WC1X",Regent Letting & Property Management Ltd,3,1,7,0,1,0.54,7,0.37,7,0.58,7,0.56,7,1
-67907844,3 bed flat to rent,3000,https://www.zoopla.co.uk/to-rent/details/67907844/,"Lordship Lane, London N22",Top Residential,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67907844,3 bed flat to rent,3000,https://www.zoopla.co.uk/to-rent/details/67907844/,"Lordship Lane, London N22",Top Residential,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67907849,3 bed flat to rent,3150,https://www.zoopla.co.uk/to-rent/details/67907849/,"Lawrence Road, London N15",LiFE Residential - North & City,3,1,11,1,3,0.53,11,0.34,11,0.6,11,0.66,11,1
 67907988,2 bed terraced house to rent,1950,https://www.zoopla.co.uk/to-rent/details/67907988/,"Holburne Close, London SE3",Dexters Blackheath,2,1,5,1,3,0.44,5,0.21,5,0.89,5,0.56,5,1
 67907989,3 bed flat to rent,4100,https://www.zoopla.co.uk/to-rent/details/67907989/,"Great Eastern Street, London EC2A",Dexters - Shoreditch,3,1,5,1,3,0.42,6,0.48,6,0.63,6,0.41,6,1
@@ -2761,13 +2761,13 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67912796,3 bed flat to rent,2200,https://www.zoopla.co.uk/to-rent/details/67912796/,"Da Vinci Lodge, West Parkside, London SE10",1st Avenue,3,1,11,0,2,0.51,11,0.17,11,0.8,11,0.66,11,1
 67913402,2 bed terraced house to rent,2250,https://www.zoopla.co.uk/to-rent/details/67913402/,"Rucklidge Avenue, Willesden Junction NW10",Winkworth - Kensal Rise & Queen's Park,2,1,9,1,2,0.43,9,0.21,9,0.67,9,0.45,9,1
 67913624,3 bed maisonette to rent,3450,https://www.zoopla.co.uk/to-rent/details/67913624/,"New North Road, London N1",Hunters - Shoreditch,3,1,7,0,0,0.53,7,0.28,7,0.5,7,0.77,7,1
-67913888,3 bed flat to rent,2640,https://www.zoopla.co.uk/to-rent/details/67913888/,"Ten Degrees, Croydon CR0",Foxtons - Croydon,3,0,0,,,,,,,,,,,1
+67913888,3 bed flat to rent,2640,https://www.zoopla.co.uk/to-rent/details/67913888/,"Ten Degrees, Croydon CR0",Foxtons - Croydon,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67913889,1 bed flat to rent,1500,https://www.zoopla.co.uk/to-rent/details/67913889/,"St James Road, Croydon, Purley CR8",Foxtons - Croydon,1,1,5,0,0,0.42,6,0.18,6,0.77,6,0.75,6,1
 67914161,3 bed flat to rent,1700,https://www.zoopla.co.uk/to-rent/details/67914161/,"Footscray Road, New Eltham, London SE9",Irwin Scott Estate Agents,3,1,8,0,0,0.46,8,0.21,8,0.67,8,0.57,8,1
 67914187,3 bed flat to rent,2100,https://www.zoopla.co.uk/to-rent/details/67914187/,"Finn House, Bevenden Street, London N1",RentMyHome.co.uk,3,1,17,0,0,0.43,18,0.48,18,0.74,18,0.81,18,1
 67914198,3 bed flat to rent,3150,https://www.zoopla.co.uk/to-rent/details/67914198/,"St. Johns Road, Richmond TW9",Homepride Lets Ltd,3,1,17,1,4,0.39,17,0.35,17,0.63,17,0.77,17,1
 67914287,1 bed flat to rent,2300,https://www.zoopla.co.uk/to-rent/details/67914287/,"Eardley Crescent, London SW5",Kinleigh Folkard & Hayward - South Kensington Lettings,1,0,4,1,2,0.39,4,0.18,4,0.6,4,0.7,4,1
-67914364,3 bed flat to rent,3000,https://www.zoopla.co.uk/to-rent/details/67914364/,"Wellesley Road, Woolwich SE18",Conran Estate Agents Charlton,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67914364,3 bed flat to rent,3000,https://www.zoopla.co.uk/to-rent/details/67914364/,"Wellesley Road, Woolwich SE18",Conran Estate Agents Charlton,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67914379,3 bed flat to rent,3100,https://www.zoopla.co.uk/to-rent/details/67914379/,"North End Road, London SW6",LDB,3,0,4,1,3,0.55,4,0.37,4,0.69,4,0.85,4,1
 67914451,3 bed flat to rent,5200,https://www.zoopla.co.uk/to-rent/details/67914451/,"Redcliffe Gardens, London SW10",Druce Chelsea,3,1,6,0,2,0.5,7,0.23,7,0.84,7,0.59,7,1
 67914483,3 bed town house to rent,6478,https://www.zoopla.co.uk/to-rent/details/67914483/,"Portobello Road, London W11",Tate Residential,3,1,7,0,1,0.4442857142857143,7,0.2542857142857143,7,0.704,14,0.6228571428571429,7,1
@@ -2814,7 +2814,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67917021,3 bed flat to rent,2450,https://www.zoopla.co.uk/to-rent/details/67917021/,"Canada Crescent, Acton W3",Proper Genies,3,1,8,1,4,0.42,8,0.25,8,0.69,8,0.54,8,1
 67917463,3 bed flat to rent,2800,https://www.zoopla.co.uk/to-rent/details/67917463/,"Gabriel House, Needleman Close, Colindale NW9",Arlington Rouse,3,1,5,0,1,0.46,5,0.25,5,0.52,5,0.45,5,1
 67917502,3 bed flat to rent,2200,https://www.zoopla.co.uk/to-rent/details/67917502/,"Lonsdale Avenue, London E6",Direct Property Services,3,1,5,0,2,0.47,5,0.32,5,0.78,5,0.79,5,1
-67917542,3 bed flat to rent,7150,https://www.zoopla.co.uk/to-rent/details/67917542/,"Fountain Park Way, London W12",Kinleigh Folkard & Hayward - Brook Green Lettings,3,0,0,,,,,,,,,,,1
+67917542,3 bed flat to rent,7150,https://www.zoopla.co.uk/to-rent/details/67917542/,"Fountain Park Way, London W12",Kinleigh Folkard & Hayward - Brook Green Lettings,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67917551,3 bed semi-detached house to rent,3850,https://www.zoopla.co.uk/to-rent/details/67917551/,"Trento Mews, Barnet EN4",Regent Letting & Property Management Ltd,3,1,5,0,1,0.476,5,0.21600000000000003,5,0.788,10,0.43,5,1
 67917721,3 bed flat to rent,2200,https://www.zoopla.co.uk/to-rent/details/67917721/,"Flat 6, Vera Court, Lordship Lane, London N22",Aresti Estates,3,1,8,1,4,0.47,8,0.32,8,0.77,8,0.67,8,1
 67917725,3 bed flat to rent,3150,https://www.zoopla.co.uk/to-rent/details/67917725/,"Flat 4, 193 Caledonian Road, London N1",Aresti Estates,3,1,7,0,1,0.47,7,0.29,7,0.55,7,0.8,7,1
@@ -2861,7 +2861,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67920788,3 bed flat to rent,4250,https://www.zoopla.co.uk/to-rent/details/67920788/,"The Courtyard, Alexander Studios SW11",Chestertons - Battersea Rise,3,1,11,1,3,0.48,12,0.53,12,0.74,12,0.5,12,1
 67920851,2 bed terraced house to rent,2708,https://www.zoopla.co.uk/to-rent/details/67920851/,"Lynton Road, London SE1",Garrett Whitelock,2,1,14,1,3,0.54,15,0.25,15,0.78,15,0.55,15,1
 67920947,1 bed flat to rent,2557,https://www.zoopla.co.uk/to-rent/details/67920947/,"Molyneux Street, London W1H",Kinleigh Folkard & Hayward - Marylebone Lettings,1,1,7,1,2,0.47,7,0.37,7,0.8,7,0.46,7,1
-67921070,2 bed terraced house to rent,2500,https://www.zoopla.co.uk/to-rent/details/67921070/,"Lucerne Road, Islington N5",Chestertons - Islington,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67921070,2 bed terraced house to rent,2500,https://www.zoopla.co.uk/to-rent/details/67921070/,"Lucerne Road, Islington N5",Chestertons - Islington,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67921115,1 bed terraced house to rent,2000,https://www.zoopla.co.uk/to-rent/details/67921115/,"Islip Street, Kentish Town NW5",Chestertons - Kentish Town,1,1,5,1,1,0.46,5,0.34,5,0.77,5,0.47,5,1
 67921125,2 bed terraced house to rent,4312,https://www.zoopla.co.uk/to-rent/details/67921125/,"Motcomb Street, Knightsbridge SW1X",Chestertons - Knightsbridge & Belgravia,2,0,4,1,2,0.42,5,0.43,5,0.71,5,0.53,5,1
 67921131,3 bed flat to rent,15600,https://www.zoopla.co.uk/to-rent/details/67921131/,"Carnation Way, London SW8",JLL - Nine Elms,3,1,23,1,5,0.54,23,0.34,23,0.54,23,0.51,23,1
@@ -2901,7 +2901,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67925198,3 bed flat to rent,9533,https://www.zoopla.co.uk/to-rent/details/67925198/,"Merano Residences, 30 Albert Embankment, Vauxhall, London SE1",Garton Jones - Nine Elms & Vauxhall,3,1,12,1,3,0.56,12,0.28,12,0.64,12,0.73,12,1
 67925214,Room to rent,980,https://www.zoopla.co.uk/to-rent/details/67925214/,"Villiers Avenue, Surbiton KT5",Century 21 - Royale,1,1,5,1,2,0.46,5,0.53,5,0.61,5,0.64,5,1
 67925215,3 bed flat to rent,5958,https://www.zoopla.co.uk/to-rent/details/67925215/,"Fitzjohns Avenue, Hampstead NW3",Mercier Gray,3,1,6,0,1,0.47,6,0.49,6,0.57,6,0.47,6,1
-67925224,3 bed maisonette to rent,4996,https://www.zoopla.co.uk/to-rent/details/67925224/,"Finborough Road, London SW10",Dexters - South Kensington,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67925224,3 bed maisonette to rent,4996,https://www.zoopla.co.uk/to-rent/details/67925224/,"Finborough Road, London SW10",Dexters - South Kensington,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67925232,2 bed flat to rent,2200,https://www.zoopla.co.uk/to-rent/details/67925232/,"Tudway Road, London SE3",JLL - Greenwich,2,1,9,1,2,0.49,9,0.34,9,0.54,9,0.6,9,1
 67925302,3 bed flat to rent,4624,https://www.zoopla.co.uk/to-rent/details/67925302/,"Cromwell Road, London SW5",Dexters - Earls Court,3,0,4,1,3,0.47,4,0.38,4,0.72,4,0.62,4,1
 67925306,3 bed flat to rent,3000,https://www.zoopla.co.uk/to-rent/details/67925306/,"Seager Place, London SE8",Dexters New Cross,3,1,6,0,2,0.47,7,0.3,7,0.69,7,0.57,7,1
@@ -2928,13 +2928,13 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67925803,2 bed flat to rent,2450,https://www.zoopla.co.uk/to-rent/details/67925803/,"Rosebery Gardens, Crouch End N8",PropertyTime,2,1,8,1,2,0.46,8,0.42,8,0.76,8,0.6,8,1
 67925817,1 bed flat to rent,2708,https://www.zoopla.co.uk/to-rent/details/67925817/,"Osnaburgh Street, London NW1",Hamptons - Paddington Lettings,1,1,5,0,0,0.52,5,0.22,5,0.73,5,0.4,5,1
 67925842,2 bed flat to rent,3500,https://www.zoopla.co.uk/to-rent/details/67925842/,"Whitehouse Apartments, Belvedere Road, London SE1",M91 Property Group,2,1,16,1,4,0.46,16,0.26,16,0.54,16,0.55,16,1
-67925865,3 bed terraced house to rent,2400,https://www.zoopla.co.uk/to-rent/details/67925865/,"Spencer Road, Ilford IG3",Excel Locations,3,-1,0,-1,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+67925865,3 bed terraced house to rent,2400,https://www.zoopla.co.uk/to-rent/details/67925865/,"Spencer Road, Ilford IG3",Excel Locations,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67925880,1 bed flat to rent,2100,https://www.zoopla.co.uk/to-rent/details/67925880/,"Gunnersbury Avenue, Ealing, London W5",London Homes Residential LTD,1,1,6,1,1,0.47,6,0.4,6,0.6,6,0.56,6,1
 67925917,2 bed flat to rent,4333,https://www.zoopla.co.uk/to-rent/details/67925917/,"Darwin House, Palmer Road SW11",Regent Letting & Property Management Ltd,2,1,9,0,1,0.51,9,0.43,9,0.47,9,0.66,9,1
 67925943,2 bed flat to rent,3683,https://www.zoopla.co.uk/to-rent/details/67925943/,"Macready House, Crawford Street, London W1H",York Estates,2,1,9,1,3,0.5,10,0.29,10,0.85,10,0.91,10,1
 67925947,2 bed flat to rent,1650,https://www.zoopla.co.uk/to-rent/details/67925947/,"Crossley Mead, Bath Road, Cranford TW5",Coopers Residential - Hillingdon,2,1,5,1,2,0.45,5,0.24,5,0.61,5,0.39,5,1
-67925958,3 bed shared accommodation to rent,997,https://www.zoopla.co.uk/to-rent/details/67925958/,"Hind Grove, London, UK E14",Room Club,3,0,0,,,,,,,,,,,1
-67926143,2 bed flat to rent,5200,https://www.zoopla.co.uk/to-rent/details/67926143/,"Prospect Way, London SW11",SAB â Saint Andrews Bureau Ltd â London,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67925958,3 bed shared accommodation to rent,997,https://www.zoopla.co.uk/to-rent/details/67925958/,"Hind Grove, London, UK E14",Room Club,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+67926143,2 bed flat to rent,5200,https://www.zoopla.co.uk/to-rent/details/67926143/,"Prospect Way, London SW11",SAB â Saint Andrews Bureau Ltd â London,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67926233,2 bed flat to rent,1900,https://www.zoopla.co.uk/to-rent/details/67926233/,"Queen Mary Avenue, London E18",Homes and Co,2,1,15,1,5,0.49,15,0.22,15,0.51,15,0.47,15,1
 67926263,3 bed semi-detached house to rent,2400,https://www.zoopla.co.uk/to-rent/details/67926263/,"Spring Grove Road, Hounslow TW3",Oakhill,3,1,7,1,4,0.47428571428571425,7,0.1657142857142857,7,0.654,14,0.5185714285714286,7,1
 67926282,2 bed flat to rent,2200,https://www.zoopla.co.uk/to-rent/details/67926282/,"Fordhook Avenue, London W5",Go View London,2,0,4,1,2,0.4,5,0.2,5,0.85,5,0.53,5,1
@@ -2989,7 +2989,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67927316,2 bed flat to rent,2300,https://www.zoopla.co.uk/to-rent/details/67927316/,"East Acton Lane, London W3",Hamptons - Ealing Lettings,2,1,14,0,1,0.43,14,0.24,14,0.64,14,0.64,14,1
 67927346,1 bed flat to rent,2708,https://www.zoopla.co.uk/to-rent/details/67927346/,"Marloes Road, London W8",Dexters - Kensington,1,0,4,1,1,0.47,4,0.12,4,0.81,4,0.89,4,1
 67927349,2 bed flat to rent,4767,https://www.zoopla.co.uk/to-rent/details/67927349/,"Prince Of Wales Terrace, London W8",Dexters - Kensington,2,1,5,1,2,0.48,5,0.35,5,0.69,5,0.73,5,1
-67927448,2 bed flat to rent,3597,https://www.zoopla.co.uk/to-rent/details/67927448/,"Egerton Gardens, Knightsbridge SW3",Benham and Reeves - Knightsbridge,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67927448,2 bed flat to rent,3597,https://www.zoopla.co.uk/to-rent/details/67927448/,"Egerton Gardens, Knightsbridge SW3",Benham and Reeves - Knightsbridge,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67927449,1 bed flat to rent,2700,https://www.zoopla.co.uk/to-rent/details/67927449/,"Sky Gardens, 155 Wandsworth Road, Nine Elms SW8",Ernest-Brooks International,1,1,7,1,1,0.51,7,0.33,7,0.68,7,0.53,7,1
 67927484,2 bed flat to rent,2925,https://www.zoopla.co.uk/to-rent/details/67927484/,"Breezers Court, The Highway, London E1W",Knight Frank - Wapping Lettings,2,1,11,1,5,0.52,11,0.38,11,0.63,11,0.43,11,1
 67927522,1 bed flat to rent,1599,https://www.zoopla.co.uk/to-rent/details/67927522/,"Acland Road, London NW2",Black Katz - West Hampstead,1,1,5,1,4,0.44,6,0.39,6,0.64,6,0.67,6,1
@@ -3011,7 +3011,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67927764,1 bed flat to rent,1603,https://www.zoopla.co.uk/to-rent/details/67927764/,"Brent Street, London NW4",AbbeySpring London,1,1,5,1,1,0.47,5,0.22,5,0.57,5,0.73,5,1
 67927765,2 bed end terrace house to rent,1950,https://www.zoopla.co.uk/to-rent/details/67927765/,"Whitefoot Terrace, Bromley BR1",APX Properties,2,1,6,0,0,0.45,6,0.38,6,0.66,6,0.69,6,1
 67927773,1 bed flat to rent,10400,https://www.zoopla.co.uk/to-rent/details/67927773/,"Duke Street, London W1K",Curtis and Sear Estates,1,1,6,1,1,0.53,6,0.29,6,0.68,6,0.42,6,1
-67927779,2 bed flat to rent,2000,https://www.zoopla.co.uk/to-rent/details/67927779/,"Boleyn Close, London E17",iHOMES Lettings & Management,2,0,0,,,,,,,,,,,1
+67927779,2 bed flat to rent,2000,https://www.zoopla.co.uk/to-rent/details/67927779/,"Boleyn Close, London E17",iHOMES Lettings & Management,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67927793,1 bed flat to rent,2751,https://www.zoopla.co.uk/to-rent/details/67927793/,"Lexham Gardens, London W8",Kens Estate,1,0,4,1,1,0.4,4,0.34,4,0.44,4,0.42,4,1
 67927795,1 bed flat to rent,4892,https://www.zoopla.co.uk/to-rent/details/67927795/,"Edgware Road, London W2",Curtis and Sear Estates,1,1,6,1,1,0.48,6,0.28,6,0.54,6,0.63,6,1
 67927832,1 bed flat to rent,3012,https://www.zoopla.co.uk/to-rent/details/67927832/,"Sloane Avenue, London SW3",Landstones,1,1,5,1,1,0.47,5,0.24,5,0.69,5,0.63,5,1
@@ -3057,7 +3057,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67928603,3 bed semi-detached house to rent,3000,https://www.zoopla.co.uk/to-rent/details/67928603/,"Field Close, Hayes, Middlesex UB3",Hunters - Hayes,3,1,10,0,1,0.46399999999999997,10,0.29700000000000004,10,0.635,20,0.653,10,1
 67928682,Room to rent,995,https://www.zoopla.co.uk/to-rent/details/67928682/,"Double Room, Ferrymead Avenue, Greenford UB6",SAB Estates,1,0,3,1,1,0.43,4,0.4,4,0.82,4,0.62,4,1
 67928725,2 bed flat to rent,1700,https://www.zoopla.co.uk/to-rent/details/67928725/,"Cavalier Close, Wallington SM6",Choices - Coulsdon,2,0,4,1,2,0.46,5,0.5,5,0.6,5,0.33,5,1
-67928843,3 bed maisonette to rent,1900,https://www.zoopla.co.uk/to-rent/details/67928843/,"Walton Road, London E12",Salik & Co,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67928843,3 bed maisonette to rent,1900,https://www.zoopla.co.uk/to-rent/details/67928843/,"Walton Road, London E12",Salik & Co,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67928855,3 bed flat to rent,14950,https://www.zoopla.co.uk/to-rent/details/67928855/,"Bourdon Street, London W1K",Winchester White,3,1,14,1,3,0.51,15,0.2,15,0.65,15,0.52,15,1
 67928880,1 bed flat to rent,1800,https://www.zoopla.co.uk/to-rent/details/67928880/,"Station Road, London SE13",JLL - Greenwich,1,1,13,1,4,0.55,14,0.2,14,0.75,14,0.49,14,1
 67928914,2 bed flat to rent,3000,https://www.zoopla.co.uk/to-rent/details/67928914/,"Imperial Wharf, Fulham SW6",Benham and Reeves - Imperial Wharf,2,1,6,1,2,0.58,6,0.35,6,0.76,6,0.66,6,1
@@ -3205,11 +3205,11 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67931711,2 bed flat to rent,5417,https://www.zoopla.co.uk/to-rent/details/67931711/,"Wellington House, Buckingham Gate, St James Park SW1E",Chase Apartments,2,1,11,1,4,0.52,11,0.31,11,0.56,11,0.59,11,1
 67931743,2 bed flat to rent,3142,https://www.zoopla.co.uk/to-rent/details/67931743/,"Knighten Street, Wapping, London E1W",Foxtons - Wapping,2,1,9,1,2,0.47,9,0.2,9,0.76,9,0.47,9,1
 67931753,2 bed flat to rent,1700,https://www.zoopla.co.uk/to-rent/details/67931753/,"Sydenham Road, Croydon CR0",Barnard Marcus - Croydon,2,1,7,1,2,0.57,7,0.48,7,0.61,7,0.58,7,1
-67931776,1 bed flat to rent,1300,https://www.zoopla.co.uk/to-rent/details/67931776/,"New North Road, Ilford IG6",Rigley Estate Agents,1,0,0,,,,,,,,,,,1
+67931776,1 bed flat to rent,1300,https://www.zoopla.co.uk/to-rent/details/67931776/,"New North Road, Ilford IG6",Rigley Estate Agents,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67931783,2 bed flat to rent,2800,https://www.zoopla.co.uk/to-rent/details/67931783/,"Charlotte Court, East Barnet Road EN4",Goldman Greg Housing Management,2,1,14,0,0,0.5,14,0.44,14,0.58,14,0.49,14,1
 67931811,2 bed flat to rent,2450,https://www.zoopla.co.uk/to-rent/details/67931811/,"Limerick Close, London SW12",Hello Neighbour Ltd,2,1,15,1,6,0.53,15,0.53,15,0.69,15,0.49,15,1
 67931828,2 bed flat to rent,4333,https://www.zoopla.co.uk/to-rent/details/67931828/,"Valencia Tower, 3 Bollinder Place, London EC1V",JC International Property,2,1,7,0,1,0.54,7,0.29,7,0.63,7,0.67,7,1
-67931835,2 bed flat to rent,11700,https://www.zoopla.co.uk/to-rent/details/67931835/,"Benyon Wharf, 295 Kingsland Road, Hackney E8",Harvey Residential,2,0,0,,,,,,,,,,,1
+67931835,2 bed flat to rent,11700,https://www.zoopla.co.uk/to-rent/details/67931835/,"Benyon Wharf, 295 Kingsland Road, Hackney E8",Harvey Residential,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67931892,2 bed flat to rent,1900,https://www.zoopla.co.uk/to-rent/details/67931892/,"Brownhill Road, Catford, London SE6",Amity Estates,2,0,4,0,0,0.45,5,0.37,5,0.82,5,0.77,5,1
 67931942,2 bed flat to rent,2400,https://www.zoopla.co.uk/to-rent/details/67931942/,"Lysias Road, Clapham SW12",Chestertons - Battersea Rise,2,1,5,0,1,0.49,5,0.5,5,0.73,5,0.35,5,1
 67931943,1 bed flat to rent,1900,https://www.zoopla.co.uk/to-rent/details/67931943/,"Leathwaite Road, Battersea SW11",Chestertons - Battersea Rise,1,1,5,1,1,0.47,5,0.22,5,0.84,5,0.31,5,1
@@ -3233,10 +3233,10 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67932418,3 bed flat to rent,19500,https://www.zoopla.co.uk/to-rent/details/67932418/,"Upper Grosvenor Street, Mayfair, London W1K",Carter Jonas - Mayfair & St James's,3,1,16,1,7,0.57,16,0.27,16,0.61,16,0.53,16,1
 67932424,2 bed flat to rent,2000,https://www.zoopla.co.uk/to-rent/details/67932424/,"Fullwell Avenue, Ilford IG5",Proper Genies,2,1,10,1,2,0.38,10,0.37,10,0.62,10,0.65,10,1
 67932551,2 bed flat to rent,2500,https://www.zoopla.co.uk/to-rent/details/67932551/,"Goodhall Street, London NW10",Barnard Marcus - Chiswick,2,1,15,1,4,0.52,15,0.27,15,0.75,15,0.46,15,1
-67932569,3 bed flat to rent,5997,https://www.zoopla.co.uk/to-rent/details/67932569/,"Chiltern Street, London W1U",Marsh & Parsons - Marylebone & Mayfair,3,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67932569,3 bed flat to rent,5997,https://www.zoopla.co.uk/to-rent/details/67932569/,"Chiltern Street, London W1U",Marsh & Parsons - Marylebone & Mayfair,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67932669,2 bed flat to rent,1800,https://www.zoopla.co.uk/to-rent/details/67932669/,"Station Road, London NW4",Dreamview Estates,2,1,7,1,3,0.44,7,0.21,7,0.61,7,0.85,7,1
 67932691,1 bed property to rent,2903,https://www.zoopla.co.uk/to-rent/details/67932691/,London E1,AiHOMES LTD,1,1,8,1,2,0.6,8,0.5,8,0.61,8,0.15,8,1
-67932705,2 bed flat to rent,1900,https://www.zoopla.co.uk/to-rent/details/67932705/,"Peckham High Street, London SE15",Prospect LDN,2,0,0,,,,,,,,,,,1
+67932705,2 bed flat to rent,1900,https://www.zoopla.co.uk/to-rent/details/67932705/,"Peckham High Street, London SE15",Prospect LDN,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67932774,3 bed semi-detached house to rent,2058,https://www.zoopla.co.uk/to-rent/details/67932774/,"Montpelier Road, Purley CR8",OpenRent,3,1,8,0,0,0.44222222222222224,9,0.4677777777777778,9,0.806,18,0.44777777777777783,9,1
 67932783,3 bed terraced house to rent,2300,https://www.zoopla.co.uk/to-rent/details/67932783/,"Gittens Close, Bromley BR1",OpenRent,3,1,7,0,1,0.4842857142857143,7,0.4185714285714286,7,0.774,14,0.4328571428571429,7,1
 67932847,1 bed flat to rent,5460,https://www.zoopla.co.uk/to-rent/details/67932847/,"Grosvenor Hill, London W1K",Fabs Estates,1,1,8,1,3,0.55,8,0.29,8,0.73,8,0.46,8,1
@@ -3265,7 +3265,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67935426,1 bed flat to rent,1350,https://www.zoopla.co.uk/to-rent/details/67935426/,"Albany House, Station Road, West Drayton UB7",Coopers Residential - Uxbridge,1,1,7,0,0,0.42,7,0.43,7,0.65,7,0.84,7,1
 67935542,1 bed flat to rent,4125,https://www.zoopla.co.uk/to-rent/details/67935542/,"Casson Square, London SE1",SAB â Saint Andrews Bureau Ltd â London,1,1,10,1,5,0.57,10,0.39,10,0.65,10,0.63,10,1
 67935632,1 bed flat to rent,2600,https://www.zoopla.co.uk/to-rent/details/67935632/,"Grove End Road, London NW8",Dexters - St Johns Wood,1,0,3,1,2,0.47,4,0.36,4,0.75,4,0.35,4,1
-67935634,2 bed flat to rent,1900,https://www.zoopla.co.uk/to-rent/details/67935634/,"Saffron Central Square, Croydon CR0",Hometomove,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67935634,2 bed flat to rent,1900,https://www.zoopla.co.uk/to-rent/details/67935634/,"Saffron Central Square, Croydon CR0",Hometomove,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67935709,3 bed semi-detached house to rent,3200,https://www.zoopla.co.uk/to-rent/details/67935709/,"Hamlet Square, London NW2",Hello Neighbour Ltd,3,1,13,0,0,0.42214285714285715,14,0.3307142857142857,14,0.591,28,0.8571428571428571,14,1
 67935718,2 bed flat to rent,1746,https://www.zoopla.co.uk/to-rent/details/67935718/,"Northfield Avenue, London W5",Daniel Paul,2,1,8,0,1,0.52,8,0.51,8,0.69,8,0.45,8,1
 67935750,Room to rent,700,https://www.zoopla.co.uk/to-rent/details/67935750/,"Haslemere Avenue, Mitcham CR4",OpenRent,1,0,2,1,1,0.43,3,0.37,3,0.47,3,0.46,3,1
@@ -3276,7 +3276,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67935859,2 bed flat to rent,3500,https://www.zoopla.co.uk/to-rent/details/67935859/,"Queens Drive, London N4",David Andrew Estates,2,1,15,1,2,0.52,17,0.36,17,0.8,17,0.5,17,1
 67935892,3 bed semi-detached house to rent,2200,https://www.zoopla.co.uk/to-rent/details/67935892/,"Carlyon Road, Hayes UB4",Lawlors Estate Agents,3,1,11,1,4,0.4290909090909091,11,0.33818181818181814,11,0.794,22,0.46727272727272723,11,1
 67935938,3 bed terraced house to rent,2300,https://www.zoopla.co.uk/to-rent/details/67935938/,"Globe Road, Hornchurch RM11",Shan Properties (UK) Ltd,3,1,18,0,1,0.4566666666666667,18,0.21888888888888888,18,0.648,36,0.6344444444444445,18,1
-67935946,1 bed flat to rent,1150,https://www.zoopla.co.uk/to-rent/details/67935946/,"Stevens Road, Dagenham RM8",Homechoice,1,0,0,,,,,,,,,,,1
+67935946,1 bed flat to rent,1150,https://www.zoopla.co.uk/to-rent/details/67935946/,"Stevens Road, Dagenham RM8",Homechoice,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67935958,Room to rent,825,https://www.zoopla.co.uk/to-rent/details/67935958/,"Grasmere Gardens, Ilford IG4",Sandra Davidson,1,1,7,1,1,0.41,7,0.3,7,0.66,7,0.48,7,1
 67935967,Room to rent,850,https://www.zoopla.co.uk/to-rent/details/67935967/,"London Road, Wembley HA9",Charles Russell Estate Agents,1,1,6,1,1,0.41,6,0.36,6,0.43,6,0.53,6,1
 67935969,Room to rent,850,https://www.zoopla.co.uk/to-rent/details/67935969/,"London Road, Wembley HA9",Charles Russell Estate Agents,1,1,6,1,1,0.4,6,0.29,6,0.46,6,0.45,6,1
@@ -3320,7 +3320,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67936763,2 bed flat to rent,3700,https://www.zoopla.co.uk/to-rent/details/67936763/,"Bollinder Place, London EC1V",Dexters - Clerkenwell,2,1,11,1,4,0.5,12,0.29,12,0.5,12,0.39,12,1
 67936769,1 bed flat to rent,3650,https://www.zoopla.co.uk/to-rent/details/67936769/,"Carrara Tower, Bollinder Place, London EC1V",Austin Homes,1,1,10,1,2,0.47,11,0.23,11,0.67,11,0.49,11,1
 67936801,2 bed flat to rent,2500,https://www.zoopla.co.uk/to-rent/details/67936801/,"Baroque Gardens, Marine Wharf SE16",Romans & Partners,2,1,9,1,3,0.52,9,0.39,9,0.67,9,0.51,9,1
-67936900,Room to rent,800,https://www.zoopla.co.uk/to-rent/details/67936900/,"Berkeley Avenue, Greenford, Greater London UB6",Star Estate Agents,1,0,0,,,,,,,,,,,1
+67936900,Room to rent,800,https://www.zoopla.co.uk/to-rent/details/67936900/,"Berkeley Avenue, Greenford, Greater London UB6",Star Estate Agents,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67936947,2 bed flat to rent,1700,https://www.zoopla.co.uk/to-rent/details/67936947/,"Arthur Road, London N9",Cottage Fields Ltd,2,0,4,0,1,0.42,4,0.26,4,0.6,4,0.66,4,1
 67936979,1 bed flat to rent,1300,https://www.zoopla.co.uk/to-rent/details/67936979/,"Westminster Court, Wanstead E11",Churchill Estates - Wanstead,1,1,6,0,0,0.53,6,0.31,6,0.75,6,0.67,6,1
 67936986,2 bed flat to rent,2700,https://www.zoopla.co.uk/to-rent/details/67936986/,"Tiltman Place, Finsbury Park, London N7",Foxtons - Crouch End,2,1,7,1,2,0.51,7,0.34,7,0.56,7,0.62,7,1
@@ -3513,7 +3513,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67942271,1 bed flat to rent,1550,https://www.zoopla.co.uk/to-rent/details/67942271/,"Station Approach, Hayes UB3",Hamptons - Ealing Lettings,1,1,6,1,1,0.49,6,0.24,6,0.5,6,0.41,6,1
 67942288,2 bed flat to rent,2500,https://www.zoopla.co.uk/to-rent/details/67942288/,"Chapman Square, London SW19",Lucie White & Company,2,1,7,1,2,0.51,8,0.3,8,0.66,8,0.27,8,1
 67942339,1 bed flat to rent,3293,https://www.zoopla.co.uk/to-rent/details/67942339/,"Hill Street, Mayfair, London W1J",Victorstone,1,1,6,1,2,0.46,6,0.25,6,0.76,6,0.42,6,1
-67942359,1 bed flat to rent,1750,https://www.zoopla.co.uk/to-rent/details/67942359/,"East Street, Epsom KT17",Foxtons - New Malden,1,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67942359,1 bed flat to rent,1750,https://www.zoopla.co.uk/to-rent/details/67942359/,"East Street, Epsom KT17",Foxtons - New Malden,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67942372,2 bed flat to rent,6200,https://www.zoopla.co.uk/to-rent/details/67942372/,"St Georges Square, Pimlico, London SW1V",Foxtons - Pimlico & Westminster,2,1,17,1,3,0.52,17,0.34,17,0.7,17,0.56,17,1
 67942394,1 bed flat to rent,5417,https://www.zoopla.co.uk/to-rent/details/67942394/,"Cadogan Square, London SW1X",Savills - Knightsbridge Lettings,1,1,10,1,3,0.5,10,0.26,10,0.75,10,0.44,10,1
 67942404,2 bed flat to rent,2350,https://www.zoopla.co.uk/to-rent/details/67942404/,"Fuller Close, London E2",Peach Properties,2,1,9,1,3,0.44,9,0.17,9,0.8,9,0.64,9,1
@@ -3522,11 +3522,11 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67942526,2 bed flat to rent,2490,https://www.zoopla.co.uk/to-rent/details/67942526/,"The Delamarre, Brent Cross Town, Claremont Road, Cricklewood NW2",Ernest-Brooks International,2,1,18,1,3,0.51,18,0.33,18,0.77,18,0.53,18,1
 67942532,1 bed flat to rent,2400,https://www.zoopla.co.uk/to-rent/details/67942532/,"Tavistock Place, London WC1H",Dexters - Bloomsbury,1,1,9,1,3,0.51,9,0.18,9,0.76,9,0.71,9,1
 67942554,2 bed flat to rent,4983,https://www.zoopla.co.uk/to-rent/details/67942554/,"Hill Street, Mayfair, London W1J",Victorstone,2,1,8,1,4,0.45,8,0.16,8,0.69,8,0.52,8,1
-67942595,2 bed flat to rent,1950,https://www.zoopla.co.uk/to-rent/details/67942595/,"Bromfelde Road, London SW4",Habitat Estates London,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67942595,2 bed flat to rent,1950,https://www.zoopla.co.uk/to-rent/details/67942595/,"Bromfelde Road, London SW4",Habitat Estates London,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67942672,2 bed flat to rent,1475,https://www.zoopla.co.uk/to-rent/details/67942672/,"Tollbar Court, Basinghall Gardens, Sutton, Surrey SM2",Choices - Coulsdon,2,1,6,1,2,0.49,6,0.28,6,0.75,6,0.5,6,1
 67942679,1 bed flat to rent,4100,https://www.zoopla.co.uk/to-rent/details/67942679/,"Casson Square, London SE1",London Property Guru,1,1,8,1,1,0.54,8,0.35,8,0.57,8,0.56,8,1
 67942710,3 bed terraced house to rent,3395,https://www.zoopla.co.uk/to-rent/details/67942710/,"Blackmores Grove, Teddington TW11",Jackson-Stops - Teddington,3,1,8,1,3,0.49125,8,0.27625,8,0.856,16,0.4425,8,1
-67942727,1 bed flat to rent,2817,https://www.zoopla.co.uk/to-rent/details/67942727/,"Nottingham Place, London W1U",Hamptons - Paddington Lettings,1,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67942727,1 bed flat to rent,2817,https://www.zoopla.co.uk/to-rent/details/67942727/,"Nottingham Place, London W1U",Hamptons - Paddington Lettings,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67942730,2 bed flat to rent,2518,https://www.zoopla.co.uk/to-rent/details/67942730/,"Clay, Dakota &amp; Montana, Wembley HA9",Home-Made,2,1,24,0,1,0.52,26,0.42,26,0.65,26,0.49,26,1
 67942732,1 bed flat to rent,4333,https://www.zoopla.co.uk/to-rent/details/67942732/,"Koa House, Electric Boulevard, London SW11",Copperstones Ltd.,1,1,12,0,0,0.49,12,0.34,12,0.45,12,0.77,12,1
 67942735,1 bed flat to rent,2300,https://www.zoopla.co.uk/to-rent/details/67942735/,"Centre Heights, Finchley Road, London NW3",Goldman Greg Housing Management,1,1,9,1,3,0.53,9,0.23,9,0.73,9,0.74,9,1
@@ -3566,7 +3566,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67943466,3 bed semi-detached house to rent,2100,https://www.zoopla.co.uk/to-rent/details/67943466/,"Fruen Road, Feltham, Greater London TW14",The Online Letting Agents Ltd,3,1,7,1,5,0.4228571428571429,7,0.4614285714285714,7,0.849,14,0.34714285714285714,7,1
 67943472,2 bed flat to rent,5373,https://www.zoopla.co.uk/to-rent/details/67943472/,"Palace Whalf, Rainville Road, Hammersmith, London W6",Victorstone,2,1,9,1,4,0.55,9,0.36,9,0.7,9,0.42,9,1
 67943503,3 bed semi-detached house to rent,3495,https://www.zoopla.co.uk/to-rent/details/67943503/,"Gloucester Road, Hampton TW12","Chase Buchanan, Hampton Hill",3,1,10,1,4,0.5272727272727272,11,0.39909090909090905,11,0.84,22,0.4754545454545455,11,1
-67943504,2 bed flat to rent,1850,https://www.zoopla.co.uk/to-rent/details/67943504/,"Reston House, 1A Western Road, Romford RM1",Sunshine Estates,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+67943504,2 bed flat to rent,1850,https://www.zoopla.co.uk/to-rent/details/67943504/,"Reston House, 1A Western Road, Romford RM1",Sunshine Estates,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67943543,1 bed flat to rent,1599,https://www.zoopla.co.uk/to-rent/details/67943543/,"Kent Gardens, London W13",Robertson Smith & Kempson - Ealing,1,1,5,1,2,0.44,5,0.2,5,0.61,5,0.65,5,1
 67943582,Room to rent,700,https://www.zoopla.co.uk/to-rent/details/67943582/,"Bramley Road, Oakwood N14",Anthony Webb,1,0,3,1,1,0.43,3,0.32,3,0.68,3,0.67,3,1
 67943610,1 bed flat to rent,1144,https://www.zoopla.co.uk/to-rent/details/67943610/,"Homefirs House, Wembley Park Drive, Wembley HA9",David Harris & Co,1,1,6,1,1,0.41,6,0.35,6,0.52,6,0.36,6,1
@@ -3631,7 +3631,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67951482,3 bed terraced house to rent,1900,https://www.zoopla.co.uk/to-rent/details/67951482/,"Charlesfield, London SE9",Truepenny's Property Consultants,3,1,6,1,3,0.5066666666666667,6,0.44166666666666665,6,0.843,12,0.8583333333333334,6,1
 67951506,3 bed semi-detached house to rent,2150,https://www.zoopla.co.uk/to-rent/details/67951506/,"Eastcote Road, Pinner HA5",Robert Cooper & Co,3,1,21,1,3,0.45428571428571424,21,0.260952380952381,21,0.745,42,0.5814285714285715,21,1
 67951598,3 bed semi-detached house to rent,2950,https://www.zoopla.co.uk/to-rent/details/67951598/,"Melbury Avenue, Southall UB2",Majestic Properties,3,1,24,1,10,0.5165384615384615,26,0.4419230769230769,26,0.787,52,0.5080769230769231,26,1
-67951841,Room to rent,750,https://www.zoopla.co.uk/to-rent/details/67951841/,"Longley Road, London SW17",RS Estate Agents,1,0,0,,,,,,,,,,,1
+67951841,Room to rent,750,https://www.zoopla.co.uk/to-rent/details/67951841/,"Longley Road, London SW17",RS Estate Agents,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67951891,3 bed terraced house to rent,2800,https://www.zoopla.co.uk/to-rent/details/67951891/,"Floyd Road, Charlton SE7",Truepenny's Property Consultants,3,1,11,0,2,0.46090909090909093,11,0.2509090909090909,11,0.822,22,0.73,11,1
 67951905,3 bed terraced house to rent,2400,https://www.zoopla.co.uk/to-rent/details/67951905/,"Firhill Road, Sydenham, London SE6",Foxtons - Dulwich,3,1,6,0,2,0.4816666666666667,6,0.29333333333333333,6,0.915,12,0.745,6,1
 67952201,Room to rent,775,https://www.zoopla.co.uk/to-rent/details/67952201/,"Clarendon Road, Croydon CR0",Majestic Properties,1,1,7,1,2,0.43,7,0.48,7,0.61,7,0.8,7,1
@@ -3694,8 +3694,8 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 67973639,Room to rent,700,https://www.zoopla.co.uk/to-rent/details/67973639/,"Boundary Road, London N22",Eureka Property,1,1,5,1,3,0.53,6,0.31,6,0.83,6,0.56,6,1
 67973688,3 bed terraced house to rent,3500,https://www.zoopla.co.uk/to-rent/details/67973688/,"Geraldine Road, Chiswick W4",Chestertons - Chiswick,3,1,12,1,5,0.5183333333333333,12,0.18166666666666667,12,0.795,24,0.7475,12,1
 67974009,2 bed terraced house to rent,1800,https://www.zoopla.co.uk/to-rent/details/67974009/,"Foxglove Way, Wallington SM6",Homecare Estates,2,1,7,1,4,0.47,7,0.27,7,0.77,7,0.67,7,1
-67974426,Room to rent,600,https://www.zoopla.co.uk/to-rent/details/67974426/,"Selby Gardens, Southall UB1",EZ Property Services Ltd,1,0,0,,,,,,,,,,,1
-67974429,Room to rent,750,https://www.zoopla.co.uk/to-rent/details/67974429/,"Selby Gardens, Southall UB1",EZ Property Services Ltd,1,0,0,,,,,,,,,,,1
+67974426,Room to rent,600,https://www.zoopla.co.uk/to-rent/details/67974426/,"Selby Gardens, Southall UB1",EZ Property Services Ltd,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+67974429,Room to rent,750,https://www.zoopla.co.uk/to-rent/details/67974429/,"Selby Gardens, Southall UB1",EZ Property Services Ltd,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 67974800,4 bed terraced house to rent,2700,https://www.zoopla.co.uk/to-rent/details/67974800/,"Lacock Close, London SW19",Sandton Chartered Surveyors,3,1,7,0,2,0.5199999999999999,7,0.3028571428571429,7,0.72,14,0.6557142857142857,7,1
 67975183,3 bed terraced house to rent,3350,https://www.zoopla.co.uk/to-rent/details/67975183/,"Winfrith Road, London SW18",Jacksons Estate Agents - Earlsfield,3,1,6,1,3,0.4483333333333333,6,0.19499999999999998,6,0.867,12,0.335,6,1
 67975291,3 bed end terrace house to rent,3000,https://www.zoopla.co.uk/to-rent/details/67975291/,"Cresset Street, London SW4",OpenRent,3,1,10,0,2,0.46900000000000003,10,0.48,10,0.706,20,0.5730000000000001,10,1
@@ -3831,7 +3831,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68011541,1 bed mews to rent,6300,https://www.zoopla.co.uk/to-rent/details/68011541/,"Goldhurst Terrace, South Hampstead NW6",Chestertons - Hampstead,1,1,13,1,2,0.5,13,0.39,13,0.63,13,0.64,13,1
 68011542,1 bed mews to rent,3500,https://www.zoopla.co.uk/to-rent/details/68011542/,"Goldhurst Terrace, South Hampstead NW6",Chestertons - Hampstead,1,1,13,1,2,0.5,13,0.39,13,0.63,13,0.64,13,1
 68011622,3 bed terraced house to rent,2300,https://www.zoopla.co.uk/to-rent/details/68011622/,"Church Road, Hayes UB3",Peepal Estate Agents,3,1,9,1,5,0.4588888888888889,9,0.29444444444444445,9,0.723,18,0.3344444444444445,9,1
-68011670,2 bed detached house to rent,2200,https://www.zoopla.co.uk/to-rent/details/68011670/,"Blacks Road, London W6",Urban Sales and Lettings,2,0,0,,,,,,,,,,,1
+68011670,2 bed detached house to rent,2200,https://www.zoopla.co.uk/to-rent/details/68011670/,"Blacks Road, London W6",Urban Sales and Lettings,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68011803,3 bed end terrace house to rent,2250,https://www.zoopla.co.uk/to-rent/details/68011803/,"Trotter Way, Epsom, Surrey KT19",Cairds Estate Agents,3,1,12,0,1,0.5225000000000001,12,0.24,12,0.69,24,0.4816666666666667,12,1
 68011850,3 bed terraced house to rent,2100,https://www.zoopla.co.uk/to-rent/details/68011850/,"Edward Road, Croydon CR0",Neighbour Estate Agents,3,1,10,0,2,0.42699999999999994,10,0.344,10,0.748,20,0.42000000000000004,10,1
 68012011,2 bed mews to rent,4312,https://www.zoopla.co.uk/to-rent/details/68012011/,"Bridstow Place, Notting Hill, London W2",Carter Jonas - Kensington & Chelsea,2,1,16,1,6,0.49,17,0.28,17,0.61,17,0.67,17,1
@@ -3878,7 +3878,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68023094,3 bed end terrace house to rent,5250,https://www.zoopla.co.uk/to-rent/details/68023094/,"Trinity Church Road, Castelnau, Barnes SW13",Foxtons - Putney,3,1,5,0,2,0.4533333333333333,6,0.14833333333333334,6,0.818,12,0.7566666666666667,6,1
 68023142,3 bed semi-detached house to rent,2300,https://www.zoopla.co.uk/to-rent/details/68023142/,"Holmwood Avenue, South Croydon CR2",Sold Buy Simon,3,1,15,0,1,0.4713333333333333,15,0.4373333333333333,15,0.786,30,0.736,15,1
 68023329,3 bed detached house to rent,3000,https://www.zoopla.co.uk/to-rent/details/68023329/,"River Way, Ewell, Epsom KT19",Hamptons - Esher Lettings,3,1,12,1,3,0.4925,12,0.2683333333333333,12,0.857,24,0.3625,12,1
-68023503,2 bed terraced house to rent,2000,https://www.zoopla.co.uk/to-rent/details/68023503/,"Conway Walk, Hampton TW12",OpenRent,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68023503,2 bed terraced house to rent,2000,https://www.zoopla.co.uk/to-rent/details/68023503/,"Conway Walk, Hampton TW12",OpenRent,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68023732,1 bed flat to rent,1650,https://www.zoopla.co.uk/to-rent/details/68023732/,"Norman Road SE10, Greenwich, London,",Foxtons - Greenwich,1,1,5,1,1,0.55,5,0.35,5,0.78,5,0.25,5,1
 68023740,1 bed flat to rent,2817,https://www.zoopla.co.uk/to-rent/details/68023740/,"Beech Court, Elmfield Way, Maida Vale, London W9",Foxtons - Maida Vale,1,1,7,1,1,0.49,7,0.26,7,0.77,7,0.53,7,1
 68023871,3 bed terraced house to rent,3300,https://www.zoopla.co.uk/to-rent/details/68023871/,"Bergholt Mews, Camden Town NW1",Chestertons - Camden & Primrose Hill,3,1,11,1,4,0.5081818181818182,11,0.29454545454545455,11,0.825,22,0.3227272727272727,11,1
@@ -3925,7 +3925,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68029208,3 bed flat to rent,4300,https://www.zoopla.co.uk/to-rent/details/68029208/,"Devan Grove, London N4",JKDRG,3,1,13,1,4,0.5492857142857143,14,0.3307142857142857,14,0.599,28,0.47785714285714287,14,1
 68029213,1 bed flat to rent,2350,https://www.zoopla.co.uk/to-rent/details/68029213/,"Osiers Road, Wandsworth Town, London SW18",Foxtons - Putney,1,0,4,1,1,0.54,4,0.19,4,0.74,4,0.53,4,1
 68029240,3 bed flat to rent,1850,https://www.zoopla.co.uk/to-rent/details/68029240/,"Kingston Road, Epsom KT19",Kaybridge Residential KT19,3,1,7,1,3,0.39285714285714285,7,0.33999999999999997,7,0.73,14,0.5771428571428572,7,1
-68029305,3 bed flat to rent,2817,https://www.zoopla.co.uk/to-rent/details/68029305/,"Portland Road, London N15",Black Katz - Camden,3,-1,0,-1,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+68029305,3 bed flat to rent,2817,https://www.zoopla.co.uk/to-rent/details/68029305/,"Portland Road, London N15",Black Katz - Camden,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68029644,1 bed terraced house to rent,1600,https://www.zoopla.co.uk/to-rent/details/68029644/,"Sandringham Gardens, Ilford IG6",OpenRent,1,0,3,0,0,0.51,3,0.48,3,0.41,3,0.32,3,1
 68029665,3 bed flat to rent,6933,https://www.zoopla.co.uk/to-rent/details/68029665/,"Admiralty House, London E1W",OpenRent,3,1,12,0,2,0.5158333333333333,12,0.36916666666666664,12,0.636,24,0.5241666666666667,12,1
 68029762,3 bed terraced house to rent,3400,https://www.zoopla.co.uk/to-rent/details/68029762/,"Kersley Street, London SW11",KPIG,3,1,12,1,8,0.49333333333333335,12,0.29333333333333333,12,0.601,24,0.695,12,1
@@ -4113,7 +4113,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68039010,3 bed flat to rent,2400,https://www.zoopla.co.uk/to-rent/details/68039010/,"Onslow Parade, London N14",Lettings of London Ltd,3,1,13,1,3,0.44933333333333336,15,0.39466666666666667,15,0.614,30,0.7966666666666666,15,1
 68039013,3 bed flat to rent,2400,https://www.zoopla.co.uk/to-rent/details/68039013/,"Onslow Parade, London N14",Lettings of London Ltd,3,1,10,1,3,0.49,12,0.3283333333333333,12,0.724,24,0.5983333333333333,12,1
 68039034,1 bed flat to rent,1650,https://www.zoopla.co.uk/to-rent/details/68039034/,"Kimber Road, London SW18",Jacksons Estate Agents - Earlsfield,1,0,3,1,1,0.43,3,0.31,3,0.8,3,0.41,3,1
-68039039,1 bed flat to rent,2400,https://www.zoopla.co.uk/to-rent/details/68039039/,"Limeharbour, London E14",Pacific Estates,1,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68039039,1 bed flat to rent,2400,https://www.zoopla.co.uk/to-rent/details/68039039/,"Limeharbour, London E14",Pacific Estates,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68039041,1 bed flat to rent,2450,https://www.zoopla.co.uk/to-rent/details/68039041/,"Larch Court, Admiral Walk, London W9",Charles Bartlett Residential,1,1,6,0,0,0.45,6,0.22,6,0.55,6,0.8,6,1
 68039044,1 bed flat to rent,2500,https://www.zoopla.co.uk/to-rent/details/68039044/,"Blenheim Terrace, London NW8",Charmill Residential,1,1,5,0,0,0.46,5,0.35,5,0.63,5,0.66,5,1
 68039055,1 bed flat to rent,2000,https://www.zoopla.co.uk/to-rent/details/68039055/,"Blackwall Way, London E14",Pacific Estates,1,0,2,0,0,0.42,3,0.26,3,0.51,3,0.81,3,1
@@ -4159,9 +4159,9 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68040074,1 bed flat to rent,1800,https://www.zoopla.co.uk/to-rent/details/68040074/,"Royal Victoria Gardens, Whiting Way, London SE16",Inner City Estates,1,1,16,1,4,0.51,16,0.32,16,0.63,16,0.54,16,1
 68040138,1 bed flat to rent,2750,https://www.zoopla.co.uk/to-rent/details/68040138/,"Roland Gardens, South Kensington SW7",Home-Made,1,1,5,1,3,0.48,5,0.3,5,0.68,5,0.42,5,1
 68040269,1 bed flat to rent,4500,https://www.zoopla.co.uk/to-rent/details/68040269/,"Apartment 136, London WC2R",SJW Property Management Limited,1,1,11,1,2,0.54,11,0.51,11,0.47,11,0.5,11,1
-68040315,1 bed flat to rent,2300,https://www.zoopla.co.uk/to-rent/details/68040315/,"Cassilis Road, London E14",Pacific Estates,1,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68040315,1 bed flat to rent,2300,https://www.zoopla.co.uk/to-rent/details/68040315/,"Cassilis Road, London E14",Pacific Estates,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68040358,3 bed flat to rent,2750,https://www.zoopla.co.uk/to-rent/details/68040358/,"London Road, Twickenham TW1",Dexters - Twickenham,3,1,5,1,3,0.49399999999999994,5,0.274,5,0.792,10,0.10400000000000001,5,1
-68040364,1 bed flat to rent,2250,https://www.zoopla.co.uk/to-rent/details/68040364/,"Cassilis Road, London E14",Pacific Estates,1,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68040364,1 bed flat to rent,2250,https://www.zoopla.co.uk/to-rent/details/68040364/,"Cassilis Road, London E14",Pacific Estates,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68040381,1 bed flat to rent,1800,https://www.zoopla.co.uk/to-rent/details/68040381/,"Merton Road, Wimbledon, London SW19",Savills - Wimbledon Lettings,1,1,5,1,2,0.45,5,0.52,5,0.38,5,0.54,5,1
 68040405,1 bed flat to rent,2824,https://www.zoopla.co.uk/to-rent/details/68040405/,"New Tannery Way, London SE1",Bamboo Living Ltd,1,1,13,1,2,0.5,14,0.31,14,0.53,14,0.67,14,1
 68040412,1 bed flat to rent,2000,https://www.zoopla.co.uk/to-rent/details/68040412/,"Cooks Road, London E15",JLL - Stratford,1,1,7,1,2,0.53,7,0.34,7,0.5,7,0.55,7,1
@@ -4324,7 +4324,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68045250,1 bed flat to rent,1750,https://www.zoopla.co.uk/to-rent/details/68045250/,"16 Shearwater Drive, West Hendon, London NW9",Brick Management and Lettings Limited,1,1,10,1,1,0.42,10,0.33,10,0.46,10,0.5,10,1
 68045262,1 bed flat to rent,2860,https://www.zoopla.co.uk/to-rent/details/68045262/,"Emery Wharf, London Dock, London E1W",Cluttons - Wapping,1,1,13,1,2,0.49,14,0.33,14,0.58,14,0.72,14,1
 68045263,1 bed flat to rent,2470,https://www.zoopla.co.uk/to-rent/details/68045263/,"Pierhead Wharf, Wapping High Street, London E1W",Cluttons - Wapping,1,1,7,1,1,0.5,7,0.2,7,0.6,7,0.7,7,1
-68045264,1 bed flat to rent,2383,https://www.zoopla.co.uk/to-rent/details/68045264/,"Edgeley Road, London SW4",Cluttons - Chelsea,1,0,0,,,,,,,,,,,1
+68045264,1 bed flat to rent,2383,https://www.zoopla.co.uk/to-rent/details/68045264/,"Edgeley Road, London SW4",Cluttons - Chelsea,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68045265,1 bed flat to rent,2817,https://www.zoopla.co.uk/to-rent/details/68045265/,"Nell Gwynn House, Sloane Avenue, London SW3",Cluttons - Chelsea,1,1,5,1,1,0.45,5,0.24,5,0.58,5,0.73,5,1
 68045290,1 bed flat to rent,4500,https://www.zoopla.co.uk/to-rent/details/68045290/,"River Park Tower, One Nine Elms, Nine Elms, London SW8",Ivory Real Estate,1,1,5,1,1,0.51,5,0.19,5,0.66,5,0.4,5,1
 68045291,3 bed semi-detached house to rent,2700,https://www.zoopla.co.uk/to-rent/details/68045291/,"Lancelot Crescent, Wembley HA0",Right Home Estate Agents,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
@@ -4394,7 +4394,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68047903,2 bed detached house to rent,2200,https://www.zoopla.co.uk/to-rent/details/68047903/,"Queens Avenue, Woodford Green IG8",Birchills Estate Agents,2,0,3,0,1,0.47,3,0.28,3,0.8,3,0.49,3,1
 68047907,1 bed flat to rent,1790,https://www.zoopla.co.uk/to-rent/details/68047907/,"Horn Lane, Acton W3",Lexingtons,1,1,5,1,2,0.48,5,0.28,5,0.66,5,0.32,5,1
 68047954,1 bed flat to rent,1400,https://www.zoopla.co.uk/to-rent/details/68047954/,"Carshalton Road, Sutton SM1",James Bailey Sales & Lettings,1,1,10,1,3,0.4,11,0.3,11,0.69,11,0.48,11,1
-68048072,3 bed flat to rent,3198,https://www.zoopla.co.uk/to-rent/details/68048072/,"Dickens Estate, London SE1",1 Ability Estate Agents,3,-1,0,-1,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+68048072,3 bed flat to rent,3198,https://www.zoopla.co.uk/to-rent/details/68048072/,"Dickens Estate, London SE1",1 Ability Estate Agents,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68048093,2 bed terraced house to rent,1800,https://www.zoopla.co.uk/to-rent/details/68048093/,"Ray Lodge Road, Woodford Green IG8",Abode,2,1,14,1,2,0.46,14,0.28,14,0.62,14,0.55,14,1
 68048249,Room to rent,450,https://www.zoopla.co.uk/to-rent/details/68048249/,"Room 3, West Drayton UB7",M3M Real Estate,1,0,2,1,2,0.39,2,0.3,2,0.7,2,0.17,2,1
 68048280,1 bed flat to rent,2250,https://www.zoopla.co.uk/to-rent/details/68048280/,"9 Reardon Path, London E1W",EweMove Sales & Lettings - Wapping & Bow,1,1,7,1,2,0.52,7,0.25,7,0.71,7,0.61,7,1
@@ -4849,7 +4849,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68071451,2 bed flat to rent,3250,https://www.zoopla.co.uk/to-rent/details/68071451/,"Woodberry Grove, London N4",JLL - Finsbury Park,2,1,9,0,1,0.47,9,0.3,9,0.6,9,0.66,9,1
 68071454,2 bed flat to rent,3200,https://www.zoopla.co.uk/to-rent/details/68071454/,"Duke Of Wellington Avenue, Woolwich SE18",Conran Estate Agents Charlton,2,1,8,1,2,0.53,8,0.22,8,0.75,8,0.54,8,1
 68071464,2 bed flat to rent,2100,https://www.zoopla.co.uk/to-rent/details/68071464/,"Langham Road, London N15",Lettings of London Ltd,2,1,14,1,2,0.43,14,0.39,14,0.37,14,0.76,14,1
-68071466,2 bed flat to rent,3250,https://www.zoopla.co.uk/to-rent/details/68071466/,"Blackwall Way, London E14",Dexters - Canary Wharf,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68071466,2 bed flat to rent,3250,https://www.zoopla.co.uk/to-rent/details/68071466/,"Blackwall Way, London E14",Dexters - Canary Wharf,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68071473,2 bed flat to rent,2500,https://www.zoopla.co.uk/to-rent/details/68071473/,"Sheridan House, Wincott Street, Kennington SE11",Marsh & Parsons - Kennington,2,0,4,1,2,0.52,5,0.41,5,0.72,5,0.41,5,1
 68071481,2 bed flat to rent,1800,https://www.zoopla.co.uk/to-rent/details/68071481/,"Kings Road, Kingston Upon Thames KT2",Kinleigh Folkard & Hayward - Kingston Lettings,2,0,4,0,1,0.44,4,0.39,4,0.83,4,0.8,4,1
 68071494,3 bed maisonette to rent,6300,https://www.zoopla.co.uk/to-rent/details/68071494/,"St. Georges Terrace, Primrose Hill NW1",Chestertons - Camden & Primrose Hill,3,1,11,1,5,0.49763636363636365,11,0.25327272727272726,11,0.829,22,0.3803636363636364,11,1
@@ -4920,7 +4920,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68072632,3 bed flat to rent,5633,https://www.zoopla.co.uk/to-rent/details/68072632/,"St. Johns Wood Park, London NW8",We Haus,3,1,15,1,5,0.5395333333333333,15,0.3244666666666667,15,0.715,30,0.45926666666666666,15,1
 68072664,2 bed maisonette to rent,2500,https://www.zoopla.co.uk/to-rent/details/68072664/,"Norfolk Road, Colliers Wood SW19",Hawes & Co - Wimbledon Broadway,2,1,6,1,2,0.46,9,0.36,9,0.69,9,0.44,9,1
 68072665,3 bed flat to rent,3250,https://www.zoopla.co.uk/to-rent/details/68072665/,"Leopold Road, London SW19",Hawes & Co - Wimbledon Village,3,1,8,1,3,0.4485,8,0.421875,8,0.677,16,0.420625,8,1
-68072671,2 bed terraced house to rent,1950,https://www.zoopla.co.uk/to-rent/details/68072671/,"Devonshire Road, Southall UB1",Home Seekers,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68072671,2 bed terraced house to rent,1950,https://www.zoopla.co.uk/to-rent/details/68072671/,"Devonshire Road, Southall UB1",Home Seekers,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68072695,1 bed maisonette to rent,1668,https://www.zoopla.co.uk/to-rent/details/68072695/,"Wansey Street, London SE17",Black Katz - London Bridge & Clapham,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68072710,2 bed flat to rent,2383,https://www.zoopla.co.uk/to-rent/details/68072710/,"Grittleton Road, London W9",Loporto Browne Residential,2,1,11,1,3,0.49,11,0.56,11,0.66,11,0.58,11,1
 68072829,2 bed flat to rent,3250,https://www.zoopla.co.uk/to-rent/details/68072829/,"Rossmore Court, Park Road, London NW1",Aston Chase,2,1,5,0,1,0.49,5,0.28,5,0.76,5,0.32,5,1
@@ -4931,9 +4931,9 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68072928,2 bed flat to rent,3500,https://www.zoopla.co.uk/to-rent/details/68072928/,"Rosslyn Mews, Hampstead, London NW3",PMP International,2,1,9,1,2,0.51,10,0.36,10,0.7,10,0.72,10,1
 68072986,3 bed detached house to rent,5417,https://www.zoopla.co.uk/to-rent/details/68072986/,"Bell Street, Marylebone, London NW1",Knight Frank - Marylebone Lettings,3,1,17,1,5,0.5329411764705883,17,0.2233529411764706,17,0.673,34,0.49305882352941177,17,1
 68072987,2 bed flat to rent,1650,https://www.zoopla.co.uk/to-rent/details/68072987/,"Eagle Drive, London NW9",Acorn Properties,2,1,5,0,1,0.42,5,0.32,5,0.74,5,0.78,5,1
-68073019,3 bed terraced house to rent,2600,https://www.zoopla.co.uk/to-rent/details/68073019/,"Sheerwater Road, London E16",Zevet Properties,3,-1,0,-1,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+68073019,3 bed terraced house to rent,2600,https://www.zoopla.co.uk/to-rent/details/68073019/,"Sheerwater Road, London E16",Zevet Properties,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68073080,2 bed flat to rent,4300,https://www.zoopla.co.uk/to-rent/details/68073080/,"Sky Gardens, 155 Wandsworth Road, London SW8",Citian & Partners,2,1,11,1,4,0.52,12,0.41,12,0.72,12,0.56,12,1
-68073108,2 bed flat to rent,4000,https://www.zoopla.co.uk/to-rent/details/68073108/,"Cascade Way, London W12",Hamptons - Notting Hill Lettings,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68073108,2 bed flat to rent,4000,https://www.zoopla.co.uk/to-rent/details/68073108/,"Cascade Way, London W12",Hamptons - Notting Hill Lettings,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68073126,2 bed flat to rent,2860,https://www.zoopla.co.uk/to-rent/details/68073126/,"Northcote Road, Between The Commons SW11",Chestertons - Battersea Rise,2,1,5,1,2,0.44,5,0.24,5,0.69,5,0.56,5,1
 68073139,2 bed flat to rent,5200,https://www.zoopla.co.uk/to-rent/details/68073139/,"Berkeley Street, London W1J",Wetherell,2,0,4,0,1,0.51,4,0.23,4,0.76,4,0.51,4,1
 68073171,2 bed flat to rent,1695,https://www.zoopla.co.uk/to-rent/details/68073171/,"Streatham High Road, London SW16",United Estates Ltd,2,1,7,0,1,0.51,7,0.19,7,0.49,7,0.7,7,1
@@ -5021,7 +5021,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68074480,3 bed detached house to rent,2600,https://www.zoopla.co.uk/to-rent/details/68074480/,"Wilkins Close, Mitcham CR4",N2 Lettings,3,0,4,0,0,0.41575,4,0.23775000000000002,4,0.729,8,0.74725,4,1
 68074546,2 bed flat to rent,4450,https://www.zoopla.co.uk/to-rent/details/68074546/,"Smugglers Way, London SW18",Winchester White,2,1,7,1,2,0.52,7,0.3,7,0.83,7,0.47,7,1
 68074548,2 bed maisonette to rent,3200,https://www.zoopla.co.uk/to-rent/details/68074548/,"Grays Inn Road, London WC1X",Hello Neighbour Ltd,2,1,20,1,7,0.52,20,0.63,20,0.74,20,0.44,20,1
-68074552,2 bed flat to rent,1798,https://www.zoopla.co.uk/to-rent/details/68074552/,"Inderwick Road, London N8",Black Katz - Camden,2,0,0,,,,,,,,,,,1
+68074552,2 bed flat to rent,1798,https://www.zoopla.co.uk/to-rent/details/68074552/,"Inderwick Road, London N8",Black Katz - Camden,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68074592,2 bed flat to rent,2100,https://www.zoopla.co.uk/to-rent/details/68074592/,"Twickenham Road, Holme Court TW7",Oakhill,2,1,6,0,1,0.45,6,0.32,6,0.59,6,0.65,6,1
 68074610,3 bed flat to rent,3000,https://www.zoopla.co.uk/to-rent/details/68074610/,"Finborough Road, London SW10",Kinleigh Folkard & Hayward - South Kensington Lettings,3,1,12,1,4,0.48125,12,0.41275,12,0.633,24,0.349,12,1
 68074612,2 bed flat to rent,4500,https://www.zoopla.co.uk/to-rent/details/68074612/,"Kingsway, London WC2B",Hamptons - City & West End Lettings,2,1,6,1,3,0.52,6,0.46,6,0.5,6,0.46,6,1
@@ -5072,7 +5072,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68075405,2 bed flat to rent,2795,https://www.zoopla.co.uk/to-rent/details/68075405/,"Askew Mansion, London W12",OpenRent,2,1,13,1,2,0.46,13,0.46,13,0.51,13,0.32,13,1
 68075410,3 bed flat to rent,3749,https://www.zoopla.co.uk/to-rent/details/68075410/,"Clockview Crescent, London N7",OpenRent,3,1,9,0,2,0.5113000000000001,10,0.5028,10,0.653,20,0.5595,10,1
 68075441,2 bed flat to rent,2400,https://www.zoopla.co.uk/to-rent/details/68075441/,"Finchley Lane, Hendon, London NW4",Excel Property Services,2,0,4,0,1,0.48,4,0.23,4,0.72,4,0.65,4,1
-68075450,2 bed flat to rent,2000,https://www.zoopla.co.uk/to-rent/details/68075450/,"Finchley Road, London NW11",ALLCARE PROPERTIES LTD,2,0,0,,,,,,,,,,,1
+68075450,2 bed flat to rent,2000,https://www.zoopla.co.uk/to-rent/details/68075450/,"Finchley Road, London NW11",ALLCARE PROPERTIES LTD,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68075454,2 bed flat to rent,2947,https://www.zoopla.co.uk/to-rent/details/68075454/,"Oakley Square, London NW1",UKMate Ltd,2,1,17,1,8,0.47,17,0.27,17,0.66,17,0.62,17,1
 68075506,3 bed flat to rent,3250,https://www.zoopla.co.uk/to-rent/details/68075506/,"Epirus Mews, Fulham SW6",Letio,3,1,13,1,5,0.455,13,0.29892307692307696,13,0.585,26,0.5901538461538461,13,1
 68075529,2 bed flat to rent,6500,https://www.zoopla.co.uk/to-rent/details/68075529/,"Sloane Court West, Chelsea SW3",Draker Sloane Square,2,1,18,1,7,0.46,19,0.2,19,0.79,19,0.51,19,1
@@ -5101,7 +5101,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68076045,2 bed flat to rent,2295,https://www.zoopla.co.uk/to-rent/details/68076045/,"Twickenham Road, Teddington TW11",Waterview - Thames Ditton,2,0,3,0,0,0.41,3,0.22,3,0.78,3,0.87,3,1
 68076046,2 bed flat to rent,3683,https://www.zoopla.co.uk/to-rent/details/68076046/,"Upper Montagu Street, Marylebone, London NW1",Newington Real Estate Agents Limited,2,0,4,0,1,0.46,5,0.27,5,0.8,5,0.45,5,1
 68076087,3 bed flat to rent,2804,https://www.zoopla.co.uk/to-rent/details/68076087/,"Churchfield Road, Acton W3",Andersons Estate Agents,3,1,7,0,1,0.538,7,0.3227142857142857,7,0.696,14,0.8784285714285714,7,1
-68076088,3 bed terraced house to rent,2800,https://www.zoopla.co.uk/to-rent/details/68076088/,"Ranelagh Road, Southall, Middlesex UB1",Hamlet Homes,3,-1,0,-1,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+68076088,3 bed terraced house to rent,2800,https://www.zoopla.co.uk/to-rent/details/68076088/,"Ranelagh Road, Southall, Middlesex UB1",Hamlet Homes,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68076177,3 bed flat to rent,3950,https://www.zoopla.co.uk/to-rent/details/68076177/,"College Crescent, London NW3",Dexters - Hampstead,3,1,5,1,3,0.399,5,0.3366,5,0.641,10,0.3012,5,1
 68076596,3 bed flat to rent,7063,https://www.zoopla.co.uk/to-rent/details/68076596/,"Merchant Square East, London W2",Heathgate,3,1,13,1,7,0.46242857142857147,14,0.2452857142857143,14,0.542,28,0.5398571428571428,14,1
 68076788,3 bed flat to rent,2100,https://www.zoopla.co.uk/to-rent/details/68076788/,"Whitestone Way, Croydon CR0",Stirling Ackroyd - Croydon,3,1,10,0,1,0.39089999999999997,10,0.3001,10,0.489,20,0.7689999999999999,10,1
@@ -5129,12 +5129,12 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68077421,2 bed flat to rent,3683,https://www.zoopla.co.uk/to-rent/details/68077421/,"Gloucester Place, Marylebone, London NW1",Newington Real Estate Agents Limited,2,1,6,1,2,0.46,6,0.27,6,0.78,6,0.75,6,1
 68077492,2 bed flat to rent,5525,https://www.zoopla.co.uk/to-rent/details/68077492/,"Lexham Gardens, London W8",Savills - Kensington Lettings,2,1,10,1,4,0.44,10,0.35,10,0.58,10,0.28,10,1
 68077494,3 bed semi-detached house to rent,2250,https://www.zoopla.co.uk/to-rent/details/68077494/,"Derham Gardens, Upminster RM14",Balgores Upminster,3,1,8,0,2,0.453625,8,0.246,8,0.747,16,0.61275,8,1
-68077518,2 bed flat to rent,2400,https://www.zoopla.co.uk/to-rent/details/68077518/,"Kingwood Road, Fulham, London SW6",LDB,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68077518,2 bed flat to rent,2400,https://www.zoopla.co.uk/to-rent/details/68077518/,"Kingwood Road, Fulham, London SW6",LDB,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68077532,3 bed flat to rent,3050,https://www.zoopla.co.uk/to-rent/details/68077532/,"Tooting Bec Road, London SW17",Savills - Clapham Lettings,3,1,5,1,3,0.44980000000000003,5,0.23159999999999997,5,0.814,10,0.6326,5,1
 68077542,3 bed terraced house to rent,2300,https://www.zoopla.co.uk/to-rent/details/68077542/,"Trelawney Road, Ilford IG6",Cranbrook lettings LTD,3,1,6,0,2,0.512125,8,0.421125,8,0.753,16,0.313,8,1
 68077543,3 bed flat to rent,3150,https://www.zoopla.co.uk/to-rent/details/68077543/,"Tooting Bec Road, London SW17",Savills - Clapham Lettings,3,1,7,1,3,0.4337142857142857,7,0.2651428571428572,7,0.762,14,0.824,7,1
 68077549,2 bed flat to rent,2600,https://www.zoopla.co.uk/to-rent/details/68077549/,"River Gardens Walk, London SE10",Dexters Greenwich,2,0,4,0,1,0.49,5,0.27,5,0.48,5,0.68,5,1
-68077589,2 bed flat to rent,3033,https://www.zoopla.co.uk/to-rent/details/68077589/,"5 Liddell Place, London NW6",CHAMPS UK Property Asset Management,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68077589,2 bed flat to rent,3033,https://www.zoopla.co.uk/to-rent/details/68077589/,"5 Liddell Place, London NW6",CHAMPS UK Property Asset Management,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68077592,2 bed flat to rent,3012,https://www.zoopla.co.uk/to-rent/details/68077592/,"Eardley Crescent, Earls Court, London SW5",Foxtons - Earls Court,2,1,6,1,2,0.48,6,0.26,6,0.71,6,0.26,6,1
 68077611,2 bed flat to rent,2295,https://www.zoopla.co.uk/to-rent/details/68077611/,"Twickenham Road, Teddington TW11",Dexters - Teddington,2,0,3,0,0,0.41,3,0.22,3,0.78,3,0.87,3,1
 68077618,2 bed flat to rent,5634,https://www.zoopla.co.uk/to-rent/details/68077618/,"Allsop Place, Marylebone, London NW1",Foxtons - Marylebone & Mayfair,2,1,9,1,3,0.51,9,0.28,9,0.61,9,0.58,9,1
@@ -5148,10 +5148,10 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68077743,3 bed terraced house to rent,2350,https://www.zoopla.co.uk/to-rent/details/68077743/,"Melford Road, Leytonstone, London E11",Trading Places,3,1,9,0,2,0.4412,10,0.3226,10,0.771,20,0.40469999999999995,10,1
 68077788,2 bed flat to rent,2400,https://www.zoopla.co.uk/to-rent/details/68077788/,"Shoot Up Hill, London NW2",Gracewater Associates,2,1,5,0,1,0.46,6,0.38,6,0.6,6,0.7,6,1
 68077900,2 bed flat to rent,2000,https://www.zoopla.co.uk/to-rent/details/68077900/,"Cranbrook Road, Ilford IG2",Cranbrook lettings LTD,2,0,4,0,1,0.47,4,0.42,4,0.54,4,0.67,4,1
-68077953,2 bed flat to rent,3445,https://www.zoopla.co.uk/to-rent/details/68077953/,"No 1 West India Quay, Canary Wharf E14",JH City Property,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68077953,2 bed flat to rent,3445,https://www.zoopla.co.uk/to-rent/details/68077953/,"No 1 West India Quay, Canary Wharf E14",JH City Property,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68077956,3 bed flat to rent,3900,https://www.zoopla.co.uk/to-rent/details/68077956/,"Acacia Road, London NW8",Dexters - St Johns Wood,3,1,6,1,3,0.5103333333333334,6,0.23483333333333334,6,0.86,12,0.31783333333333336,6,1
 68077959,2 bed flat to rent,2300,https://www.zoopla.co.uk/to-rent/details/68077959/,"Mcdowall Road, London SE5",Hunters - Camberwell,2,1,9,1,4,0.45,9,0.43,9,0.69,9,0.68,9,1
-68077963,2 bed flat to rent,6067,https://www.zoopla.co.uk/to-rent/details/68077963/,"No 1 West India Quay, Canary Wharf E14",JH City Property,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68077963,2 bed flat to rent,6067,https://www.zoopla.co.uk/to-rent/details/68077963/,"No 1 West India Quay, Canary Wharf E14",JH City Property,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68077965,3 bed terraced house to rent,2400,https://www.zoopla.co.uk/to-rent/details/68077965/,"Woodford Avenue, Ilford IG2",Cranbrook lettings LTD,3,1,9,1,3,0.44827272727272727,11,0.32145454545454544,11,0.825,22,0.3931818181818182,11,1
 68077981,2 bed flat to rent,4225,https://www.zoopla.co.uk/to-rent/details/68077981/,"Kennington Lane, London SE11",CHAMPS UK Property Asset Management,2,1,12,1,4,0.58,12,0.64,12,0.67,12,0.76,12,1
 68077989,2 bed flat to rent,4853,https://www.zoopla.co.uk/to-rent/details/68077989/,"Landmark Pinnacle, Marsh Wall, Canary Wharf, London E14",JH City Property,2,0,2,0,0,0.56,2,0.24,2,0.59,2,0.82,2,1
@@ -5159,16 +5159,16 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68078021,2 bed flat to rent,2197,https://www.zoopla.co.uk/to-rent/details/68078021/,"Tollington Park, London N4",Dexters - Finsbury Park,2,0,4,1,2,0.44,4,0.2,4,0.77,4,0.64,4,1
 68078032,2 bed flat to rent,3030,https://www.zoopla.co.uk/to-rent/details/68078032/,"Hows Building, Stratford E20",Foxtons - London Lettings,2,1,8,1,2,0.51,10,0.53,10,0.64,10,0.51,10,1
 68078035,2 bed flat to rent,3012,https://www.zoopla.co.uk/to-rent/details/68078035/,"Sandhu Building, Stratford E20",Foxtons - London Lettings,2,1,18,1,6,0.5,20,0.57,20,0.69,20,0.42,20,1
-68078047,2 bed flat to rent,4767,https://www.zoopla.co.uk/to-rent/details/68078047/,"Water Lane, Fenchrch Street EC3R",JH City Property,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68078047,2 bed flat to rent,4767,https://www.zoopla.co.uk/to-rent/details/68078047/,"Water Lane, Fenchrch Street EC3R",JH City Property,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68078062,2 bed flat to rent,5200,https://www.zoopla.co.uk/to-rent/details/68078062/,"Blantyre Walk SW10, Chelsea, London,",Foxtons - Sloane Square,2,1,6,1,3,0.43,7,0.23,7,0.65,7,0.58,7,1
-68078079,2 bed flat to rent,6717,https://www.zoopla.co.uk/to-rent/details/68078079/,"One Blackfriars Road, Southwark SE1",JH City Property,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68078079,2 bed flat to rent,6717,https://www.zoopla.co.uk/to-rent/details/68078079/,"One Blackfriars Road, Southwark SE1",JH City Property,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68078086,3 bed maisonette to rent,2300,https://www.zoopla.co.uk/to-rent/details/68078086/,"Gough Walk, London E14",Fisks London,3,1,10,1,3,0.5033000000000001,10,0.3274,10,0.855,20,0.6325000000000001,10,1
 68078093,2 bed flat to rent,6933,https://www.zoopla.co.uk/to-rent/details/68078093/,"One Blackfriars Road, Southwark SE1",JH City Property,2,0,2,0,0,0.51,2,0.67,2,0.43,2,0.35,2,1
 68078105,3 bed flat to rent,5200,https://www.zoopla.co.uk/to-rent/details/68078105/,"Wansley Street, Elephant &amp; Castle SE17",JH City Property,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68078115,3 bed shared accommodation to rent,2600,https://www.zoopla.co.uk/to-rent/details/68078115/,"Olive Tree House, Sharath Street, London SE15",Hue Homes,3,1,5,0,2,0.44533333333333336,6,0.20099999999999998,6,0.777,12,0.5048333333333334,6,1
 68078119,3 bed terraced house to rent,3750,https://www.zoopla.co.uk/to-rent/details/68078119/,"Antill Road, London E3",Elms Estate Agents,3,1,12,1,5,0.4878461538461539,13,0.3284615384615384,13,0.686,26,0.6975384615384616,13,1
 68078125,2 bed flat to rent,2550,https://www.zoopla.co.uk/to-rent/details/68078125/,"Starboard Way, London E16",E C Residential,2,1,20,1,5,0.49,21,0.38,21,0.48,21,0.59,21,1
-68078135,2 bed flat to rent,4030,https://www.zoopla.co.uk/to-rent/details/68078135/,W11,JH City Property,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68078135,2 bed flat to rent,4030,https://www.zoopla.co.uk/to-rent/details/68078135/,W11,JH City Property,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68078181,2 bed flat to rent,4528,https://www.zoopla.co.uk/to-rent/details/68078181/,"Lexham Gardens, London W8",Dexters - Earls Court,2,1,9,1,2,0.44,9,0.29,9,0.79,9,0.24,9,1
 68078182,2 bed flat to rent,5178,https://www.zoopla.co.uk/to-rent/details/68078182/,"Lexham Gardens, London W8",Dexters - Earls Court,2,1,7,1,2,0.47,7,0.33,7,0.66,7,0.29,7,1
 68078183,2 bed flat to rent,4962,https://www.zoopla.co.uk/to-rent/details/68078183/,"Lexham Gardens, London W8",Dexters - Earls Court,2,1,8,1,2,0.47,8,0.38,8,0.67,8,0.38,8,1
@@ -5358,7 +5358,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68082982,3 bed flat to rent,3300,https://www.zoopla.co.uk/to-rent/details/68082982/,"Lordship Lane, East Dulwich SE22",Truepenny's,3,1,10,0,2,0.5168999999999999,10,0.2061,10,0.674,20,0.5567,10,1
 68083043,2 bed flat to rent,2383,https://www.zoopla.co.uk/to-rent/details/68083043/,"East India Dock Road, London E14",JC Living,2,1,7,1,3,0.56,8,0.4,8,0.79,8,0.67,8,1
 68083077,2 bed flat to rent,4117,https://www.zoopla.co.uk/to-rent/details/68083077/,"Ambassador Building, New Union Square, Nine Elms SW11",Panda Residential,2,1,12,1,2,0.5,13,0.32,13,0.58,13,0.59,13,1
-68083081,3 bed flat to rent,2925,https://www.zoopla.co.uk/to-rent/details/68083081/,"Antill Road, London N15",Black Katz - Islington,3,-1,0,-1,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+68083081,3 bed flat to rent,2925,https://www.zoopla.co.uk/to-rent/details/68083081/,"Antill Road, London N15",Black Katz - Islington,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68083087,2 bed flat to rent,1700,https://www.zoopla.co.uk/to-rent/details/68083087/,"Pempath Place, Wembley HA9",Hamilton Estates,2,1,6,1,2,0.44,7,0.21,7,0.65,7,0.79,7,1
 68083155,2 bed flat to rent,1700,https://www.zoopla.co.uk/to-rent/details/68083155/,"Holmesdale Road, London SE25",Jukes and Co,2,1,8,0,1,0.45,8,0.24,8,0.69,8,0.52,8,1
 68083201,2 bed flat to rent,2500,https://www.zoopla.co.uk/to-rent/details/68083201/,"Metro Central Heights, 119 Newington Causeway SE1",Chestertons - Tower Bridge,2,1,10,1,4,0.51,10,0.26,10,0.66,10,0.46,10,1
@@ -5403,7 +5403,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68083671,2 bed flat to rent,3012,https://www.zoopla.co.uk/to-rent/details/68083671/,"Oakview Lodge, Beechcroft Avenue, Golders Green NW11",Aston Chase,2,1,8,1,3,0.49,8,0.25,8,0.66,8,0.4,8,1
 68083678,3 bed maisonette to rent,3750,https://www.zoopla.co.uk/to-rent/details/68083678/,"Chalsey Road, London SE4",Dexters - Lewisham,3,1,6,1,3,0.3925,6,0.3293333333333333,6,0.821,12,0.30733333333333335,6,1
 68083692,2 bed terraced house to rent,3792,https://www.zoopla.co.uk/to-rent/details/68083692/,"Kinnerton Street, Belgravia, London SW1X",Savills - Sloane Street Lettings,2,1,9,0,1,0.46599999999999997,9,0.202,9,0.679,18,0.6284444444444444,9,1
-68083702,2 bed flat to rent,2700,https://www.zoopla.co.uk/to-rent/details/68083702/,"Shepherds Bush Road, London W6",Kinleigh Folkard & Hayward - Brook Green Lettings,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68083702,2 bed flat to rent,2700,https://www.zoopla.co.uk/to-rent/details/68083702/,"Shepherds Bush Road, London W6",Kinleigh Folkard & Hayward - Brook Green Lettings,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68083712,2 bed flat to rent,3467,https://www.zoopla.co.uk/to-rent/details/68083712/,"Blenheim Terrace, St John's Wood, London NW8",Hanover,2,1,16,0,0,0.45,16,0.3,16,0.64,16,0.68,16,1
 68083746,3 bed flat to rent,3250,https://www.zoopla.co.uk/to-rent/details/68083746/,"Dagnan Road, London SW12",Marsh & Parsons - Balham & Clapham South,3,1,6,0,2,0.4411666666666667,6,0.4021666666666666,6,0.751,12,0.5401666666666667,6,1
 68083755,2 bed flat to rent,3380,https://www.zoopla.co.uk/to-rent/details/68083755/,"Brook Street, Kingston Upon Thames KT1",Celestial Globe,2,1,12,1,4,0.55,12,0.44,12,0.57,12,0.87,12,1
@@ -5424,7 +5424,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68084080,2 bed flat to rent,2200,https://www.zoopla.co.uk/to-rent/details/68084080/,"The Roundway, Tottenham N17",Filey Properties - Hackney,2,1,7,1,4,0.46,7,0.31,7,0.67,7,0.49,7,1
 68084093,2 bed flat to rent,1900,https://www.zoopla.co.uk/to-rent/details/68084093/,"Beaconsfield Court, Beaconsfield Road, London N11",EweMove Sales & Lettings - Finchley,2,1,7,1,2,0.41,7,0.23,7,0.79,7,0.83,7,1
 68084120,2 bed flat to rent,3467,https://www.zoopla.co.uk/to-rent/details/68084120/,"Park Road, Regent's Park, London NW1",Foxtons - Marylebone & Mayfair,2,1,10,1,4,0.45,10,0.24,10,0.66,10,0.78,10,1
-68084130,2 bed flat to rent,1898,https://www.zoopla.co.uk/to-rent/details/68084130/,"Willesden Lane, London NW6",Black Katz - West Hampstead,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68084130,2 bed flat to rent,1898,https://www.zoopla.co.uk/to-rent/details/68084130/,"Willesden Lane, London NW6",Black Katz - West Hampstead,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68084142,2 bed flat to rent,4800,https://www.zoopla.co.uk/to-rent/details/68084142/,"Wilshire House, Prospect Way, Battersea Power Station SW11",Copperstones Ltd.,2,1,9,0,1,0.5,9,0.3,9,0.6,9,0.63,9,1
 68084166,2 bed flat to rent,2500,https://www.zoopla.co.uk/to-rent/details/68084166/,"Vivian Avenue, London NW4",N & N Properties,2,1,5,1,2,0.5,5,0.35,5,0.48,5,0.63,5,1
 68084167,2 bed flat to rent,3683,https://www.zoopla.co.uk/to-rent/details/68084167/,"Hurlock Heights, Elephant Park, Elephant &amp; Castle SE17",Chase Evans Elephant & Castle,2,1,8,0,1,0.47,8,0.21,8,0.62,8,0.58,8,1
@@ -5460,7 +5460,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68085028,2 bed flat to rent,4333,https://www.zoopla.co.uk/to-rent/details/68085028/,"Londond Dock, London E1W",JC Living,2,1,6,1,2,0.52,7,0.26,7,0.67,7,0.52,7,1
 68085039,2 bed flat to rent,2578,https://www.zoopla.co.uk/to-rent/details/68085039/,"Harrowby Street, London W1H",Hamptons - Paddington Lettings,2,1,7,1,2,0.43,7,0.32,7,0.66,7,0.32,7,1
 68085087,3 bed flat to rent,2500,https://www.zoopla.co.uk/to-rent/details/68085087/,"Mccullum Road, Bow, London E3",Hunters - Plaistow,3,1,7,1,3,0.5025,8,0.34375,8,0.865,16,0.651375,8,1
-68085141,3 bed terraced house to rent,3150,https://www.zoopla.co.uk/to-rent/details/68085141/,"Montana Road, London SW17",We Can Properties,3,-1,0,-1,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+68085141,3 bed terraced house to rent,3150,https://www.zoopla.co.uk/to-rent/details/68085141/,"Montana Road, London SW17",We Can Properties,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68085150,3 bed flat to rent,4000,https://www.zoopla.co.uk/to-rent/details/68085150/,"Tottenham Lane, Crouch End, London N8",Drivers & Norris,3,1,8,0,0,0.5295,8,0.45975,8,0.625,16,0.624375,8,1
 68085155,2 bed flat to rent,3000,https://www.zoopla.co.uk/to-rent/details/68085155/,"Tottenham Lane, Crouch End, London N8",Drivers & Norris,2,1,5,0,0,0.53,5,0.55,5,0.62,5,0.56,5,1
 68085169,2 bed flat to rent,1650,https://www.zoopla.co.uk/to-rent/details/68085169/,"Roundwood Road, London NW10",Harris & Company,2,1,6,1,2,0.46,6,0.32,6,0.74,6,0.78,6,1
@@ -5483,11 +5483,11 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68085364,3 bed flat to rent,8000,https://www.zoopla.co.uk/to-rent/details/68085364/,"Cashmere Wharf, Gauging Square E1W",Crown Home Buying and Letting,3,1,33,1,6,0.5234848484848484,33,0.4460909090909091,33,0.651,66,0.5217272727272727,33,1
 68085365,3 bed flat to rent,14517,https://www.zoopla.co.uk/to-rent/details/68085365/,"Stanhope Gardens, London SW7",Imperial Homes,3,1,11,1,3,0.4364545454545455,11,0.353,11,0.556,22,0.512090909090909,11,1
 68085368,2 bed flat to rent,2383,https://www.zoopla.co.uk/to-rent/details/68085368/,"Alington House, London N8",JC Living,2,1,9,1,3,0.52,9,0.43,9,0.5,9,0.57,9,1
-68085384,3 bed flat to rent,18417,https://www.zoopla.co.uk/to-rent/details/68085384/,"Stanhope Gardens, South Kensington, London SW7",Imperial Homes,3,-1,0,-1,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+68085384,3 bed flat to rent,18417,https://www.zoopla.co.uk/to-rent/details/68085384/,"Stanhope Gardens, South Kensington, London SW7",Imperial Homes,3,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68085391,2 bed flat to rent,5547,https://www.zoopla.co.uk/to-rent/details/68085391/,"Damac Tower, Vauxhall, London SW8",Panda Residential,2,1,5,0,1,0.57,5,0.38,5,0.77,5,0.6,5,1
 68085408,2 bed terraced house to rent,1750,https://www.zoopla.co.uk/to-rent/details/68085408/,"Sevenoaks Close, Sutton SM2",Ann Charles Estate Agents,2,1,12,1,3,0.46258333333333335,12,0.19216666666666668,12,0.612,24,0.5391666666666667,12,1
 68085418,3 bed flat to rent,10000,https://www.zoopla.co.uk/to-rent/details/68085418/,"Jack Straws Castle, North End Way, London NW3",Hastings International - London Bridge,3,1,13,0,1,0.5091538461538462,13,0.21453846153846154,13,0.794,26,0.6737692307692308,13,1
-68085454,2 bed flat to rent,2097,https://www.zoopla.co.uk/to-rent/details/68085454/,"Falmouth Road, London SE1",1 Ability Estate Agents,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68085454,2 bed flat to rent,2097,https://www.zoopla.co.uk/to-rent/details/68085454/,"Falmouth Road, London SE1",1 Ability Estate Agents,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68085462,3 bed semi-detached house to rent,3500,https://www.zoopla.co.uk/to-rent/details/68085462/,"Ingleway, North Finchley, London N12",Winkworth - Finchley,3,1,12,0,1,0.5731666666666667,12,0.5752499999999999,12,0.638,24,0.6618333333333334,12,1
 68085479,2 bed flat to rent,3250,https://www.zoopla.co.uk/to-rent/details/68085479/,"Smugglers Way, London SW18",Marsh & Parsons - Battersea,2,1,7,1,2,0.53,7,0.38,7,0.76,7,0.53,7,1
 68085487,3 bed flat to rent,2850,https://www.zoopla.co.uk/to-rent/details/68085487/,"Metcalfe House, Albion Avenue SW8",Chestertons - Battersea Rise,3,1,7,1,3,0.4677142857142857,7,0.4621428571428572,7,0.752,14,0.3281428571428572,7,1
@@ -5512,7 +5512,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68086018,2 bed flat to rent,7345,https://www.zoopla.co.uk/to-rent/details/68086018/,"Kingston House South, Ennismore Gardens, London SW7",Savills - Knightsbridge Lettings,2,1,12,1,4,0.51,12,0.27,12,0.78,12,0.38,12,1
 68086034,3 bed flat to rent,2600,https://www.zoopla.co.uk/to-rent/details/68086034/,"Manse Road, London N16",bigmove Estate Agents,3,1,6,0,0,0.42566666666666664,6,0.5255,6,0.498,12,0.5690000000000001,6,1
 68086067,3 bed flat to rent,2799,https://www.zoopla.co.uk/to-rent/details/68086067/,"Madeira Road, London SW16",Hometomove,3,0,3,0,0,0.377,3,0.256,3,0.803,6,0.8300000000000001,3,1
-68086174,2 bed flat to rent,2799,https://www.zoopla.co.uk/to-rent/details/68086174/,"City Walk, London SE1",1 Ability Estate Agents,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68086174,2 bed flat to rent,2799,https://www.zoopla.co.uk/to-rent/details/68086174/,"City Walk, London SE1",1 Ability Estate Agents,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68086181,2 bed semi-detached house to rent,2100,https://www.zoopla.co.uk/to-rent/details/68086181/,"Kings Road, Kingston Upon Thames KT2",Saxon Kings,2,1,11,0,1,0.45263636363636367,11,0.4298181818181818,11,0.692,22,0.593,11,1
 68086205,2 bed flat to rent,2300,https://www.zoopla.co.uk/to-rent/details/68086205/,"Providence Square, Shad Thames SE1",Chestertons - Tower Bridge,2,0,2,0,0,0.6,2,0.23,2,0.52,2,0.7,2,1
 68086220,2 bed terraced house to rent,3000,https://www.zoopla.co.uk/to-rent/details/68086220/,"Fonthill Mews, London N4",Davies & Davies,2,1,13,0,0,0.5287692307692308,13,0.37315384615384617,13,0.422,26,0.5306153846153847,13,1
@@ -5532,7 +5532,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68086539,2 bed flat to rent,3000,https://www.zoopla.co.uk/to-rent/details/68086539/,"Burbage Close, Elephant And Castle, London SE1",Foxtons - Elephant & Castle,2,1,6,0,1,0.45,7,0.23,7,0.71,7,0.46,7,1
 68086554,2 bed flat to rent,9967,https://www.zoopla.co.uk/to-rent/details/68086554/,"Upper Brook Street, London W1K",Wetherell,2,1,8,1,2,0.43,8,0.23,8,0.74,8,0.66,8,1
 68086563,2 bed flat to rent,1850,https://www.zoopla.co.uk/to-rent/details/68086563/,"Charcot Road, Colindale, London NW9",Foxtons - Temple Fortune,2,1,6,0,1,0.48,6,0.2,6,0.57,6,0.71,6,1
-68086621,2 bed flat to rent,2817,https://www.zoopla.co.uk/to-rent/details/68086621/,"Allitsen Road, St John's Wood, London NW8",Foxtons - St John's Wood,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68086621,2 bed flat to rent,2817,https://www.zoopla.co.uk/to-rent/details/68086621/,"Allitsen Road, St John's Wood, London NW8",Foxtons - St John's Wood,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68086645,2 bed flat to rent,3050,https://www.zoopla.co.uk/to-rent/details/68086645/,"1 Mallow Walk, London SE8",Essential Living - Union Wharf,2,1,21,0,1,0.53,21,0.35,21,0.63,21,0.56,21,1
 68086655,3 bed semi-detached house to rent,2400,https://www.zoopla.co.uk/to-rent/details/68086655/,"Thicket Crescent, Sutton SM1",Foxtons - New Malden,3,1,8,0,1,0.4225555555555556,9,0.38177777777777777,9,0.809,18,0.5745555555555556,9,1
 68086684,3 bed flat to rent,3198,https://www.zoopla.co.uk/to-rent/details/68086684/,"Dickens Estate, London SE1",1 Ability Estate Agents,3,0,1,0,0,0.422,1,0.163,1,0.829,2,0.738,1,1
@@ -5572,7 +5572,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68087554,3 bed flat to rent,2800,https://www.zoopla.co.uk/to-rent/details/68087554/,"Manor Avenue, London SE4",Coopers Lettings and Management,3,1,11,1,4,0.5102727272727273,11,0.2138181818181818,11,0.809,22,0.720090909090909,11,1
 68087589,3 bed mews to rent,10500,https://www.zoopla.co.uk/to-rent/details/68087589/,"Kensington Park Mews, London W11",Mountgrange Heritage - Notting Hill,3,1,8,0,2,0.470625,8,0.133875,8,0.822,16,0.593125,8,1
 68087592,2 bed flat to rent,5525,https://www.zoopla.co.uk/to-rent/details/68087592/,"Lexham Gardens, Earls Court W8",Chestertons - Kensington,2,1,10,1,4,0.48,10,0.35,10,0.61,10,0.35,10,1
-68087595,2 bed flat to rent,1700,https://www.zoopla.co.uk/to-rent/details/68087595/,"Blunt Road, South Croydon CR2",Oaks Estate Agents,2,0,0,0,0,7.0,0,7.0,0,14.0,0,7.0,0,1
+68087595,2 bed flat to rent,1700,https://www.zoopla.co.uk/to-rent/details/68087595/,"Blunt Road, South Croydon CR2",Oaks Estate Agents,2,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68087598,3 bed flat to rent,1650,https://www.zoopla.co.uk/to-rent/details/68087598/,"Kildare Road, Canning Town E16",Samuel King,3,1,6,1,3,0.49583333333333335,6,0.44883333333333336,6,0.787,12,0.283,6,1
 68087635,3 bed terraced house to rent,2200,https://www.zoopla.co.uk/to-rent/details/68087635/,"Ridgeway Drive, Bromley BR1",De Scotia,3,1,8,1,3,0.5395000000000001,10,0.4343,10,0.803,20,0.5219,10,1
 68087641,3 bed terraced house to rent,2500,https://www.zoopla.co.uk/to-rent/details/68087641/,"Stratford, London E15",Samuel King,3,1,8,0,2,0.43788888888888894,9,0.44555555555555554,9,0.777,18,0.6902222222222222,9,1
@@ -5792,7 +5792,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68142017,Room to rent,950,https://www.zoopla.co.uk/to-rent/details/68142017/,"Shacklewell Lane, Hackney E8",OpenRent,1,0,4,0,0,0.458,4,0.407,4,0.491,8,0.606,4,1
 68142025,Room to rent,1375,https://www.zoopla.co.uk/to-rent/details/68142025/,"Bridge Wharf, London N1",OpenRent,1,1,9,1,3,0.495,9,0.406,9,0.583,18,0.568,9,1
 68142026,Room to rent,1827,https://www.zoopla.co.uk/to-rent/details/68142026/,"Dennington Park Road, London NW6",OpenRent,1,1,7,1,3,0.518,7,0.388,7,0.664,14,0.559,7,1
-68142050,1 bed flat to rent,1900,https://www.zoopla.co.uk/to-rent/details/68142050/,"Bow Quarter, London E3",OpenRent,1,-1,0,-1,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+68142050,1 bed flat to rent,1900,https://www.zoopla.co.uk/to-rent/details/68142050/,"Bow Quarter, London E3",OpenRent,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68142058,1 bed flat to rent,1950,https://www.zoopla.co.uk/to-rent/details/68142058/,"Fairfield Road, London E3",OpenRent,1,1,5,1,1,0.491,5,0.451,5,0.79,10,0.431,5,1
 68142066,Room to rent,700,https://www.zoopla.co.uk/to-rent/details/68142066/,"Chesterton House 31 Cressingham Grove, Sutton SM1",OpenRent,1,0,1,0,0,0.451,1,0.533,1,0.369,2,0.431,1,1
 68142077,Room to rent,900,https://www.zoopla.co.uk/to-rent/details/68142077/,"Dibdin Close, Sutton SM1",OpenRent,1,1,6,1,3,0.512,6,0.588,6,0.629,12,0.345,6,1
@@ -5978,7 +5978,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68147421,1 bed flat to rent,1375,https://www.zoopla.co.uk/to-rent/details/68147421/,"Manor Park, London SE13",LG Homes Limited,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68147422,1 bed flat to rent,2752,https://www.zoopla.co.uk/to-rent/details/68147422/,"Lexham Gardens, London W8",Breteuil,1,1,5,1,1,0.45,5,0.263,5,0.469,10,0.693,5,1
 68147557,1 bed flat to rent,3356,https://www.zoopla.co.uk/to-rent/details/68147557/,"Nine Elms Lane, London SW11",Bloom Nine Elms,1,1,14,1,4,0.552,14,0.377,14,0.631,28,0.517,14,1
-68147588,1 bed flat to rent,1900,https://www.zoopla.co.uk/to-rent/details/68147588/,"Putney High Street, London SW15",Hometomove,1,-1,0,-1,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+68147588,1 bed flat to rent,1900,https://www.zoopla.co.uk/to-rent/details/68147588/,"Putney High Street, London SW15",Hometomove,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68147592,1 bed flat to rent,2383,https://www.zoopla.co.uk/to-rent/details/68147592/,"Beak Street, London W1F",Greater London Properties,1,1,12,1,2,0.502,12,0.275,12,0.628,24,0.429,12,1
 68147624,1 bed flat to rent,4008,https://www.zoopla.co.uk/to-rent/details/68147624/,"New Cavendish Street, London W1G",Dexters - Marylebone,1,1,5,1,1,0.527,5,0.24,5,0.668,10,0.263,5,1
 68147638,1 bed flat to rent,1600,https://www.zoopla.co.uk/to-rent/details/68147638/,"Akron House, New Horizons Court TW8",Right Now Residential,1,1,7,1,1,0.468,7,0.272,7,0.469,14,0.68,7,1
@@ -6036,12 +6036,12 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68149000,1 bed flat to rent,5200,https://www.zoopla.co.uk/to-rent/details/68149000/,"Milford House, 190 Strand, London WC2R",Prime London (Central and West),1,1,18,1,3,0.541,18,0.423,18,0.493,36,0.546,18,1
 68149026,1 bed flat to rent,2197,https://www.zoopla.co.uk/to-rent/details/68149026/,"Jeffreys Road, Stockwell SW4",Nelsons,1,1,6,1,1,0.443,6,0.321,6,0.601,12,0.677,6,1
 68149030,1 bed flat to rent,1750,https://www.zoopla.co.uk/to-rent/details/68149030/,"Wolseley Road, London N22",Dexters - Muswell Hill,1,1,5,1,1,0.448,5,0.287,5,0.871,10,0.71,5,1
-68149056,1 bed flat to rent,1500,https://www.zoopla.co.uk/to-rent/details/68149056/,"Croydon Road, London E13",Elliott Davis Properties,1,-1,0,-1,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+68149056,1 bed flat to rent,1500,https://www.zoopla.co.uk/to-rent/details/68149056/,"Croydon Road, London E13",Elliott Davis Properties,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68149107,1 bed flat to rent,2185,https://www.zoopla.co.uk/to-rent/details/68149107/,"Verdo, Capital Interchange Way, Kew Bridge, Brentford TW8",LRC - London Sales and Letting Agency,1,1,24,1,1,0.514,24,0.333,24,0.576,48,0.529,24,1
 68149185,Room to rent,750,https://www.zoopla.co.uk/to-rent/details/68149185/,"Vivian Avenue, London NW4",Adilsons Properties Ltd,1,1,12,1,5,0.497,13,0.208,13,0.656,26,0.779,13,1
 68149277,1 bed flat to rent,2250,https://www.zoopla.co.uk/to-rent/details/68149277/,"Faraday Mansions, London W14",Right Now Residential,1,0,4,0,0,0.409,4,0.21,4,0.813,8,0.558,4,1
 68149379,1 bed flat to rent,2297,https://www.zoopla.co.uk/to-rent/details/68149379/,"Wolverton Gardens, London W6",Dexters - Shepherds Bush,1,1,6,0,0,0.441,6,0.31,6,0.473,12,0.625,6,1
-68149386,1 bed flat to rent,1400,https://www.zoopla.co.uk/to-rent/details/68149386/,"Dunheved Road West, Thornton Heath CR7",Hometomove,1,-1,0,-1,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+68149386,1 bed flat to rent,1400,https://www.zoopla.co.uk/to-rent/details/68149386/,"Dunheved Road West, Thornton Heath CR7",Hometomove,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68149389,1 bed flat to rent,1500,https://www.zoopla.co.uk/to-rent/details/68149389/,"Streatham High Road, London SW16",Right Now Residential,1,1,7,0,0,0.482,7,0.32,7,0.697,14,0.759,7,1
 68149432,1 bed flat to rent,2999,https://www.zoopla.co.uk/to-rent/details/68149432/,"Ladbroke Grove, London W10",Knight Frank - Notting Hill Lettings,1,1,8,1,2,0.475,9,0.177,9,0.677,18,0.4,9,1
 68149513,1 bed flat to rent,4100,https://www.zoopla.co.uk/to-rent/details/68149513/,"Chronicle Tower, City Road, London EC1V",Celestial Globe,1,1,13,1,4,0.564,13,0.366,13,0.57,26,0.495,13,1
@@ -6227,7 +6227,7 @@ property_id,title,monthly_int,link,address,agent_name,bed_number_smap,number_of_
 68154825,1 bed flat to rent,2125,https://www.zoopla.co.uk/to-rent/details/68154825/,"Equipment Works, Walthamstow E17",Home-Made,1,1,14,1,2,0.511,15,0.419,15,0.644,30,0.623,15,1
 68154831,1 bed flat to rent,2303,https://www.zoopla.co.uk/to-rent/details/68154831/,"Coppermaker Square, Stratford E20",Home-Made,1,1,8,1,1,0.545,8,0.456,8,0.599,16,0.528,8,1
 68154832,1 bed flat to rent,2840,https://www.zoopla.co.uk/to-rent/details/68154832/,"Ostro Tower, Canary Wharf E14",Home-Made,1,1,10,1,1,0.502,10,0.343,10,0.624,20,0.671,10,1
-68154836,1 bed flat to rent,1550,https://www.zoopla.co.uk/to-rent/details/68154836/,"Churchview Road, Twickenham TW2",Adan Estates,1,-1,0,-1,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
+68154836,1 bed flat to rent,1550,https://www.zoopla.co.uk/to-rent/details/68154836/,"Churchview Road, Twickenham TW2",Adan Estates,1,0,0,0,0,-1.0,0,-1.0,0,-1.0,0,-1.0,0,1
 68154921,1 bed flat to rent,1200,https://www.zoopla.co.uk/to-rent/details/68154921/,"Main Avenue, Enfield EN1",Locus Hackney Ltd,1,1,5,1,2,0.466,5,0.298,5,0.771,10,0.582,5,1
 68154991,1 bed flat to rent,1517,https://www.zoopla.co.uk/to-rent/details/68154991/,"Median Road, London E5",Living Space Estate Agents,1,1,5,0,0,0.492,5,0.314,5,0.638,10,0.847,5,1
 68155002,1 bed flat to rent,1850,https://www.zoopla.co.uk/to-rent/details/68155002/,"Newington Green Road, Islington N1",Living Space Estate Agents,1,1,10,1,4,0.49,10,0.367,10,0.716,20,0.786,10,1

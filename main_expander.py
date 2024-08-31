@@ -30,6 +30,8 @@ def show_no_results_error():
     st.error(":material/sentiment_dissatisfied: Sorry, no results were found. Please try again with different preferences.")
 
 
+
+
 # Load the csv with the data
 df = pd.read_csv('data/properties.csv',  dtype={'property_id': 'str'})
 #print(df.head())
@@ -39,12 +41,18 @@ data_file_creation_date = os.path.getctime('data/properties.csv')
 creation_date_formatted = datetime.fromtimestamp(data_file_creation_date).strftime('%d %B %Y')
 #st.write(f"Creation time: {creation_date_formatted}")
 
+
+#st.session_state
+
+
 if "first_search_done" not in st.session_state:
-        st.write("This is the guide")
+    #st.write("This is the guide")
+    st.empty()
 
 
 
-with st.expander("MY SEARCH PREFERENCES", expanded = False, icon=":material/search:"):
+
+with st.expander("MY SEARCH PREFERENCES", expanded = True, icon=":material/search:"):
 #with st.popover(":material/search: MY SEARCH PREFERENCES", help=None, disabled=False, use_container_width=True):
     
     # The selection box to order the preferences
@@ -53,26 +61,35 @@ with st.expander("MY SEARCH PREFERENCES", expanded = False, icon=":material/sear
             ["Prefer natural light", "Dislike carpets", "Avoid wide-lenses photos", "No over-processed photos"],
             placeholder="Select your top preferences in order..."
         )
-    
-    column_a1, column_a2, column_a3, column_a4 = st.columns(4)
+
+    column_a1, column_a2, column_a3, column_a4, column_a5 = st.columns(5, vertical_alignment="bottom")
     with column_a1:
-        number_of_bedrooms = st.number_input("Bedrooms", min_value=1, max_value=3, value="min", step=1, help="Number of bedrooms (for Room Rental and Studios select 1)")         
+        number_of_bedrooms = st.number_input("Bedrooms", min_value=1, max_value=3, value="min", step=1, help="Number of bedrooms (for Room Rental and Studios select 1)")    
     with column_a2:
         postcode = st.text_input("Postcode", value="", max_chars=4, help="Write the first letters of the postcode")      
     with column_a3:
         min_monthly_rent = st.number_input("Min Rent", min_value=100, value=800, step=200, help="Minimum monthly rent in £")
     with column_a4:
         max_monthly_rent = st.number_input("Max Rent", min_value=200, value=1200, step=200, help="Maximum monthly rent in £")
+    with column_a5:
+        with st.popover("More...", help="More options", disabled=False, use_container_width=True):        
+            # The radio buttons
+            exclude_enough_photos_overall = st.toggle("Hide properties with insufficient photos", value=True, help="Choose this option to exclude properties with an insufficient number of photos")         
+            exclude_enough_bedroom_photos = st.toggle("Hide properties with limited bedroom photos", value=True, help="Choose this option to exclude properties that lack sufficient photos of the bedrooms")   
+            exclude_room_to_rent = st.toggle("Hide rental rooms", value=True, help="Choose this option to exclude rental rooms")
 
-    st.divider()
 
-    # The radio buttons
-    exclude_enough_photos_overall = st.toggle("Hide properties with insufficient photos", value=True, help="Choose this option to exclude properties with an insufficient number of photos")         
-    exclude_enough_bedroom_photos = st.toggle("Hide properties with limited bedroom photos", value=True, help="Choose this option to exclude properties that lack sufficient photos of the bedrooms")   
-    exclude_room_to_rent = st.toggle("Hide rental rooms", value=True, help="Choose this option to exclude rental rooms")
+    column_b1, column_b2, column_b3, column_b4 = st.columns(4)
+    with column_b1:
+        update_results = st.button("Find Your Perfect Match", type="primary", on_click=main_button_click)
+    with column_b2:
+        st.empty()
+    with column_b3:
+        st.empty()
+    with column_b4:
+        st.empty()
+        
 
-    st.divider()
-    update_results = st.button("Find Your Perfect Match", type="primary", on_click=main_button_click, key="button")    
 
 
     
@@ -110,7 +127,7 @@ features_dict = {
 # MAIN PAGE CONFIGURATION
 ###
 
-st.session_state
+
 
 st.logo("images/logo_small.svg")
 
@@ -261,13 +278,14 @@ if update_results:
                 #column_order_config = column_order_config + ("number_of_photos_overall_count",)
                 
             else:
-                st.info("Select your top preferences to narrow down your results even more!", icon=":material/info:")
+                #st.info("Select your top preferences to narrow down your results even more!", icon=":material/info:")
                 column_order_config = ("title","address","monthly_int","link","agent_name")
                 pass
 
             # Check if postcode has been provided
             if not postcode:
-                st.info("Choose a postcode to narrow down your results even more!", icon=":material/info:")
+                #st.info("Choose a postcode to narrow down your results even more!", icon=":material/info:")
+                pass
 
             # Configure the height of the table so that we do not have a scrollbar inside the table
             height_config = 35 * len(data_df) + 38
@@ -378,7 +396,6 @@ if update_results:
                 },
                 hide_index=True,
                 height=height_config,
-                key="table",
             )
 
             # Set update_results to false

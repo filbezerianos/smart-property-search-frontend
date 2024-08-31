@@ -52,7 +52,7 @@ if "first_search_done" not in st.session_state:
 
 
 
-with st.expander("MY SEARCH PREFERENCES", expanded = True, icon=":material/search:"):
+with st.expander("Search Preferences", expanded = True, icon=":material/search:"):
 #with st.popover(":material/search: MY SEARCH PREFERENCES", help=None, disabled=False, use_container_width=True):
     
     # The selection box to order the preferences
@@ -149,8 +149,6 @@ st.logo("images/logo_small.svg")
 
 
 if update_results:
-
-    
 
     # Set the search preferences to ok
     search_preferences_ok = True
@@ -406,35 +404,63 @@ if update_results:
 
             st.toast(f'{len(data_df)} results found.')
 else:
-    
-    if 'guide_shown' not in st.session_state:
-        #st.write("This is the guide")
-        #st.write_stream("Easily discover properties with the exact features you desire in 2 simple steps.")
-        #st.divider()
-        #st.markdown("### Why?")
-        #st.markdown("Text here...")
-
-        #st.divider()
-        #st.markdown("### How it works")
-
-        #st.session_state.guide_shown  = True
+    if "first_search_done" not in st.session_state:
         pass
-    else: 
-        #st.write("Search to see the results.")
-        #st.info("Preferences changed. Click to refresh data!", icon=":material/info:")
-        pass
-        #st.session_state.guide_shown  = True
+    else:
+        st.info("Preferences changed. Click to refresh data!", icon=":material/change_circle:")
 
 
 if "first_search_done" not in st.session_state:
-        #st.write("This is the guide")
-        #st.write_stream("Easily discover properties with the exact features you desire in 2 simple steps.")
-        st.divider()
-        st.markdown("### Why?")
-        st.markdown("Text here...")
+        
+        column_c1, column_c2, column_c3, column_c4 = st.columns(4, gap="large")
+        with column_c1:
 
-        st.divider()
-        st.markdown("### How it works")
+            column_c11, column_c12, column_c13 = st.columns([1,2,1])
+            with column_c11:
+                st.empty()
+            with column_c12:
+                st.image("images/banners/house.png", width=200)     
+            with column_c13:
+                st.empty()
+            
+            st.write(f"would it be nice to let the propoerties of the house talk about the propoerty you are looking for?")
+
+        with column_c2:
+            
+            column_c21, column_c22, column_c23 = st.columns([1,2,1])
+            with column_c21:
+                st.empty()
+            with column_c22:
+                st.image("images/banners/search.png", width=200)     
+            with column_c23:
+                st.empty()
+
+            st.write("and don't have to go through each property photos that fits the high level criteria like rent price, region etc.")
+        
+        with column_c3:
+
+            column_c31, column_c32, column_c33 = st.columns([1,2,1])
+            with column_c31:
+                st.empty()
+            with column_c32:
+                st.image("images/banners/ai.png", width=200)     
+            with column_c33:
+                st.empty()
+
+            st.write("we created a MVP/prototype for processing the photos of properties and align them with specific characteristics based on your preference")
+        
+        with column_c4:
+
+            column_c41, column_c42, column_c43 = st.columns([1,2,1])
+            with column_c41:
+                st.empty()
+            with column_c42:
+                st.image("images/banners/happy.png", width=200)     
+            with column_c43:
+                st.empty()
+             
+            st.write("so that you spend your time only on properties which the right visual expectaions")
+
 
 
 st.divider()

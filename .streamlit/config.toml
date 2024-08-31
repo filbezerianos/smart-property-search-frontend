@@ -4,10 +4,16 @@ showErrorDetails = true
 toolbarMode = "minimal"
 
 [theme]
-base = "light"
-primaryColor = "#007BFF"
+base = "dark"
+
+#blue 007BFF
+#primaryColor = "#f3425f"
+
 backgroundColor = "#ffffff"
-secondaryBackgroundColor = "#F8F9FA"
+
+#grey F8F9FA
+secondaryBackgroundColor = "#GGGGGG"
+
 textColor = "#343A40"
 
 # "sans serif", "serif", or "monospace".

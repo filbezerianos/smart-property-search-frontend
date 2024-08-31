@@ -5,3 +5,10 @@ toolbarMode = "minimal"
 
 [theme]
 base = "light"
+primaryColor = "#007BFF"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#F8F9FA"
+textColor = "#343A40"
+
+# "sans serif", "serif", or "monospace".
+font = "sans serif"

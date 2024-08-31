@@ -29,15 +29,7 @@ def main_button_click():
 def show_no_results_error():
     st.error(":material/sentiment_dissatisfied: Sorry, no results were found. Please try again with different preferences.")
 
-def apply_face(value):
-    if 0 <= value <= 0.35:
-        return '🥺'
-    elif 0.35 < value <= 0.7:
-        return '😐'
-    elif 0.7 < value <= 1:
-        return '😀'
-    else:
-        return None  # In case the value is outside the expected range
+
 
 
 # Load the csv with the data
@@ -60,34 +52,42 @@ if "first_search_done" not in st.session_state:
 
 
 
-st.markdown("### :blue[Proper]:grey[ty] :blue[Search]")
-with st.container(border=True):
-    # The selection box to order the preferences
-    order_feature_options = st.multiselect(
-            "Which features are most important to you?",
-            ["Prefer natural light", "Dislike carpets", "Avoid wide-lenses photos", "No over-processed photos"],
-            placeholder="Select your top preferences in order..."
-        )
-
-    column_a1, column_a2, column_a3, column_a4, column_a5, column_a6 = st.columns([0.2,0.2,0.2,0.2,0.1,0.1], vertical_alignment="bottom")
-    with column_a1:
-        number_of_bedrooms = st.number_input("Bedrooms", min_value=1, max_value=3, value="min", step=1, help="Number of bedrooms (for Room Rental and Studios select 1)")    
-    with column_a2:
-        postcode = st.text_input("Postcode", value="", max_chars=4, help="Write the first letters of the postcode")      
-    with column_a3:
-        min_monthly_rent = st.number_input("Min Rent", min_value=100, value=800, step=200, help="Minimum monthly rent in £")
-    with column_a4:
-        max_monthly_rent = st.number_input("Max Rent", min_value=200, value=1200, step=200, help="Maximum monthly rent in £")
-    with column_a5:
-        with st.popover("More...", help="More options", disabled=False, use_container_width=True):        
-            # The radio buttons
-            exclude_enough_photos_overall = st.toggle("Hide properties with insufficient photos", value=True, help="Choose this option to exclude properties with an insufficient number of photos")         
-            exclude_enough_bedroom_photos = st.toggle("Hide properties with limited bedroom photos", value=True, help="Choose this option to exclude properties that lack sufficient photos of the bedrooms")   
-            exclude_room_to_rent = st.toggle("Hide rental rooms", value=True, help="Choose this option to exclude rental rooms")
-    with column_a6:
-        update_results = st.button(":material/search: Search", type="primary", on_click=main_button_click, use_container_width=True)
+with st.expander("My Search Preferences", expanded = True, icon=":material/expand_content:"):
+#with st.popover(":material/search: MY SEARCH PREFERENCES", help=None, disabled=False, use_container_width=True):
+    
+    column_a, column_b = st.columns([0.7,0.3], vertical_alignment="bottom")
+    with column_a:
+        # The selection box to order the preferences
+        order_feature_options = st.multiselect(
+                "Which features are most important to you?",
+                ["Prefer natural light", "Dislike carpets", "Avoid wide-lenses photos", "No over-processed photos"],
+                placeholder="Select your top preferences in order..."
+            )
         
-st.divider()
+        column_a1, column_a2, column_a3, column_a4 = st.columns(4)
+        with column_a1:
+            number_of_bedrooms = st.number_input("Bedrooms", min_value=1, max_value=3, value="min", step=1, help="Number of bedrooms (for Room Rental and Studios select 1)")    
+        with column_a2:
+            postcode = st.text_input("Postcode", value="", max_chars=4, help="Write the first letters of the postcode")      
+        with column_a3:
+            min_monthly_rent = st.number_input("Min Rent", min_value=100, value=800, step=200, help="Minimum monthly rent in £")
+        with column_a4:
+            max_monthly_rent = st.number_input("Max Rent", min_value=200, value=1200, step=200, help="Maximum monthly rent in £")
+
+             
+
+            
+
+    with column_b:
+        with st.popover("More...", help="More options", disabled=False, use_container_width=True):        
+                # The radio buttons
+                exclude_enough_photos_overall = st.toggle("Hide properties with insufficient photos", value=True, help="Choose this option to exclude properties with an insufficient number of photos")         
+                exclude_enough_bedroom_photos = st.toggle("Hide properties with limited bedroom photos", value=True, help="Choose this option to exclude properties that lack sufficient photos of the bedrooms")   
+                exclude_room_to_rent = st.toggle("Hide rental rooms", value=True, help="Choose this option to exclude rental rooms")
+        st.write("Hello")
+        update_results = st.button(":material/search: Search", type="primary", on_click=main_button_click)
+        
+
 
 
         
@@ -249,13 +249,7 @@ if update_results:
             filtered_df['preferences_alignment'] = (filtered_df['preferences_alignment']*5).round(2)
 
             filtered_df['asterisk_column'] = (filtered_df['preferences_alignment']).round().astype(int).apply(lambda x: '★' * x)
-            #st.write(filtered_df['asterisk_column'])   
-            
-            # Create new columns with smiley faces based on the scores
-            filtered_df['natural_ligh_smiley_face'] = df['natural_light_score'].apply(apply_face)
-            filtered_df['no_carpet_smiley_face'] = df['no_carpet_score'].apply(apply_face)
-            filtered_df['wide_lenses_smiley_face'] = df['wide_lenses_score'].apply(apply_face)
-            filtered_df['overprocessed_smiley_face'] = df['overprocessed_score'].apply(apply_face)     
+            #st.write(filtered_df['asterisk_column'])                  
 
         else:
             pass
@@ -274,7 +268,7 @@ if update_results:
 
             # Configure the order of the columms based on the selection of preferences
             if order_feature_options:
-                column_order_config = ("natural_ligh_smile","no_carpet_smile","wide_lenses_smile","overprocessed_smile","asterisk_column","title","address","monthly_int","link","agent_name")
+                column_order_config = ("asterisk_column","title","address","monthly_int","link","agent_name")
                 #column_order_config = ("asterisk_column","preferences_alignment","title","address","monthly_int","link","agent_name")
                 #column_order_config = ("title","address","monthly_int","link","agent_name")
                 for ordering in order_feature_options:
@@ -285,7 +279,7 @@ if update_results:
                 
             else:
                 #st.info("Select your top preferences to narrow down your results even more!", icon=":material/info:")
-                column_order_config = ("natural_ligh_smile","no_carpet_smile","wide_lenses_smile","overprocessed_smile","title","address","monthly_int","link","agent_name")
+                column_order_config = ("title","address","monthly_int","link","agent_name")
                 pass
 
             # Check if postcode has been provided
@@ -341,7 +335,7 @@ if update_results:
 
                     "link": st.column_config.LinkColumn(
                         "Link",
-                        display_text="Details",
+                        display_text="Open Link",
                         disabled=True
                     ),
 
@@ -398,32 +392,10 @@ if update_results:
                         width="small",
                         disabled=True
                     ),
-                    "natural_ligh_smile": st.column_config.TextColumn(
-                        "Light Face",
-                        disabled=True,
-                        width="small"
-                    ),
-                    "no_carpet_smile": st.column_config.TextColumn(
-                        "Carpet Face",
-                        disabled=True,
-                        width="small"
-                    ),
-                    "wide_lenses_smile": st.column_config.TextColumn(
-                        "Wide Lenses Face",
-                        disabled=True,
-                        width="small"
-                    ),
-                    "overprocessed_smile": st.column_config.TextColumn(
-                        "Overprocessed Face",
-                        disabled=True,
-                        width="small"
-                    ),
-
 
                 },
                 hide_index=True,
                 height=height_config,
-                use_container_width=True,
             )
 
             # Set update_results to false

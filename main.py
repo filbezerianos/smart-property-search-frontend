@@ -65,7 +65,7 @@ features_dict = {
     "Natural Light": ["natural_light_score", False, "natural_light_smiley_face"],
     "No Carpets": ["no_carpet_score", False, "no_carpet_smiley_face"],
     "No Wide Lenses": ["wide_lenses_score", True, "wide_lenses_smiley_face"],
-    "No Photo Editing": ["overprocessed_score", True, "overprocessed_smiley_face"],
+    "No Edited Photos": ["overprocessed_score", True, "overprocessed_smiley_face"],
 }
 
 
@@ -82,7 +82,7 @@ with st.container(border=True):
     # The selection box to order the preferences
     order_feature_options = st.multiselect(
             "What do you care about most in a home?",
-            ["Natural Light", "No Carpets", "No Wide Lenses", "No Photo Editing"],
+            ["Natural Light", "No Carpets", "No Wide Lenses", "No Edited Photos"],
             placeholder="Pick what you care about most in a home, in the order that matters to you..."
         )
     
@@ -258,7 +258,7 @@ if update_results:
                         width="small"
                     ),
                     "overprocessed_smiley_face": st.column_config.TextColumn(
-                        "No Photo Editng",
+                        "No Edited Photos",
                         disabled=True,
                         width="small"
                     ),

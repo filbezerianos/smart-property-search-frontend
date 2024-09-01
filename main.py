@@ -37,12 +37,16 @@ def show_no_results_error():
 
 
 def apply_face(value):
-    if 0 <= value <= 0.35:
-        return '😞'
-    elif 0.35 < value <= 0.7:
-        return '😑'
-    elif 0.7 < value <= 1:
-        return '😀'
+    if 0 <= value < 0.2:
+        return '🟠⚪⚪⚪⚪'
+    elif 0.2 <= value < 0.4:
+        return '🟠🟠⚪⚪⚪'
+    elif 0.4 <= value < 0.6:
+        return '🟠🟠🟠⚪⚪'
+    elif 0.6 <= value < 0.8:
+        return '🟠🟠🟠🟠⚪'
+    elif 0.8 < value <= 1:
+        return '🟠🟠🟠🟠🟠'
     else:
         return None  # In case the value is outside the expected range
 
@@ -58,16 +62,17 @@ creation_date_formatted = datetime.fromtimestamp(data_file_creation_date).strfti
 
 # Configure the dictionary for features ordering
 features_dict = {
-    "Love lots of natural light": ["natural_light_score", False, "natural_light_smiley_face"],
-    "Not a fan of carpets": ["no_carpet_score", False, "no_carpet_smiley_face"],
-    "Prefer realistic photos": ["wide_lenses_score", True, "wide_lenses_smiley_face"],
-    "Like photos that aren’t overly edited": ["overprocessed_score", True, "overprocessed_smiley_face"],
+    "Natural Light": ["natural_light_score", False, "natural_light_smiley_face"],
+    "No Carpets": ["no_carpet_score", False, "no_carpet_smiley_face"],
+    "No Wide Lenses": ["wide_lenses_score", True, "wide_lenses_smiley_face"],
+    "No Photo Editing": ["overprocessed_score", True, "overprocessed_smiley_face"],
 }
 
 
 # Show the large banner or top title depending on journey
 if "first_search_done" not in st.session_state:
-    st.image("images/large_banner.png", use_column_width="always")
+    #st.image("images/large_banner.png", use_column_width="always")
+    pass
 else:
     st.markdown("### Smart Search. Where AI meets property photos.")
 
@@ -77,7 +82,7 @@ with st.container(border=True):
     # The selection box to order the preferences
     order_feature_options = st.multiselect(
             "What do you care about most in a home?",
-            ["Love lots of natural light", "Not a fan of carpets", "Prefer realistic photos", "Like photos that aren’t overly edited"],
+            ["Natural Light", "No Carpets", "No Wide Lenses", "No Photo Editing"],
             placeholder="Pick what you care about most in a home, in the order that matters to you..."
         )
     
@@ -175,7 +180,17 @@ if update_results:
             filtered_df['natural_light_smiley_face'] = df['natural_light_score'].apply(apply_face)
             filtered_df['no_carpet_smiley_face'] = df['no_carpet_score'].apply(apply_face)
             filtered_df['wide_lenses_smiley_face'] = df['wide_lenses_score'].apply(apply_face)
-            filtered_df['overprocessed_smiley_face'] = df['overprocessed_score'].apply(apply_face)     
+            filtered_df['overprocessed_smiley_face'] = df['overprocessed_score'].apply(apply_face)
+
+            # Increase the counter for the searches with feature preferences
+            if "number_of_feature_searches" not in st.session_state:
+                st.session_state.number_of_feature_searches = 1
+                with st.container(border=True):
+                    st.markdown("Here's a quick guide to help you understand **how well each property matches your preferences**:")
+                    st.write("🟠⚪⚪⚪⚪: Minimal | 🟠🟠⚪⚪⚪: Slight | 🟠🟠🟠⚪⚪: Moderate | 🟠🟠🟠🟠⚪: Strong | 🟠🟠🟠🟠🟠: Excellent")
+            else:
+                st.session_state.number_of_feature_searches += 1
+
         else:
             # If no photo preferences selected do nothing
             pass
@@ -220,7 +235,7 @@ if update_results:
                     ),
                     "link": st.column_config.LinkColumn(
                         "Details",
-                        display_text="More...",
+                        display_text="Zoopla",
                         disabled=True
                     ),
                     "agent_name": st.column_config.TextColumn(
@@ -233,17 +248,17 @@ if update_results:
                         width="small"
                     ),
                     "no_carpet_smiley_face": st.column_config.TextColumn(
-                        "Carpet",
+                        "No Carpet",
                         disabled=True,
                         width="small"
                     ),
                     "wide_lenses_smiley_face": st.column_config.TextColumn(
-                        "Wide Lenses",
+                        "No Wide Lenses",
                         disabled=True,
                         width="small"
                     ),
                     "overprocessed_smiley_face": st.column_config.TextColumn(
-                        "Photo Quality",
+                        "No Photo Editng",
                         disabled=True,
                         width="small"
                     ),
@@ -305,6 +320,7 @@ if "first_search_done" not in st.session_state:
 
         st.markdown("##### :red[AI-powered search]")
         st.write("Our AI model analyses property images to identify characteristics that match your specific needs.")
+        st.page_link('pages/under_the_hood.py', label='Learn More')
     
     with column_c4:
 
@@ -323,3 +339,5 @@ if "first_search_done" not in st.session_state:
 # Bottom of the page
 st.divider()
 st.write(f"Data updated: {creation_date_formatted}")
+
+#st.session_state

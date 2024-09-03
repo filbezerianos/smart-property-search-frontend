@@ -6,7 +6,7 @@ from datetime import datetime
 
 # Start with the page config
 st.set_page_config(
-    page_title="Proper-ty Search",
+    page_title="Smart Property Search",
     layout="wide",
     page_icon = ":material/house:",
     menu_items={

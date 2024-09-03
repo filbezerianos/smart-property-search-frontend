@@ -37,7 +37,9 @@ def show_no_results_error():
 
 
 def apply_face(value):
-    if 0 <= value < 0.2:
+    if value <= 0:
+        return '⚪⚪⚪⚪⚪'
+    elif 0 < value < 0.2:
         return '🟠⚪⚪⚪⚪'
     elif 0.2 <= value < 0.4:
         return '🟠🟠⚪⚪⚪'
@@ -48,7 +50,7 @@ def apply_face(value):
     elif 0.8 < value <= 1:
         return '🟠🟠🟠🟠🟠'
     else:
-        return None  # In case the value is outside the expected range
+        return 'None'  # In case the value is outside the expected range
 
 
 # Load the csv with the data
@@ -63,6 +65,9 @@ creation_date_formatted = datetime.fromtimestamp(data_file_creation_date).strfti
 # Configure the dictionary for features ordering
 features_dict = {
     "Natural Light": ["natural_light_score", False, "natural_light_smiley_face"],
+    "Large Windows": ["large_windows_score", False, "large_windows_smiley_face"],
+    "High Ceiling": ["high_ceiling_score", False, "high_ceiling_smiley_face"],
+    "Fireplace": ["fireplace_score", False, "fireplace_smiley_face"],
     "No Carpets": ["no_carpet_score", False, "no_carpet_smiley_face"],
     "No Wide Lenses": ["wide_lenses_score", True, "wide_lenses_smiley_face"],
     "No Edited Photos": ["overprocessed_score", True, "overprocessed_smiley_face"],
@@ -82,7 +87,7 @@ with st.container(border=True):
     # The selection box to order the preferences
     order_feature_options = st.multiselect(
             "What do you care about most in a home?",
-            ["Natural Light", "No Carpets", "No Wide Lenses", "No Edited Photos"],
+            ["Natural Light", "Large Windows", "High Ceiling", "No Carpets", "No Wide Lenses", "No Edited Photos"],
             placeholder="Pick what you care about most in a home, in the order that matters to you..."
         )
     
@@ -178,6 +183,9 @@ if update_results:
             
             # Create new columns with smiley faces based on the scores
             filtered_df['natural_light_smiley_face'] = df['natural_light_score'].apply(apply_face)
+            filtered_df['large_windows_smiley_face'] = df['large_windows_score'].apply(apply_face)
+            filtered_df['high_ceiling_smiley_face'] = df['high_ceiling_score'].apply(apply_face)
+            filtered_df['fireplace_smiley_face'] = df['fireplace_score'].apply(apply_face)
             filtered_df['no_carpet_smiley_face'] = df['no_carpet_score'].apply(apply_face)
             filtered_df['wide_lenses_smiley_face'] = df['wide_lenses_score'].apply(apply_face)
             filtered_df['overprocessed_smiley_face'] = df['overprocessed_score'].apply(apply_face)
@@ -244,6 +252,21 @@ if update_results:
                     ),
                     "natural_light_smiley_face": st.column_config.TextColumn(
                         "Natural Light",
+                        disabled=True,
+                        width="small"
+                    ),
+                    "large_windows_smiley_face": st.column_config.TextColumn(
+                        "Large Windows",
+                        disabled=True,
+                        width="small"
+                    ),
+                    "high_ceiling_smiley_face": st.column_config.TextColumn(
+                        "High Ceiling",
+                        disabled=True,
+                        width="small"
+                    ),
+                    "fireplace_smiley_face": st.column_config.TextColumn(
+                        "Fireplace",
                         disabled=True,
                         width="small"
                     ),

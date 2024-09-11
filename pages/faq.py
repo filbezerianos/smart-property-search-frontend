@@ -4,20 +4,21 @@ from datetime import datetime
 
 # Start with the page config
 st.set_page_config(
-    page_title="Proper-ty Search",
+    page_title="Smart Property Search",
     layout="wide",
     page_icon = ":material/house:",
     menu_items={
         'About': "Created by Orbiont Ltd."
     },
-     initial_sidebar_state = 'collapsed'   
+     initial_sidebar_state = 'expanded'   
 )
 
 
 with st.sidebar:
     st.page_link('main.py', label='Home', icon=':material/house:')
-    st.page_link('pages/faq.py', label='FAQs', icon=':material/help:')
+    st.page_link('pages/faq.py', label='FAQs', icon=':material/help:', disabled=True)
     st.page_link('pages/under_the_hood.py', label='Under the Hood', icon=':material/smart_toy:')
+    st.page_link('https://tally.so/r/mDDDEZ', label='Get in Touch', icon=':material/alternate_email:')
 
     st.divider()
     st.write(f"© {datetime.now().year} Orbiont")
@@ -36,7 +37,7 @@ st.write("Our data is limited to properties with up to 3 bedrooms. We are contin
 st.write("")
 
 st.markdown("##### What personal preferences can I search for?")
-st.write("Currently, our model processes preferences related to Natural Light, Carpets, Wide Lenses, and Photo Editing. We're working on expanding our AI capabilities to include a broader range of characteristics in the future.")
+st.write("Currently, our model processes preferences related to Natural Light, Windows, Ceiling, Carpets, Wide Lenses, and Photo Editing. We're working on expanding our AI capabilities to include a broader range of characteristics in the future.")
 st.write("")
 
 st.markdown("##### What data sources do you use?")

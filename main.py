@@ -18,9 +18,10 @@ st.set_page_config(
 
 # Configure the sidebar
 with st.sidebar:
-    st.page_link('main.py', label='Home', icon=':material/house:')
+    st.page_link('main.py', label='Home', icon=':material/house:', disabled=True)
     st.page_link('pages/faq.py', label='FAQs', icon=':material/help:')
     st.page_link('pages/under_the_hood.py', label='Under the Hood', icon=':material/smart_toy:')
+    st.page_link('https://tally.so/r/mDDDEZ', label='Get in Touch', icon=':material/alternate_email:')
 
     st.divider()
     st.write(f"© {datetime.now().year} Orbiont")
@@ -86,7 +87,7 @@ else:
 with st.container(border=True):
     # The selection box to order the preferences
     order_feature_options = st.multiselect(
-            "What do you care about most in a home?",
+            "What do you care about the most in a home?",
             ["Natural Light", "Large Windows", "High Ceiling", "No Carpets", "No Wide Lenses", "No Edited Photos"],
             placeholder="Pick what you care about most in a home, in the order that matters to you..."
         )
@@ -303,7 +304,8 @@ else:
 # As landing page show the large banner and the smaller banners. After the first search they disappear
 if "first_search_done" not in st.session_state:
         
-    st.markdown("### Find Out How it Works")
+    #st.markdown("### Find Out How it Works")
+    st.divider()
 
     column_c1, column_c2, column_c3, column_c4 = st.columns(4, gap="large")
     with column_c1:
@@ -355,7 +357,7 @@ if "first_search_done" not in st.session_state:
         with column_c43:
             st.empty()
         
-        st.markdown("##### :red[See only that fits]")
+        st.markdown("##### :red[See only what fits]")
         st.write("Spend time viewing homes that match your criteria. Get to the right property without wasting your time.")
 
 

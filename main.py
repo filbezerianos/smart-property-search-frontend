@@ -37,6 +37,7 @@ def show_no_results_error():
     st.error(":material/sentiment_dissatisfied: Sorry, no results were found. Please try again with different preferences.")
 
 
+
 def apply_face(value):
     if value <= 0:
         return '⚪⚪⚪⚪⚪'
@@ -201,8 +202,11 @@ if update_results:
                 st.session_state.number_of_feature_searches += 1
 
         else:
-            # If no photo preferences selected do nothing
-            pass
+            # If no photo preferences selected
+            if "number_of_feature_searches" not in st.session_state:
+                st.info(f":material/info: Try selecting what you care the most in a home from the top menu and see how well each property matches your preferences.")
+            else:
+                pass
 
         # Use the filtered results to load the table
         data_df = pd.DataFrame(filtered_df)
@@ -210,9 +214,9 @@ if update_results:
         # Check if there are any resutls returned after filtering
         if len(data_df) == 0:
             show_no_results_error()
-
+        elif len(data_df) >1500:
+            st.error(f":material/error: Your search returned {len(data_df)} results. Please refine your query to narrow down the results.")
         else:
-
             # Configure the order of the columms based on the selection of preferences
             if order_feature_options:
                 column_order_config = ("title","address","monthly_int","link","agent_name")

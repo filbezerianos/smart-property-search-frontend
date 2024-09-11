@@ -49,7 +49,7 @@ def apply_face(value):
         return '🟠🟠🟠⚪⚪'
     elif 0.6 <= value < 0.8:
         return '🟠🟠🟠🟠⚪'
-    elif 0.8 < value <= 1:
+    elif 0.8 <= value <= 1:
         return '🟠🟠🟠🟠🟠'
     else:
         return 'None'  # In case the value is outside the expected range

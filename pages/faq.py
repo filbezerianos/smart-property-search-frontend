@@ -36,6 +36,10 @@ st.markdown("##### Why can't I search for properties with more than 3 bedrooms?"
 st.write("Our data is limited to properties with up to 3 bedrooms. We are continually expanding our dataset, and properties with more bedrooms will be available in the future.")
 st.write("")
 
+st.markdown("##### Can I search for properties for sale?")
+st.write("At the moment, our data is limited to rental properties. We are continually expanding our dataset, and properties for sale will be available in the future.")
+st.write("")
+
 st.markdown("##### What personal preferences can I search for?")
 st.write("Currently, our model processes preferences related to Natural Light, Windows, Ceiling, Carpets, Wide Lenses, and Photo Editing. We're working on expanding our AI capabilities to include a broader range of characteristics in the future.")
 st.write("")

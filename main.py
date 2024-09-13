@@ -60,8 +60,8 @@ df = pd.read_csv('data/properties.csv',  dtype={'property_id': 'str'})
 
 
 # Get the creation date of the data file
-data_file_creation_date = os.path.getctime('data/properties.csv')
-creation_date_formatted = datetime.fromtimestamp(data_file_creation_date).strftime('%d %B %Y')
+#data_file_creation_date = os.path.getctime('data/properties.csv')
+#creation_date_formatted = datetime.fromtimestamp(data_file_creation_date).strftime('%d %B %Y')
 
 
 # Configure the dictionary for features ordering
@@ -366,7 +366,7 @@ if "first_search_done" not in st.session_state:
 
 
 # Bottom of the page
-st.divider()
-st.write(f"Data updated: {creation_date_formatted}")
+#st.divider()
+#st.write(f"Data updated: {creation_date_formatted}")
 
 #st.session_state

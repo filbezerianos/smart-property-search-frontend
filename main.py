@@ -161,62 +161,63 @@ if update_results:
         # If there are any NULL values replace with 0
         filtered_df = filtered_df.fillna(0)
 
-        # Create a new column based on existing columns
-        if order_feature_options:
-
-            # The weight for the new columns is the number of preferences selection
-            weight = len(order_feature_options)
-
-            for ordering in order_feature_options:
-                if 'preferences_alignment' in filtered_df:
-                    filtered_df['preferences_alignment'] = filtered_df['preferences_alignment'] + (filtered_df[features_dict[ordering][0]] * weight)
-                    weight -= 1
-                else:
-                    filtered_df['preferences_alignment'] = filtered_df[features_dict[ordering][0]] * weight
-                    weight -= 1
-            
-            # Normalise the values to 1
-            max_value = filtered_df['preferences_alignment'].max()
-            if max_value > 1:
-                filtered_df['preferences_alignment'] = filtered_df['preferences_alignment'] / max_value                  
-
-            # Order the list based on the new column for preferences alignment
-            filtered_df = filtered_df.sort_values(by='preferences_alignment', ascending=False)
-            
-            # Create new columns with smiley faces based on the scores
-            filtered_df['natural_light_smiley_face'] = df['natural_light_score'].apply(apply_face)
-            filtered_df['large_windows_smiley_face'] = df['large_windows_score'].apply(apply_face)
-            filtered_df['high_ceiling_smiley_face'] = df['high_ceiling_score'].apply(apply_face)
-            filtered_df['fireplace_smiley_face'] = df['fireplace_score'].apply(apply_face)
-            filtered_df['no_carpet_smiley_face'] = df['no_carpet_score'].apply(apply_face)
-            filtered_df['wide_lenses_smiley_face'] = df['wide_lenses_score'].apply(apply_face)
-            filtered_df['overprocessed_smiley_face'] = df['overprocessed_score'].apply(apply_face)
-
-            # Increase the counter for the searches with feature preferences
-            if "number_of_feature_searches" not in st.session_state:
-                st.session_state.number_of_feature_searches = 1
-                with st.container(border=True):
-                    st.markdown("Here's a quick guide to help you understand **how well each property matches your preferences**:")
-                    st.write("🟠⚪⚪⚪⚪: Minimal | 🟠🟠⚪⚪⚪: Slight | 🟠🟠🟠⚪⚪: Moderate | 🟠🟠🟠🟠⚪: Strong | 🟠🟠🟠🟠🟠: Excellent")
-            else:
-                st.session_state.number_of_feature_searches += 1
-
-        else:
-            # If no photo preferences selected
-            if "number_of_feature_searches" not in st.session_state:
-                st.info(f":material/info: Try selecting what you care the most in a home from the top menu and see how well each property matches your preferences.")
-            else:
-                pass
-
-        # Use the filtered results to load the table
-        data_df = pd.DataFrame(filtered_df)
-
-        # Check if there are any resutls returned after filtering
-        if len(data_df) == 0:
+        # Check how may results have left after th estandard filtering
+        if len(filtered_df) == 0:
             show_no_results_error()
-        elif len(data_df) >1500:
-            st.error(f":material/error: Your search returned {len(data_df)} results. Please refine your query to narrow down the results.")
+        elif len(filtered_df) >1500:
+            st.error(f":material/error: Your search returned {len(filtered_df)} results. Please refine your query to narrow down the results.")
         else:
+
+            # Create a new column based on existing columns
+            if order_feature_options:
+
+                # The weight for the new columns is the number of preferences selection
+                weight = len(order_feature_options)
+
+                for ordering in order_feature_options:
+                    if 'preferences_alignment' in filtered_df:
+                        filtered_df['preferences_alignment'] = filtered_df['preferences_alignment'] + (filtered_df[features_dict[ordering][0]] * weight)
+                        weight -= 1
+                    else:
+                        filtered_df['preferences_alignment'] = filtered_df[features_dict[ordering][0]] * weight
+                        weight -= 1
+                
+                # Normalise the values to 1
+                max_value = filtered_df['preferences_alignment'].max()
+                if max_value > 1:
+                    filtered_df['preferences_alignment'] = filtered_df['preferences_alignment'] / max_value                  
+
+                # Order the list based on the new column for preferences alignment
+                filtered_df = filtered_df.sort_values(by='preferences_alignment', ascending=False)
+                
+                # Create new columns with smiley faces based on the scores
+                filtered_df['natural_light_smiley_face'] = df['natural_light_score'].apply(apply_face)
+                filtered_df['large_windows_smiley_face'] = df['large_windows_score'].apply(apply_face)
+                filtered_df['high_ceiling_smiley_face'] = df['high_ceiling_score'].apply(apply_face)
+                filtered_df['fireplace_smiley_face'] = df['fireplace_score'].apply(apply_face)
+                filtered_df['no_carpet_smiley_face'] = df['no_carpet_score'].apply(apply_face)
+                filtered_df['wide_lenses_smiley_face'] = df['wide_lenses_score'].apply(apply_face)
+                filtered_df['overprocessed_smiley_face'] = df['overprocessed_score'].apply(apply_face)
+
+                # Increase the counter for the searches with feature preferences
+                if "number_of_feature_searches" not in st.session_state:
+                    st.session_state.number_of_feature_searches = 1
+                    with st.container(border=True):
+                        st.markdown("Here's a quick guide to help you understand **how well each property matches your preferences**:")
+                        st.write("🟠⚪⚪⚪⚪: Minimal | 🟠🟠⚪⚪⚪: Slight | 🟠🟠🟠⚪⚪: Moderate | 🟠🟠🟠🟠⚪: Strong | 🟠🟠🟠🟠🟠: Excellent")
+                else:
+                    st.session_state.number_of_feature_searches += 1
+
+            else:
+                # If no photo preferences selected
+                if "number_of_feature_searches" not in st.session_state:
+                    st.info(f":material/info: Try selecting what you care the most in a home from the top menu and see how well each property matches your preferences.")
+                else:
+                    pass
+
+            # Use the filtered results to load the table
+            data_df = pd.DataFrame(filtered_df)
+  
             # Configure the order of the columms based on the selection of preferences
             if order_feature_options:
                 column_order_config = ("title","address","monthly_int","link","agent_name")

@@ -92,12 +92,13 @@ features_dict = {
 
 
 # Show the large banner or top title depending on journey
+st.markdown("### :blue[Smart Property Search.] Where AI Meets the Photos of Your Next Home.")
 if "first_search_done" not in st.session_state:
     #st.image("images/large_banner.png", use_column_width="always")
     pass
 else:
-    st.markdown("### Smart Search. Where AI meets property photos.")
-
+    #st.markdown("### :blue[Smart Property Search.] Where AI Meets the Photos of Your Next Home.")
+    pass
 
 # The search preferences container
 with st.container(border=True):

@@ -7,7 +7,8 @@ toolbarMode = "minimal"
 base = "dark"
 
 #blue 007BFF
-#primaryColor = "#f3425f"
+#red f3425f
+primaryColor = "#007BFF"
 
 backgroundColor = "#ffffff"
 

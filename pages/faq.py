@@ -45,7 +45,7 @@ st.write("Currently, our model processes preferences related to Natural Light, W
 st.write("")
 
 st.markdown("##### What data sources do you use?")
-st.write("Right now, we source our data from Zoopla.co.uk. We plan to integrate additional data sources in the near future to provide more results.")
+st.write("Right now, we source our data from Zoopla.co.uk and Rightmove.co.uk. We plan to integrate additional data sources in the near future to provide more results.")
 st.write("")
 
 st.markdown("##### How current are the search results?")
@@ -57,7 +57,7 @@ st.write("After viewing the search results, you can click the link in the Detail
 st.write("")
 
 st.markdown("##### Why am I not being redirected to the relevant property page when clicking the link in the Details column?")
-st.write("This issue likely occurs because the property is no longer listed on the property website (e.g. Zoopla). Since the data isn't updated in real time, the property may have been removed or become unavailable after the last update.")
+st.write("This issue likely occurs because the property is no longer listed on the property website (e.g. Zoopla, Rightmmove). Since the data isn't updated in real time, the property may have been removed or become unavailable after the last update.")
 st.write("")
 
 

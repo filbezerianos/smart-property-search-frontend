@@ -40,24 +40,39 @@ def show_no_results_error():
 
 def apply_face(value):
     if value <= 0:
-        return '⚪⚪⚪⚪⚪'
+        #return '⚪⚪⚪⚪⚪'
+        return '○○○○○'
     elif 0 < value < 0.2:
-        return '🟠⚪⚪⚪⚪'
+        #return '🟠⚪⚪⚪⚪'
+        return '●○○○○'
     elif 0.2 <= value < 0.4:
-        return '🟠🟠⚪⚪⚪'
+        #return '🟠🟠⚪⚪⚪'
+        return '●●○○○'
     elif 0.4 <= value < 0.6:
-        return '🟠🟠🟠⚪⚪'
+        #return '🟠🟠🟠⚪⚪'
+        return '●●●○○'
     elif 0.6 <= value < 0.8:
-        return '🟠🟠🟠🟠⚪'
+        #return '🟠🟠🟠🟠⚪'
+        return '●●●●○'
     elif 0.8 <= value <= 1:
-        return '🟠🟠🟠🟠🟠'
+        #return '🟠🟠🟠🟠🟠'
+        return '●●●●●'
     else:
         return 'None'  # In case the value is outside the expected range
 
 
 # Load the csv with the data
-df = pd.read_csv('data/properties.csv',  dtype={'property_id': 'str'})
+df = pd.read_csv('data/properties.csv',  dtype={'property_id': 'str'}).sort_values(by='monthly_int', ascending=True)
 
+
+# Add new columns with the score dots
+df['natural_light_smiley_face'] = df['natural_light_score'].apply(apply_face)
+df['large_windows_smiley_face'] = df['large_windows_score'].apply(apply_face)
+df['high_ceiling_smiley_face'] = df['high_ceiling_score'].apply(apply_face)
+df['fireplace_smiley_face'] = df['fireplace_score'].apply(apply_face)
+df['no_carpet_smiley_face'] = df['no_carpet_score'].apply(apply_face)
+df['wide_lenses_smiley_face'] = df['wide_lenses_score'].apply(apply_face)
+df['overprocessed_smiley_face'] = df['overprocessed_score'].apply(apply_face)
 
 # Get the creation date of the data file
 #data_file_creation_date = os.path.getctime('data/properties.csv')
@@ -108,6 +123,8 @@ with st.container(border=True):
             exclude_enough_photos_overall = st.toggle("Hide properties with insufficient photos", value=True, help="Choose this option to exclude properties with an insufficient number of photos")         
             exclude_enough_bedroom_photos = st.toggle("Hide properties with limited bedroom photos", value=True, help="Choose this option to exclude properties that lack sufficient photos of the bedrooms")   
             exclude_room_to_rent = st.toggle("Hide rental rooms", value=True, help="Choose this option to exclude rental rooms")
+            exclude_zoopla = st.toggle("Hide Zoopla properties", value=False, help="Choose this option to exclude properties from Zoopla")
+            exclude_rightmove = st.toggle("Hide Rightmove properties", value=False, help="Choose this option to exclude properties from Rightmove")
     with column_a6:
         update_results = st.button(":material/search: Search", type="primary", on_click=main_button_click, use_container_width=True)
         
@@ -130,6 +147,11 @@ if update_results:
     if min_monthly_rent > max_monthly_rent:
         st.error(f":material/error: The minimum monthly rent (£ {min_monthly_rent}) cannot be higher that the maximum monthly rent (£ {max_monthly_rent})")
         search_preferences_ok = False
+    
+    if exclude_zoopla and exclude_rightmove:
+        st.error(f":material/error: Zoopla and Rightmove properties cannot be excluded at the same time. Please select at least one to proceed.")
+        search_preferences_ok = False
+
 
 
     ###
@@ -141,7 +163,7 @@ if update_results:
         # Filter the properties based on the preferences
         filtered_df = df[(df['monthly_int'] >= min_monthly_rent) & (df['monthly_int'] <= max_monthly_rent)]
         filtered_df = filtered_df[filtered_df['address'].str.contains(str(postcode))]
-        filtered_df = filtered_df[filtered_df['bed_number_smap'] == number_of_bedrooms]
+        filtered_df = filtered_df[filtered_df['bed_number'] == number_of_bedrooms]
 
         if exclude_enough_photos_overall:
             filtered_df = filtered_df[filtered_df['number_of_photos_overall_score'] == 1]
@@ -155,6 +177,16 @@ if update_results:
 
         if exclude_room_to_rent:
             filtered_df = filtered_df[~filtered_df['title'].str.contains("Room to rent")]
+        else:
+            pass
+
+        if exclude_zoopla:
+            filtered_df = filtered_df[filtered_df['property_platform'] != "Zoopla"]
+        else:
+            pass
+
+        if exclude_rightmove:
+            filtered_df = filtered_df[filtered_df['property_platform'] != "Rightmove"]
         else:
             pass
 
@@ -191,20 +223,21 @@ if update_results:
                 filtered_df = filtered_df.sort_values(by='preferences_alignment', ascending=False)
                 
                 # Create new columns with smiley faces based on the scores
-                filtered_df['natural_light_smiley_face'] = df['natural_light_score'].apply(apply_face)
-                filtered_df['large_windows_smiley_face'] = df['large_windows_score'].apply(apply_face)
-                filtered_df['high_ceiling_smiley_face'] = df['high_ceiling_score'].apply(apply_face)
-                filtered_df['fireplace_smiley_face'] = df['fireplace_score'].apply(apply_face)
-                filtered_df['no_carpet_smiley_face'] = df['no_carpet_score'].apply(apply_face)
-                filtered_df['wide_lenses_smiley_face'] = df['wide_lenses_score'].apply(apply_face)
-                filtered_df['overprocessed_smiley_face'] = df['overprocessed_score'].apply(apply_face)
+                #filtered_df['natural_light_smiley_face'] = df['natural_light_score'].apply(apply_face)
+                #filtered_df['large_windows_smiley_face'] = df['large_windows_score'].apply(apply_face)
+                #filtered_df['high_ceiling_smiley_face'] = df['high_ceiling_score'].apply(apply_face)
+                #filtered_df['fireplace_smiley_face'] = df['fireplace_score'].apply(apply_face)
+                #filtered_df['no_carpet_smiley_face'] = df['no_carpet_score'].apply(apply_face)
+                #filtered_df['wide_lenses_smiley_face'] = df['wide_lenses_score'].apply(apply_face)
+                #filtered_df['overprocessed_smiley_face'] = df['overprocessed_score'].apply(apply_face)
 
                 # Increase the counter for the searches with feature preferences
                 if "number_of_feature_searches" not in st.session_state:
                     st.session_state.number_of_feature_searches = 1
                     with st.container(border=True):
                         st.markdown("Here's a quick guide to help you understand **how well each property matches your preferences**:")
-                        st.write("🟠⚪⚪⚪⚪: Minimal | 🟠🟠⚪⚪⚪: Slight | 🟠🟠🟠⚪⚪: Moderate | 🟠🟠🟠🟠⚪: Strong | 🟠🟠🟠🟠🟠: Excellent")
+                        #st.write("🟠⚪⚪⚪⚪: Minimal | 🟠🟠⚪⚪⚪: Slight | 🟠🟠🟠⚪⚪: Moderate | 🟠🟠🟠🟠⚪: Strong | 🟠🟠🟠🟠🟠: Excellent")
+                        st.write("●○○○○: Minimal | ●●○○○: Slight | ●●●○○: Moderate | ●●●●○: Strong | ●●●●●: Excellent")
                 else:
                     st.session_state.number_of_feature_searches += 1
 
@@ -220,11 +253,11 @@ if update_results:
   
             # Configure the order of the columms based on the selection of preferences
             if order_feature_options:
-                column_order_config = ("title","address","monthly_int","link","agent_name")
+                column_order_config = ("title","address","monthly_int","property_platform","link","agent_name")
                 for ordering in order_feature_options:
                     column_order_config = column_order_config + (features_dict[ordering][2],)           
             else:
-                column_order_config = ("title","address","monthly_int","link","agent_name")
+                column_order_config = ("title","address","monthly_int","property_platform","link","agent_name")
 
             # Configure the height of the table so that we do not have a scrollbar inside the table
             height_config = 35 * len(data_df) + 38
@@ -247,14 +280,27 @@ if update_results:
                         format="£ %d",
                         disabled=True
                     ),
+                    "property_platform": st.column_config.TextColumn(
+                        "Platform",
+                        width="small",
+                        disabled=True
+                    ),
                     "link": st.column_config.LinkColumn(
                         "Details",
-                        display_text="Zoopla",
+                        display_text="More ↗",
+                        width="small",
                         disabled=True
                     ),
                     "agent_name": st.column_config.TextColumn(
                         "Agency",
-                        disabled=True
+                        disabled=True,
+                    ),
+                    "preferences_alignment": st.column_config.ProgressColumn(
+                        "Align Score",
+                        min_value = 0,
+                        max_value = 1,
+                        format="%.2f",
+                        width="small"
                     ),
                     "natural_light_smiley_face": st.column_config.TextColumn(
                         "Natural Light",
@@ -322,7 +368,7 @@ if "first_search_done" not in st.session_state:
         with column_c13:
             st.empty()
         
-        st.markdown("##### :red[Picture your ideal home]")
+        st.markdown("##### :blue[Picture your ideal home]")
         st.write("Imagine your future home by letting photos tell the story. AI can analyse images to match properties to your desires.")
 
     with column_c2:
@@ -335,7 +381,7 @@ if "first_search_done" not in st.session_state:
         with column_c23:
             st.empty()
 
-        st.markdown("##### :red[Filter the noise]")
+        st.markdown("##### :blue[Filter the noise]")
         st.write("No more endless scrolling through irrelevant listings. Search only properties that meet your preferences.")
     
     with column_c3:
@@ -348,7 +394,7 @@ if "first_search_done" not in st.session_state:
         with column_c33:
             st.empty()
 
-        st.markdown("##### :red[AI-powered search]")
+        st.markdown("##### :blue[AI-powered search]")
         st.write("Our AI model analyses property images to identify characteristics that match your specific needs.")
         st.page_link('pages/under_the_hood.py', label='Learn More')
     
@@ -362,12 +408,13 @@ if "first_search_done" not in st.session_state:
         with column_c43:
             st.empty()
         
-        st.markdown("##### :red[See only what fits]")
+        st.markdown("##### :blue[See only what fits]")
         st.write("Spend time viewing homes that match your criteria. Get to the right property without wasting your time.")
 
 
 # Bottom of the page
-#st.divider()
+st.divider()
+st.image("images/logo/orbiont_logo.png", width=150) 
 #st.write(f"Data updated: {creation_date_formatted}")
 
 #st.session_state

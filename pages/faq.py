@@ -57,7 +57,7 @@ st.write("After viewing the search results, you can click the link in the Detail
 st.write("")
 
 st.markdown("##### Why am I not being redirected to the relevant property page when clicking the link in the Details column?")
-st.write("This issue likely occurs because the property is no longer listed on the property website (e.g. Zoopla, Rightmmove). Since the data isn't updated in real time, the property may have been removed or become unavailable after the last update.")
+st.write("This issue likely occurs because the property is no longer listed on the property website (e.g. Zoopla). Since the data isn't updated in real time, the property may have been removed or become unavailable after the last update.")
 st.write("")
 
 

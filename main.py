@@ -163,7 +163,7 @@ if update_results:
 
         # Filter the properties based on the preferences
         filtered_df = df[(df['monthly_int'] >= min_monthly_rent) & (df['monthly_int'] <= max_monthly_rent)]
-        filtered_df = filtered_df[filtered_df['address'].str.contains(str(postcode))]
+        filtered_df = filtered_df[filtered_df['address'].str.contains(str(postcode).upper())]
         filtered_df = filtered_df[filtered_df['bed_number'] == number_of_bedrooms]
 
         if exclude_enough_photos_overall:

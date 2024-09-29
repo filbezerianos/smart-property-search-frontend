@@ -172,7 +172,7 @@ if update_results:
     ###
 
     if search_preferences_ok:
-        
+
         # Filter the properties based on the preferences
         filtered_df = df[(df['monthly_int'] >= min_monthly_rent) & (df['monthly_int'] <= max_monthly_rent)]
         filtered_df = filtered_df[filtered_df['address'].str.contains(str(postcode).upper())]
@@ -441,7 +441,11 @@ if "first_search_done" not in st.session_state:
         st.image("images/large_banners/private_client_assistant.png", width=275)     
     with column_d6:
         st.write('>"My clients have specific demands. Finding the perfect property for them has been a challenge. Being able to rank properties based on features like :blue[natural light] has significantly improved our service and cut down the time it takes to find the ideal match for our clients."')
-        st.markdown("Private Client Assistant") 
+        st.markdown("Private Client Assistant")
+
+    st.divider()
+    st.markdown("## Join the :blue[Insider List]")
+    st.write("Stay in the loop and be the first to know about application updates. You may also receive exclusive invitations to try pre-release versions and experience new features early. To subscribe, simply drop us a message [here](https://tally.so/r/3NJ5gO).")
 
 
 # Bottom of the page

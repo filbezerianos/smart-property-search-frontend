@@ -70,5 +70,5 @@ st.write("This issue likely occurs because the property is no longer listed on t
 st.write("")
 
 st.markdown("##### What kind of updates will I receive if I subscribe?")
-st.markdown("By subscribing, you will be notified about the official launch of the application. Additionally, you may receive an invitation to access pre-release versions if you are interested in trying out the application early. You can subscribe by dropping us a message [here](https://tally.so/r/3NJ5gO)")
+st.write("By subscribing, you will be notified about the official launch of the application. Additionally, you may receive an invitation to access pre-release versions if you are interested in trying out the application early. You can subscribe by dropping us a message [here](https://tally.so/r/3NJ5gO)")
 st.write("")

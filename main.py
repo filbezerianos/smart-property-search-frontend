@@ -6,7 +6,7 @@ from datetime import datetime
 
 # Start with the page config
 st.set_page_config(
-    page_title="Smart Property Search",
+    page_title="Home Match AI",
     layout="wide",
     page_icon = ":material/house:",
     menu_items={
@@ -16,12 +16,12 @@ st.set_page_config(
 )
 
 
+
 # Configure the sidebar
 with st.sidebar:
     st.page_link('main.py', label='Home', icon=':material/house:', disabled=True)
     st.page_link('pages/faq.py', label='FAQs', icon=':material/help:')
-    st.page_link('pages/under_the_hood.py', label='Under the Hood', icon=':material/smart_toy:')
-    st.page_link('https://tally.so/r/mDDDEZ', label='Get in Touch', icon=':material/alternate_email:')
+    st.page_link('https://tally.so/r/3NJ5gO', label='Get in Touch', icon=':material/alternate_email:')
 
     st.divider()
     st.write(f"© {datetime.now().year} Orbiont")
@@ -29,8 +29,10 @@ with st.sidebar:
 
 def main_button_click():
     st.session_state.first_search_done = True
-    if "expand_state" in st.session_state:
-        del st.session_state["expand_state"]
+    if "searches_count" not in st.session_state:
+        st.session_state.searches_count = 1
+    else:
+        st.session_state.searches_count += 1
 
 
 def show_no_results_error():
@@ -92,7 +94,17 @@ features_dict = {
 
 
 # Show the large banner or top title depending on journey
-st.markdown("### :blue[Smart Property Search.] Where AI Meets the Photos of Your Next Home.")
+st.markdown("## :blue[Home Match AI.] Discover a :blue[Home with Character.] Not Just the Basics.")
+
+if "searches_count" not in st.session_state:
+    pass
+else:
+    if st.session_state.searches_count > 4 and "asked_for_feedback" not in st.session_state:
+        st.info(f"If you have any questions, feedback or suggestions, we would love to hear from you! :material/alternate_email: [Get in touch!](https://tally.so/r/3NJ5gO)")
+        st.session_state.asked_for_feedback = True
+    else:
+        pass
+
 if "first_search_done" not in st.session_state:
     #st.image("images/large_banner.png", use_column_width="always")
     pass
@@ -356,8 +368,8 @@ else:
 # As landing page show the large banner and the smaller banners. After the first search they disappear
 if "first_search_done" not in st.session_state:
         
-    #st.markdown("### Find Out How it Works")
-    st.divider()
+    #st.divider()
+    st.write("")
 
     column_c1, column_c2, column_c3, column_c4 = st.columns(4, gap="large")
     with column_c1:
@@ -369,11 +381,10 @@ if "first_search_done" not in st.session_state:
         with column_c13:
             st.empty()
         
-        st.markdown("##### :blue[Picture your ideal home]")
-        st.write("Imagine your future home by letting photos tell the story. AI can analyse images to match properties to your desires.")
+        st.markdown("##### :blue[Image your dream home]")
+        st.write("Let photos bring your future home to life. Our AI analyses images to find properties that match your desires.")
 
-    with column_c2:
-        
+    with column_c2: 
         column_c21, column_c22, column_c23 = st.columns([1,2,1])
         with column_c21:
             st.empty()
@@ -383,10 +394,9 @@ if "first_search_done" not in st.session_state:
             st.empty()
 
         st.markdown("##### :blue[Filter the noise]")
-        st.write("No more endless scrolling through irrelevant listings. Search only properties that meet your preferences.")
+        st.write("No more endless scrolling through irrelevant listings. Search only properties that meet your exact preferences.")
     
     with column_c3:
-
         column_c31, column_c32, column_c33 = st.columns([1,2,1])
         with column_c31:
             st.empty()
@@ -395,12 +405,10 @@ if "first_search_done" not in st.session_state:
         with column_c33:
             st.empty()
 
-        st.markdown("##### :blue[AI-powered search]")
+        st.markdown("##### :blue[Smart, AI-powered search]")
         st.write("Our AI model analyses property images to identify characteristics that match your specific needs.")
-        st.page_link('pages/under_the_hood.py', label='Learn More')
-    
+          
     with column_c4:
-
         column_c41, column_c42, column_c43 = st.columns([1,2,1])
         with column_c41:
             st.empty()
@@ -410,7 +418,30 @@ if "first_search_done" not in st.session_state:
             st.empty()
         
         st.markdown("##### :blue[See only what fits]")
-        st.write("Spend time viewing homes that match your criteria. Get to the right property without wasting your time.")
+        st.write("Spend time viewing homes that meet your criteria. Save time and go straight to the right property.")
+
+
+    st.divider()
+    st.markdown("## What We Are Excited About")
+    st.write("Our AI model integrated with smart search is designed to benefit everyone in the property market. Whether you are a home seeker finding your dream home, an estate agent looking to match clients with their ideal properties or a client assistant catering to specific needs, we can streamline the process and deliver results tailored to you.")
+    st.write("")
+
+    column_d1, column_d2, column_d3, column_d4, column_d5, column_d6 = st.columns(6, gap="large")
+    with column_d1:         
+        st.image("images/large_banners/home_seeker.png", width=275)
+    with column_d2:
+        st.write('>"I love being able to search for specific features like :blue[large windows]. It saves us so much time by showing only the properties that match exactly what my partner and I are looking for."')
+        st.markdown("Home Seeker")
+    with column_d3:
+        st.image("images/large_banners/real_estate_agent.png", width=275)     
+    with column_d4:
+        st.write('>"My clients often have specific preferences, like :blue[high ceilings] and :blue[hardwood floors]. Being able to filter properties based on these details is a game-changer. It allows me to focus on showings that truly meet their needs."')
+        st.markdown("Real Estate Agent")
+    with column_d5:
+        st.image("images/large_banners/private_client_assistant.png", width=275)     
+    with column_d6:
+        st.write('>"My clients have specific demands. Finding the perfect property for them has been a challenge. Being able to rank properties based on features like :blue[natural light] has significantly improved our service and cut down the time it takes to find the ideal match for our clients."')
+        st.markdown("Private Client Assistant") 
 
 
 # Bottom of the page

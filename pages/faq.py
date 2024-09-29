@@ -17,19 +17,28 @@ st.set_page_config(
 with st.sidebar:
     st.page_link('main.py', label='Home', icon=':material/house:')
     st.page_link('pages/faq.py', label='FAQs', icon=':material/help:', disabled=True)
-    st.page_link('pages/under_the_hood.py', label='Under the Hood', icon=':material/smart_toy:')
-    st.page_link('https://tally.so/r/mDDDEZ', label='Get in Touch', icon=':material/alternate_email:')
+    st.page_link('https://tally.so/r/3NJ5gO', label='Get in Touch', icon=':material/alternate_email:')
 
     st.divider()
     st.write(f"© {datetime.now().year} Orbiont")
 
+st.markdown("# FAQs")
+st.write("")
 
-st.markdown("## FAQs")
-st.divider()
+st.markdown("##### What is the Home Match AI application?")
+st.write("Home Match AI is an advanced application that uses a fine-tuned AI model to detect specific property features, like natural light in rooms, the presence of carpets etc. This allows users to search and rank properties based on detailed characteristics, going beyond the usual basic search criteria.")
+st.write("")
 
+st.markdown("##### How does the application work?")
+st.write("Our application analyses each property image based on various criteria, assigning ratings to specific features. These ratings are combined to generate an overall score for each property. When you search with specific preferences, properties are filtered and ranked according to these scores ensuring the results align with what you are looking for.")
+st.write("")
 
-st.markdown("##### Which UK regions can I search?")
-st.write("Currently, our database includes properties in London only. We are working on expanding coverage to include more areas and regions soon.")
+st.markdown("##### How is this different from other property platforms?")
+st.write("Unlike existing platforms, our application stands out by using property photos to identify specific features, such as natural light, high ceilings etc. This approach allows you to search beyond the basic parameters like rent and location, providing a more detailed and personalised property search experience.")
+st.write("")
+
+st.markdown("##### Which markets can I search?")
+st.write("Currently, our database includes rental properties in UK, London only. We are working on expanding coverage to include more areas and regions in the future.")
 st.write("")
 
 st.markdown("##### Why can't I search for properties with more than 3 bedrooms?")
@@ -60,5 +69,6 @@ st.markdown("##### Why am I not being redirected to the relevant property page w
 st.write("This issue likely occurs because the property is no longer listed on the property website (e.g. Zoopla). Since the data isn't updated in real time, the property may have been removed or become unavailable after the last update.")
 st.write("")
 
-
-
+st.markdown("##### What kind of updates will I receive if I subscribe?")
+st.markdown("By subscribing, you will be notified about the official launch of the application. Additionally, you may receive an invitation to access pre-release versions if you are interested in trying out the application early. You can subscribe by dropping us a message [here](https://tally.so/r/3NJ5gO)")
+st.write("")

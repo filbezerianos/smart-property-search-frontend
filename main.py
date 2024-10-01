@@ -444,9 +444,16 @@ if "first_search_done" not in st.session_state:
         st.markdown("Private Client Assistant")
 
     st.divider()
-    st.markdown("## Join the :blue[Insider List]")
-    st.write("Stay in the loop and be the first to know about application updates. You may also receive exclusive invitations to try pre-release versions and experience new features early. To subscribe, simply drop us a message [here](https://tally.so/r/3NJ5gO).")
-
+    
+    column_d1, column_d2 = st.columns(2,gap="large")
+    with column_d1:
+        st.markdown("## Quick :blue[Tour]")
+        st.write("")
+        st.video("https://youtu.be/jrlK6PtMNcY")
+    with column_d2:
+        st.markdown("## Join the :blue[Insider List]")
+        st.write("")
+        st.write("Stay in the loop and be the first to know about application updates. You may also receive exclusive invitations to try pre-release versions and experience new features early. To subscribe, simply drop us a message [here](https://tally.so/r/3NJ5gO).")
 
 # Bottom of the page
 st.divider()

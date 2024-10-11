@@ -136,6 +136,7 @@ with st.container(border=True):
             exclude_enough_photos_overall = st.toggle("Hide properties with insufficient photos", value=True, help="Choose this option to exclude properties with an insufficient number of photos")         
             exclude_enough_bedroom_photos = st.toggle("Hide properties with limited bedroom photos", value=True, help="Choose this option to exclude properties that lack sufficient photos of the bedrooms")   
             exclude_room_to_rent = st.toggle("Hide rental rooms", value=True, help="Choose this option to exclude rental rooms")
+            show_only_top_rated_properties = st.toggle("Show only top-rated properties", value=False, help="Choose this option to filter out properties that may not meet your preferences.")
             exclude_zoopla = st.toggle("Hide Zoopla properties", value=False, help="Choose this option to exclude properties from Zoopla")
             exclude_rightmove = st.toggle("Hide Rightmove properties", value=False, help="Choose this option to exclude properties from Rightmove")
     with column_a6:
@@ -254,6 +255,10 @@ if update_results:
                 else:
                     st.session_state.number_of_feature_searches += 1
 
+                # If the option to filter to top-rated properties is selected
+                if show_only_top_rated_properties:
+                    filtered_df = filtered_df[filtered_df['preferences_alignment'] >= 0.7]
+
             else:
                 # If no photo preferences selected
                 if "number_of_feature_searches" not in st.session_state:
@@ -265,12 +270,12 @@ if update_results:
             data_df = pd.DataFrame(filtered_df)
   
             # Configure the order of the columms based on the selection of preferences
-            if order_feature_options:
-                column_order_config = ("title","address","monthly_int","property_platform","link","agent_name")
+            column_order_config = ("title","address","monthly_int","property_platform","link","agent_name")
+            if order_feature_options:         
                 for ordering in order_feature_options:
                     column_order_config = column_order_config + (features_dict[ordering][2],)           
             else:
-                column_order_config = ("title","address","monthly_int","property_platform","link","agent_name")
+                pass
 
             # Configure the height of the table so that we do not have a scrollbar inside the table
             height_config = 35 * len(data_df) + 38

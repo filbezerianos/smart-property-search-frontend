@@ -195,12 +195,12 @@ if update_results:
             pass
 
         if exclude_zoopla:
-            filtered_df = filtered_df[filtered_df['property_platform'] != "Zoopla"]
+            filtered_df = filtered_df[filtered_df['platform'] != "Zoopla"]
         else:
             pass
 
         if exclude_rightmove:
-            filtered_df = filtered_df[filtered_df['property_platform'] != "Rightmove"]
+            filtered_df = filtered_df[filtered_df['platform'] != "Rightmove"]
         else:
             pass
 
@@ -270,7 +270,7 @@ if update_results:
             data_df = pd.DataFrame(filtered_df)
   
             # Configure the order of the columms based on the selection of preferences
-            column_order_config = ("title","address","monthly_int","property_platform","link","agent_name")
+            column_order_config = ("title","address","monthly_int","platform","link","agent_name")
             if order_feature_options:         
                 for ordering in order_feature_options:
                     column_order_config = column_order_config + (features_dict[ordering][2],)           
@@ -298,7 +298,7 @@ if update_results:
                         format="£ %d",
                         disabled=True
                     ),
-                    "property_platform": st.column_config.TextColumn(
+                    "platform": st.column_config.TextColumn(
                         "Platform",
                         width="small",
                         disabled=True
@@ -426,27 +426,27 @@ if "first_search_done" not in st.session_state:
         st.write("Spend time viewing homes that meet your criteria. Save time and go straight to the right property.")
 
 
-    st.divider()
-    st.markdown("## What We Are Excited About")
-    st.write("Our AI model integrated with smart search is designed to benefit everyone in the property market. Whether you are a home seeker finding your dream home, an estate agent looking to match clients with their ideal properties or a client assistant catering to specific needs, we can streamline the process and deliver results tailored to you.")
-    st.write("")
+    #st.divider()
+    #st.markdown("## What We Are Excited About")
+    #st.write("Our AI model integrated with smart search is designed to benefit everyone in the property market. Whether you are a home seeker finding your dream home, an estate agent looking to match clients with their ideal properties or a client assistant catering to specific needs, we can streamline the process and deliver results tailored to you.")
+    #st.write("")
 
-    column_d1, column_d2, column_d3, column_d4, column_d5, column_d6 = st.columns(6, gap="large")
-    with column_d1:         
-        st.image("images/large_banners/home_seeker.png", width=275)
-    with column_d2:
-        st.write('>"I love being able to search for specific features like :blue[large windows]. It saves us so much time by showing only the properties that match exactly what my partner and I are looking for."')
-        st.markdown("Home Seeker")
-    with column_d3:
-        st.image("images/large_banners/real_estate_agent.png", width=275)     
-    with column_d4:
-        st.write('>"My clients often have specific preferences, like :blue[high ceilings] and :blue[hardwood floors]. Being able to filter properties based on these details is a game-changer. It allows me to focus on showings that truly meet their needs."')
-        st.markdown("Real Estate Agent")
-    with column_d5:
-        st.image("images/large_banners/private_client_assistant.png", width=275)     
-    with column_d6:
-        st.write('>"My clients have specific demands. Finding the perfect property for them has been a challenge. Being able to rank properties based on features like :blue[natural light] has significantly improved our service and cut down the time it takes to find the ideal match for our clients."')
-        st.markdown("Private Client Assistant")
+    #column_d1, column_d2, column_d3, column_d4, column_d5, column_d6 = st.columns(6, gap="large")
+    #with column_d1:         
+    #    st.image("images/large_banners/home_seeker.png", width=275)
+    #with column_d2:
+    #    st.write('>"I love being able to search for specific features like :blue[large windows]. It saves us so much time by showing only the properties that match exactly what my partner and I are looking for."')
+    #    st.markdown("Home Seeker")
+    #with column_d3:
+    #    st.image("images/large_banners/real_estate_agent.png", width=275)     
+    #with column_d4:
+    #    st.write('>"My clients often have specific preferences, like :blue[high ceilings] and :blue[hardwood floors]. Being able to filter properties based on these details is a game-changer. It allows me to focus on showings that truly meet their needs."')
+    #    st.markdown("Real Estate Agent")
+    #with column_d5:
+    #    st.image("images/large_banners/private_client_assistant.png", width=275)     
+    #with column_d6:
+    #    st.write('>"My clients have specific demands. Finding the perfect property for them has been a challenge. Being able to rank properties based on features like :blue[natural light] has significantly improved our service and cut down the time it takes to find the ideal match for our clients."')
+    #    st.markdown("Private Client Assistant")
 
     st.divider()
     
